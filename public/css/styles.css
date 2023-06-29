@@ -10,6 +10,7 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    font-family: Inter,sans-serif;
   }
  
   img, picture, video, canvas, svg {
@@ -25,3 +26,15 @@
     overflow-wrap: break-word;
   }
 
+  li {
+    list-style-type: none;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+
+ footer {
+    position: absolute;
+    bottom: 0;
+ }
