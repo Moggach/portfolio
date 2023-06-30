@@ -1,5 +1,6 @@
 ---
 title: Writing
+layout: "base.njk"
 pagination:
   data: collections.writing
   size: 6
@@ -10,3 +11,10 @@ pagination:
 {% for article in articles %}
 <h2>{{ article.data.title }}</h2>
 {% endfor %}
+
+
+<ol>
+{%- for pageEntry in pagination.pages %}
+    <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}> {{ loop.index }}</a></li>
+{%- endfor %}
+  </ol>
