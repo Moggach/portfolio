@@ -10,17 +10,39 @@
   <title>My journey to becoming a developer</title>
 </head>
 <body>
+
 <header>
-<nav>
-<ul>
-<li>Home</li>
-<li><a href="/writing">Writing</a></li>
-<li>About</li>
-<li>Contact</li>
-</ul>
-</nav>
+  <a href="#main-menu"
+     id="main-menu-toggle"
+     class="menu-toggle"
+     aria-label="Open main menu">
+    <span class="sr-only">Open main menu</span>
+    <span class="fa fa-bars" aria-hidden="true"></span>
+  </a>
+  
+  
+  <nav id="main-menu" class="main-menu" aria-label="Main menu">
+    <a href="#main-menu-toggle"
+       id="main-menu-close"
+       class="menu-close"
+       aria-label="Close main menu">
+      <span class="sr-only">Close main menu</span>
+      <span class="fa fa-close" aria-hidden="true"></span>
+    </a>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/writing">Writing</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="#main-menu-toggle"
+     class="backdrop"
+     tabindex="-1"
+     aria-hidden="true" hidden></a>
 </header>
-	</header>
+
+
     <main>
       <p>I’ve worked in book publishing for eight years but I’ve loved it. I’ve <a href="https://hub.londonbookfair.co.uk/trailblazer-awards-winners-revealed-by-the-london-book-fair-3/">won awards</a> (which is really nice and slightly embarrassing) and I’ve worked on some beautiful books.</p>
 <p>Now though I’m transitioning into becoming a software developer with <a href="https://www.foundersandcoders.com/">Founders and Coders</a>. If you’re interested in my journey this is how I got here...</p>

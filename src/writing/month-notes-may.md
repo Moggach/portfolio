@@ -1,6 +1,7 @@
 ---
 title: "Month notes - May"
 date: "2023-05-30"
+excerpt: "hello"
 ---
 
 ### Notes from May

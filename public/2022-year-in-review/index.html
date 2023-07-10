@@ -10,17 +10,39 @@
   <title>2022 - year in review</title>
 </head>
 <body>
+
 <header>
-<nav>
-<ul>
-<li>Home</li>
-<li><a href="/writing">Writing</a></li>
-<li>About</li>
-<li>Contact</li>
-</ul>
-</nav>
+  <a href="#main-menu"
+     id="main-menu-toggle"
+     class="menu-toggle"
+     aria-label="Open main menu">
+    <span class="sr-only">Open main menu</span>
+    <span class="fa fa-bars" aria-hidden="true"></span>
+  </a>
+  
+  
+  <nav id="main-menu" class="main-menu" aria-label="Main menu">
+    <a href="#main-menu-toggle"
+       id="main-menu-close"
+       class="menu-close"
+       aria-label="Close main menu">
+      <span class="sr-only">Close main menu</span>
+      <span class="fa fa-close" aria-hidden="true"></span>
+    </a>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/writing">Writing</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="#main-menu-toggle"
+     class="backdrop"
+     tabindex="-1"
+     aria-hidden="true" hidden></a>
 </header>
-	</header>
+
+
     <main>
       <p>Since I’ve been writing monthly round ups recently I thought it made sense to review 2022 in December. This time last year I had just finished the Founders and Coders full time course and was about to start work full time at Common Knowledge. I’m really proud of what I’ve achieved in my first year working as a developer. Below are some of the highlights of my year and the challenges.</p>
 <h3>What I’ve been doing ⚙️</h3>

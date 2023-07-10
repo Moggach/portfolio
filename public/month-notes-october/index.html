@@ -10,17 +10,39 @@
   <title>Month notes - October</title>
 </head>
 <body>
+
 <header>
-<nav>
-<ul>
-<li>Home</li>
-<li><a href="/writing">Writing</a></li>
-<li>About</li>
-<li>Contact</li>
-</ul>
-</nav>
+  <a href="#main-menu"
+     id="main-menu-toggle"
+     class="menu-toggle"
+     aria-label="Open main menu">
+    <span class="sr-only">Open main menu</span>
+    <span class="fa fa-bars" aria-hidden="true"></span>
+  </a>
+  
+  
+  <nav id="main-menu" class="main-menu" aria-label="Main menu">
+    <a href="#main-menu-toggle"
+       id="main-menu-close"
+       class="menu-close"
+       aria-label="Close main menu">
+      <span class="sr-only">Close main menu</span>
+      <span class="fa fa-close" aria-hidden="true"></span>
+    </a>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/writing">Writing</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="#main-menu-toggle"
+     class="backdrop"
+     tabindex="-1"
+     aria-hidden="true" hidden></a>
 </header>
-	</header>
+
+
     <main>
       <h3>Notes from October</h3>
 <p>In this post I’m experimenting with a different format for my blog. Month notes are a format where I can share what I’ve been working on over the month and some of the things I’m learning.

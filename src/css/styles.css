@@ -74,18 +74,21 @@
 
 .twitter {
   height: 24px;
+  width: 24px;
   background-image: url('/images/twitter.svg');
   background-repeat: no-repeat;
 }
 
 .github {
   height: 24px;
+  width: 24px;
   background-image: url('/images/github.svg');
   background-repeat: no-repeat;
 }
 
 .email {
   height: 24px;
+  width: 24px;
   background-image: url('/images/mail.svg');
   background-repeat: no-repeat;
 }
@@ -278,3 +281,32 @@ header {
 
 
 
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}  
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+main {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+}

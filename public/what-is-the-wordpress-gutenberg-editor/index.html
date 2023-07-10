@@ -10,17 +10,39 @@
   <title>What is the WordPress Gutenberg editor?</title>
 </head>
 <body>
+
 <header>
-<nav>
-<ul>
-<li>Home</li>
-<li><a href="/writing">Writing</a></li>
-<li>About</li>
-<li>Contact</li>
-</ul>
-</nav>
+  <a href="#main-menu"
+     id="main-menu-toggle"
+     class="menu-toggle"
+     aria-label="Open main menu">
+    <span class="sr-only">Open main menu</span>
+    <span class="fa fa-bars" aria-hidden="true"></span>
+  </a>
+  
+  
+  <nav id="main-menu" class="main-menu" aria-label="Main menu">
+    <a href="#main-menu-toggle"
+       id="main-menu-close"
+       class="menu-close"
+       aria-label="Close main menu">
+      <span class="sr-only">Close main menu</span>
+      <span class="fa fa-close" aria-hidden="true"></span>
+    </a>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/writing">Writing</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="#main-menu-toggle"
+     class="backdrop"
+     tabindex="-1"
+     aria-hidden="true" hidden></a>
 </header>
-	</header>
+
+
     <main>
       <h2>What is the WordPress Gutenberg editor?</h2>
 <p>WordPress is the most popular CMS in the world and the Gutenberg editor is its most significant change since 2003. It was introduced in Wordpress version 5.0 which came out in 2018 and it replaces the previous Tiny MCE editor with a block based drag and drop interface.</p>
