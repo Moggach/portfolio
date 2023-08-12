@@ -1,7 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 /* Resets */
 *,
@@ -10,70 +8,83 @@
   box-sizing: border-box;
 }
 
-  * {
-    margin: 0;
-    padding: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    -webkit-font-smoothing: antialiased;
-  }
- 
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
+body {
+  -webkit-font-smoothing: antialiased;
+}
 
-  input, button, textarea, select {
-    font: inherit;
-  }
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
 
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 
-  ul, ol {
-    list-style-type: none;
-  }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
 
-  a {  
-    all: unset;
-  }
+ul,
+ol {
+  list-style-type: none;
+}
 
-  /*  Typography */
+a {
+  all: unset;
+}
 
-  :root {
+/*  Typography */
+
+:root {
   --font-size-base: clamp(13.33px, 16px, 19.2px);
   --font-size-md: clamp(19.2px, 23.04px, 27.65px);
   --font-size-lg: clamp(23.04px, 27.65px, 33.18px);
   --font-size-xl: clamp(27.65px, 33.18px, 39.81px);
-  }
+}
 
-  body {
-    font-family: 'Inter', sans-serif;
-    font-size: var(--font-size-base);
-  }
+body {
+  font-family: "Inter", sans-serif;
+  font-size: var(--font-size-base);
+}
 
-  h1, h2 {
-    font-family: 'IBM Plex Mono', monospace;
-  }
+h1,
+h2 {
+  font-family: "IBM Plex Mono", monospace;
+}
 
-  h1 {
-    font-size: var(--font-size-xl);
-  }
+h1 {
+  font-size: var(--font-size-xl);
+}
 
-  h2 {
-    font-size: var(--font-size-lg);
-  }
+h2 {
+  font-size: var(--font-size-lg);
+}
 
-  h3 {
-    font-size: var(--font-size-md);
-
-  }
-  caption {
-    font-size: var(--font-size-sm);
-
-  }
+h3 {
+  font-size: var(--font-size-md);
+}
+caption {
+  font-size: var(--font-size-sm);
+}
 
 /* Spacing */
 :root {
@@ -83,65 +94,62 @@
   --x-large-spacing: 120px;
 }
 
-  /* Navigation */
+/* Navigation */
 
-  /* Elements */
+/* Elements */
 
-  span {
-    color: #0068B7;
-    font-weight:bold;
-  }
-  
+span {
+  color: #0068b7;
+  font-weight: bold;
+}
 
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 0px 20px;
+  gap: 40px;
+}
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 20px 0px 20px;
-    gap: 40px;
-  }
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("/images/profile.webp");
+  background-size: cover;
+}
 
-  .circle {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-image: url('/images/profile.webp');
-    background-size: cover;
-  }
-  
-  .circle::before {
-    content: '';
-    display: block;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: #0068B7;
-    position: relative;
-    z-index: -1;
-    margin-left: 50px;
-  }
+.circle::before {
+  content: "";
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #0068b7;
+  position: relative;
+  z-index: -1;
+  margin-left: 50px;
+}
 
 .twitter {
   height: 24px;
   width: 24px;
-  background-image: url('/images/twitter.svg');
+  background-image: url("/images/twitter.svg");
   background-repeat: no-repeat;
 }
 
 .github {
   height: 24px;
   width: 24px;
-  background-image: url('/images/github.svg');
+  background-image: url("/images/github.svg");
   background-repeat: no-repeat;
 }
 
 .email {
   height: 24px;
   width: 24px;
-  background-image: url('/images/mail.svg');
+  background-image: url("/images/mail.svg");
   background-repeat: no-repeat;
 }
-
 
 /* Screen reader only */
 .sr-only {
@@ -151,14 +159,14 @@
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   border: 0;
 }
 
 /* Button styling */
 .menu-toggle {
   display: inline-block;
-  padding: .75em 15px;
+  padding: 0.75em 15px;
   line-height: 1em;
   font-size: 1em;
   color: #333;
@@ -173,11 +181,12 @@
   display: none;
   top: 0;
   height: 100%;
-	overflow-y: scroll;
-	overflow-x: visible;
-	transition: left 0.3s ease,
-				      box-shadow 0.3s ease;
-	z-index: 999;
+  overflow-y: scroll;
+  overflow-x: visible;
+  transition:
+    left 0.3s ease,
+    box-shadow 0.3s ease;
+  z-index: 999;
 }
 
 .main-menu ul {
@@ -185,16 +194,16 @@
   margin: 0;
   padding: 2.5em 0 0;
   /* Hide shadow w/ -8px while 'closed' */
-  -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-     -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-          box-shadow: -8px 0 8px rgba(0,0,0,.5);
+  -webkit-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
+  box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
   min-height: 100%;
   width: 200px;
 }
 
 .main-menu a {
   display: block;
-  padding: .75em 15px;
+  padding: 0.75em 15px;
   line-height: 1em;
   font-size: 1em;
   text-decoration: none;
@@ -207,7 +216,6 @@
 
 .main-menu a:hover,
 .main-menu a:focus {
-  background: #333;
   text-decoration: underline;
 }
 
@@ -229,9 +237,9 @@
   display: block;
   right: 0;
   outline: none;
-  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
-  -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
-  box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  -moz-box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
 }
 
 .main-menu:target .menu-close,
@@ -250,9 +258,9 @@
  it wouldn't be clickable.
 */
 .main-menu:target + .backdrop,
-.main-menu[aria-expanded="true"] + .backdrop{
+.main-menu[aria-expanded="true"] + .backdrop {
   position: absolute;
-  display: block;  
+  display: block;
   left: 0;
   top: 0;
   width: 100%;
@@ -264,7 +272,7 @@
 @supports (position: fixed) {
   .main-menu,
   .main-menu:target + .backdrop,
-  .main-menu[aria-expanded="true"] + .backdrop{
+  .main-menu[aria-expanded="true"] + .backdrop {
     position: fixed;
   }
 }
@@ -278,40 +286,34 @@
   .main-menu .menu-close {
     display: none;
   }
-  
+
   /* Undo positioning of off-canvas menu */
   .main-menu {
     position: relative;
-		left: auto;
-		top: auto;
-		height: auto;
+    left: auto;
+    top: auto;
+    height: auto;
     display: block;
   }
-  
+
   .main-menu ul {
     display: flex;
-    
+
     /* Undo off-canvas styling */
     padding: 0;
     -webkit-box-shadow: none;
-       -moz-box-shadow: none;
-            box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
     height: auto;
     width: auto;
     background: none;
   }
-  
+
   .main-menu a {
     color: #06c;
     border: 0 !important; /* Remove borders from off-canvas styling */
   }
-  
-
-  
 }
-
-
-
 
 header {
   padding: 20px;
@@ -319,8 +321,6 @@ header {
   align-items: baseline;
   justify-content: flex-end;
 }
-
-
 
 .socials {
   display: flex;
@@ -332,7 +332,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}  
+}
 
 body {
   display: flex;
@@ -340,7 +340,8 @@ body {
   min-height: 100vh;
 }
 
-header, footer {
+header,
+footer {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: auto;
@@ -356,15 +357,6 @@ main {
   padding: var(--small-spacing);
 }
 
-@media (min-width: 768px) {
-  main {
-    max-width: clamp(50ch, 75ch, 100%);
-    margin: 0 auto;
-
-  }
-}
-
-
 li {
   margin-bottom: var(--small-spacing);
 }
@@ -374,20 +366,55 @@ ol {
   gap: var(--small-spacing);
 }
 
- article {
+article {
   h1 {
     font-size: var(--font-size-lg);
     margin-bottom: var(--small-spacing);
-
-
   }
   h2 {
     font-size: var(--font-size-md);
     margin-bottom: var(--small-spacing);
-
-
   }
   p {
     margin-bottom: var(--small-spacing);
   }
- }
+}
+
+.articles-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--medium-spacing);
+}
+
+.articles-list {
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: var(--small-spacing);
+    padding: var(--small-spacing);
+  }
+  a {
+    border: 1px dashed rgba(0, 104, 183, 0.8);
+  }
+  span {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1100px) {
+  main {
+    padding: var(--medium-spacing);
+  }
+
+  .articles-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    a {
+      flex-basis: 30%;
+    }
+  }
+  article {
+    max-width: clamp(50ch, 75ch, 100%);
+  }
+}

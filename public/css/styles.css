@@ -16,20 +16,34 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
-ul, ol {
+ul,
+ol {
   list-style-type: none;
 }
 
@@ -50,7 +64,8 @@ body {
   font-size: var(--font-size-base);
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "IBM Plex Mono", monospace;
 }
 
@@ -81,7 +96,7 @@ caption {
 /* Navigation */
 /* Elements */
 span {
-  color: #0068B7;
+  color: #0068b7;
   font-weight: bold;
 }
 
@@ -106,7 +121,7 @@ span {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background-color: #0068B7;
+  background-color: #0068b7;
   position: relative;
   z-index: -1;
   margin-left: 50px;
@@ -196,7 +211,6 @@ span {
 
 .main-menu a:hover,
 .main-menu a:focus {
-  background: #333;
   text-decoration: underline;
 }
 
@@ -315,7 +329,8 @@ body {
   min-height: 100vh;
 }
 
-header, footer {
+header,
+footer {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: auto;
@@ -331,12 +346,6 @@ main {
   padding: var(--small-spacing);
 }
 
-@media (min-width: 768px) {
-  main {
-    max-width: clamp(50ch, 75ch, 100%);
-    margin: 0 auto;
-  }
-}
 li {
   margin-bottom: var(--small-spacing);
 }
@@ -356,6 +365,42 @@ article h2 {
 }
 article p {
   margin-bottom: var(--small-spacing);
+}
+
+.articles-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--medium-spacing);
+}
+
+.articles-list li {
+  display: flex;
+  flex-direction: column;
+  gap: var(--small-spacing);
+  padding: var(--small-spacing);
+}
+.articles-list a {
+  border: 1px dashed rgba(0, 104, 183, 0.8);
+}
+.articles-list span {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+@media (min-width: 1100px) {
+  main {
+    padding: var(--medium-spacing);
+  }
+  .articles-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .articles-list a {
+    flex-basis: 30%;
+  }
+  article {
+    max-width: clamp(50ch, 75ch, 100%);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
