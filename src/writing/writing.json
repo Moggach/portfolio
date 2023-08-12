@@ -1,5 +1,5 @@
 {
-	"layout": "base.njk",
-	"tags": "writing",
-	"permalink": "/{{ page.fileSlug }}/"
+  "layout": "../_includes/base.njk",
+  "tags": "writing",
+  "permalink": "/{{ page.fileSlug }}/"
 }
