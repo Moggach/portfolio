@@ -2,9 +2,10 @@
 title: "Month notes - June"
 date: "2023-06-27"
 tags: ["cat", "dog"]
+
 ---
 
-### Notes from April
+### Notes from June
 
 Google Analytics migration to GA4 🔍Design QA for SWARM website 💅 Diving into WordPress Full Site Editor for developers 🤿Tech discovery for Solidarity Knows No Borders 🧭
 
