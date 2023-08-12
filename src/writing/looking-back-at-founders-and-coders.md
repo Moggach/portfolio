@@ -1,6 +1,12 @@
 ---
 title: "Looking back at Founders and Coders"
 date: "2022-01-01"
+excerpt: "This blog is a follow up to
+My Journey to Becoming a Developer.
+
+In that post I described how I’d come to apply to the Founders and Coders bootcamp and make the switch to a new career.
+
+Now as I start my first job in the tech industry I’m reflecting on my experiences on the course and my hopes for the future."
 ---
 
 This blog is a follow up to

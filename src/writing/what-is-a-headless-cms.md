@@ -1,6 +1,8 @@
 ---
 title: "What is a headless CMS?"
 date: "2022-06-24"
+excerpt: "A CMS or content management system is an application that helps users create, manage and modify content on a website.
+Most CMS are designed to be easy to use without knowing how to code. They typically have design templates to choose from and offer extensions and add-ons. A good CMS platform will allow you to easily import and export your content."
 ---
 
 ### What is a CMS?

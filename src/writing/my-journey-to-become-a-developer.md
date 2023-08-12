@@ -1,6 +1,8 @@
 ---
 title: "My journey to becoming a developer"
 date: "2021-08-09"
+excerpt: "I’ve worked in book publishing for eight years but I’ve loved it. I’ve won awards (which is really nice and slightly embarrassing) and I’ve worked on some beautiful books.
+"
 ---
 
 I’ve worked in book publishing for eight years but I’ve loved it. I’ve [won awards](https://hub.londonbookfair.co.uk/trailblazer-awards-winners-revealed-by-the-london-book-fair-3/) (which is really nice and slightly embarrassing) and I’ve worked on some beautiful books.

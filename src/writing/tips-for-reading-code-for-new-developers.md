@@ -1,6 +1,8 @@
 ---
 title: "Tips for reading code (for new developers)"
 date: "2022-09-16"
+excerpt: "
+One of the most important transitions new developers need to make is from working on their own projects to existing codebases within larger teams. Most often working as a developer involves extending and maintaining code that’s already been written."
 ---
 
 ## Tips for reading code (for new developers)

@@ -1,6 +1,8 @@
 ---
 title: "Month notes - January"
 date: "2023-01-29"
+excerpt: "
+🚧 Building the new Common Knowledge website. ✍️ Writing a project report for my apprenticeship. 📝 Writing technical notes each week of the project."
 ---
 
 ### Notes from January

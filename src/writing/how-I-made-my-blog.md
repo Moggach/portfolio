@@ -1,6 +1,8 @@
 ---
 title: "How I made my blog"
 date: "2022-02-19"
+excerpt: "
+When I decided to start blogging I knew that I wanted to build the site myself. I chose to use the Gatsby framework as I had been learning JavaScript for a while and I already had a project built in React."
 ---
 
 ## How I made my blog

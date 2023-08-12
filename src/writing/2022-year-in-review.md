@@ -1,6 +1,7 @@
 ---
 title: "2022 - year in review"
 date: "2022-12-29"
+excerpt: "Since I’ve been writing monthly round ups recently I thought it made sense to review 2022 in December. This time last year I had just finished the Founders and Coders full time course and was about to start work full time at Common Knowledge."
 ---
 
 Since I’ve been writing monthly round ups recently I thought it made sense to review 2022 in December. This time last year I had just finished the Founders and Coders full time course and was about to start work full time at Common Knowledge. I’m really proud of what I’ve achieved in my first year working as a developer. Below are some of the highlights of my year and the challenges.

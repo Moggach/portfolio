@@ -1,6 +1,7 @@
 ---
 title: "Working on the new Common Knowledge website"
 date: "2023-03-25"
+excerpt: "For the final part of my Software Development Apprenticeship I’ve been working on a new website for Common Knowledge. Common Knowledge makes digital tools to help social movements build power. "
 ---
 
 For the final part of my Software Development Apprenticeship I’ve been working on a new website for [Common Knowledge](https://commonknowledge.coop/). Common Knowledge makes digital tools to help social movements build power. They needed a new website that could be updated with a CMS and could better display the range of work that the co-op does.

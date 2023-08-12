@@ -1,6 +1,8 @@
 ---
 title: "What is the WordPress Gutenberg editor?"
 date: "2022-04-09"
+excerpt: "
+WordPress is the most popular CMS in the world and the Gutenberg editor is its most significant change since 2003. It was introduced in Wordpress version 5.0 which came out in 2018 and it replaces the previous Tiny MCE editor with a block based drag and drop interface."
 ---
 
 ## What is the WordPress Gutenberg editor?
