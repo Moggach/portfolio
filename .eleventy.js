@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
     const markdownIt = require('markdown-it');
     const markdownItAttrs = require('markdown-it-attrs');
 
+
     const markdownItOptions = {
       html: true,
       breaks: true,
@@ -11,6 +12,8 @@ module.exports = function (eleventyConfig) {
     
 const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 eleventyConfig.setLibrary('md', markdownLib)
+eleventyConfig.addNunjucksFilter('date', require('./src/filters/nunjucks-dayjs-filter'))
+
   
     return {
       dir: {

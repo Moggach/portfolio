@@ -7,14 +7,15 @@ pagination:
   reverse: true
   alias: articles
 ---
-
+<ul>
 {% for article in articles %}
+<li>
 <a href="{{ article.url }}"><h2>{{ article.data.title }}</h2></a>
-{{ article.data.date }}
+{{ article.data.date | date }}
 <p>{{ article.data.excerpt }}</p>
-
+</li>
 {% endfor %}
-
+</ul>
 
 <ol>
 {%- for pageEntry in pagination.pages %}
