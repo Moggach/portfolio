@@ -7,6 +7,7 @@ This blog was originally posted on the Common Knowledge website
 I’m Anna and I’m a software engineering apprentice at Common Knowledge. I thought it might be interesting to write about my experiences as a software engineering apprentice since September 2021."
 ---
 
+<article>
 This blog was originally posted on the [Common Knowledge website](https://commonknowledge.coop/writing/common-knowledge-apprenticeship)
 
 I’m Anna and I’m a software engineering apprentice at Common Knowledge. I thought it might be interesting to write about my experiences as a software engineering apprentice since September 2021.
@@ -19,17 +20,17 @@ Once I felt like this was something I wanted to do full-time I started looking a
 
 I decided on Founders and Coders because
 
-1. Tuition was free
-2. The apprenticeship route was available
-3. The entry requirements were rigorous
-4. It had good reviews within the industry
-5. I liked the emphasis on inclusion
+- Tuition was free
+- The apprenticeship route was available
+- The entry requirements were rigorous
+- It had good reviews within the industry
+- I liked the emphasis on inclusion
 
 ![An image displaying the Founders and Coders website](./FAC.png)
 
 The Founders and Coders [website](https://www.foundersandcoders.com/)
 
-### What is a software development apprenticeship?
+<h2> What is a software development apprenticeship? </h2>
 
 The software developer apprenticeship (Level 4), as delivered by Founders and Coders, is split into three parts. It starts with sessions delivered in the evenings focussing on web development skills and employability. This was the most challenging part of the programme for me as I was still working full time in my publishing job.
 
@@ -45,7 +46,7 @@ Finally in January 2022 I joined Common Knowledge full time and started writing 
 
 For me the apprenticeship was a great opportunity. It allowed me to get a job before I started retraining and significantly reduced the financial risk. It has set me up with real world experience as well as a recognised qualification.
 
-### What have been the highlights of the apprenticeship so far?
+<h2> What have been the highlights of the apprenticeship so far? </h2>
 
 I’m proud of the work I’ve done on [FutureNatures.org](http://futurenatures.org/). The site is built in WordPress with the Gutenberg FSE (Full Site Editor). We’ve used existing and custom blocks and post types for the different types of content that the site needs. We have written custom CSS for the theme that was developed by our brilliant designer Gemma.
 
@@ -57,7 +58,7 @@ I’ve also met some very cool people doing things I admire both within the co-o
 
 I’ve enjoyed getting an insight into how the co-op is run. Working within a co-op there is a real feeling of solidarity and mutual care.
 
-### And the challenges…
+<h2> And the challenges… </h2>
 
 There have also been challenges during the apprenticeship. In particular, it has been difficult to start again in a new industry. I had a few years of experience in publishing so I was used to having a certain degree of competence.
 
@@ -66,3 +67,5 @@ Most of the time I don’t understand what I’m doing and I’m constantly push
 I really hope that this post has been useful for people curious about getting into software development via the apprenticeship route. I’m hoping to finish my assessments and graduate from the programme by the end of 2022.
 
 You can follow my progress on [Twitter](https://twitter.com/AnnaThereseCu). To find out more about Founders and Coders and apply go to [https://www.foundersandcoders.com/](https://www.foundersandcoders.com/)
+
+</article>

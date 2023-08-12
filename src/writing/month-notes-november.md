@@ -5,7 +5,9 @@ excerpt: "
 🌍 Working on FutureNatures, StopWatch and Humanitarian OpenStreetMap for Common Knowledge."
 ---
 
-### Notes from November
+<article>
+
+<h1> Notes from November </h1>
 
 🌍 Working on [FutureNatures](https://futurenatures.org/), [StopWatch](https://www.stop-watch.org/) and [Humanitarian OpenStreetMap](https://www.hotosm.org/) for Common Knowledge.
 
@@ -17,7 +19,7 @@ excerpt: "
 
 Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/agile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-#### What I’ve been working on
+<h2> What I’ve been working on </h2>
 
 This month has been full of a few different projects.
 
@@ -28,7 +30,7 @@ This month has been full of a few different projects.
 - With our Project Manager I’ve been planning and scoping the new Common Knowledge website - details below
 - I took part in mock interviews with Founders and Coders to prepare for my assessed portfolio review in the near future
 
-#### What I’ve been learning
+<h2> What I’ve been learning </h2>
 
 Over the past month I’ve learnt how to:
 
@@ -37,12 +39,12 @@ Over the past month I’ve learnt how to:
 - use the [Stimulus Carousel](https://stimulus-carousel.stimulus-components.com/) package (built on top of Swiper.js) to create a responsive carousel component. One really cool thing about this is the customisable SwiperOptions. In this case I used them to determine the number of slides displayed based on screen size
 - create a custom EmbedFinder class in a Django application
 
-#### What’s next
+<h2> What’s next </h2>
 
 In December I’ll be working exclusively on my final project which will be a redesign and rebuild of the Common Knowledge website. This project and its documentation will form the second half of my grade for my apprenticeship. I’ll be the primary developer on this project which involves migrating the current Gatsby site with content in Markdown to the Django Wagtail CMS.
 I’ll be aiming to make a maintainable, performant and accessible website that will serve the business needs of Common Knowledge.
 
-#### Interesting links
+<h2> Interesting links </h2>
 
 These are some interesting links that I’ve come across this month.
 
@@ -50,3 +52,4 @@ These are some interesting links that I’ve come across this month.
 - [Storybook for Django](https://www.npmjs.com/package/storybook-django) - this is a UI development environment for Django components. Create and test UI components in isolation from your Django views.
 - [A List Apart](https://alistapart.com/) - a design magazine on all aspects of web design with a special focus on web standards and best practices
 - [Hemmingway App](https://hemingwayapp.com/) - this app identifies lengthy, complex sentences and other mistakes to make your writing clearer.
+</article>
