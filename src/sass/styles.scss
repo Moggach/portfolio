@@ -418,3 +418,14 @@ article {
     }
   }
 }
+
+.tags-container {
+  display: flex;
+  gap: 5px;
+}
+
+.tag {
+  background-color: lightcyan;
+  width: fit-content;
+  padding: 10px;
+}

@@ -1,6 +1,7 @@
 ---
 title: "Month notes - June"
 date: "2023-06-27"
+tags: ["cat", "dog"]
 ---
 
 ### Notes from April

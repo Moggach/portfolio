@@ -14,7 +14,14 @@ pagination:
 <li>
 <h2>{{ article.data.title }}</h2>
 <span>{{ article.data.date | date }}</span>
+
 <p>{{ article.data.excerpt }}</p>
+<div class="tags-container">
+{% for tag in article.data.tags.slice(1) %}
+<div class="tag">{{ tag }}</div>
+{% endfor %}
+</div>
+
 </li>
 </a>
 {% endfor %}

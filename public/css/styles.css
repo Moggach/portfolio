@@ -401,5 +401,15 @@ article p {
     flex-basis: 30%;
   }
 }
+.tags-container {
+  display: flex;
+  gap: 5px;
+}
+
+.tag {
+  background-color: lightcyan;
+  width: fit-content;
+  padding: 10px;
+}
 
 /*# sourceMappingURL=styles.css.map */
