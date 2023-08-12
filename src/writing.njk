@@ -3,17 +3,20 @@ title: Writing
 layout: "base.njk"
 pagination:
   data: collections.writing
-  size: 6
+  size: 9
   reverse: true
   alias: articles
 ---
-<ul>
+<h1>Writing</h1>
+<ul class="articles-list">
 {% for article in articles %}
+<a href="{{ article.url }}">
 <li>
-<a href="{{ article.url }}"><h2>{{ article.data.title }}</h2></a>
-{{ article.data.date | date }}
+<h2>{{ article.data.title }}</h2>
+<span>{{ article.data.date | date }}</span>
 <p>{{ article.data.excerpt }}</p>
 </li>
+</a>
 {% endfor %}
 </ul>
 
