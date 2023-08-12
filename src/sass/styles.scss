@@ -402,8 +402,11 @@ article {
   }
 }
 
+/* Article Desktop styles */
+
 @media (min-width: 1100px) {
-  main {
+  article {
+    max-width: clamp(50ch, 75ch, 100%);
     padding: var(--medium-spacing);
   }
 
@@ -413,8 +416,5 @@ article {
     a {
       flex-basis: 30%;
     }
-  }
-  article {
-    max-width: clamp(50ch, 75ch, 100%);
   }
 }
