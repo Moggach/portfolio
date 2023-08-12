@@ -8,6 +8,7 @@ I’m Anna and I’m a software engineering apprentice at Common Knowledge. I th
 ---
 
 <article>
+
 This blog was originally posted on the [Common Knowledge website](https://commonknowledge.coop/writing/common-knowledge-apprenticeship)
 
 I’m Anna and I’m a software engineering apprentice at Common Knowledge. I thought it might be interesting to write about my experiences as a software engineering apprentice since September 2021.
@@ -25,10 +26,6 @@ I decided on Founders and Coders because
 - The entry requirements were rigorous
 - It had good reviews within the industry
 - I liked the emphasis on inclusion
-
-![An image displaying the Founders and Coders website](./FAC.png)
-
-The Founders and Coders [website](https://www.foundersandcoders.com/)
 
 <h2> What is a software development apprenticeship? </h2>
 

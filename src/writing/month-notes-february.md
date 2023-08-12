@@ -8,7 +8,7 @@ Wrapping up the Common Knowledge website project 🎁 Working on building a CI/C
 
 <article>
 
-<h1> Notes from February <h1>
+<h1> Notes from February </h1>
 
 Wrapping up the Common Knowledge website project 🎁 Working on building a CI/CD pipeline with WordPress and Bedock 🔧 Learning more about Python 🐍
 

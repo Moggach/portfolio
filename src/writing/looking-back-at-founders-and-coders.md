@@ -11,8 +11,7 @@ Now as I start my first job in the tech industry I’m reflecting on my experien
 
 <article>
 
-This blog is a follow up to
-[My Journey to Becoming a Developer. ](https://www.annacunnane.co.uk/blog/My%20journey%20to%20become%20a%20developer)
+This blog is a follow up to [My Journey to Becoming a Developer. ](https://www.annacunnane.co.uk/blog/My%20journey%20to%20become%20a%20developer)
 
 In that post I described how I’d come to apply to the Founders and Coders bootcamp and make the switch to a new career.
 

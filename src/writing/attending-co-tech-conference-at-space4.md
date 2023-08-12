@@ -5,7 +5,7 @@ excerpt: "Co-Tech (Co-operative Technologists) is a network of co-operatives tha
 ---
 
 <article>
-Co-Tech (Co-operative Technologists) is a network of co-operatives that sell digital or tech services. They met for their conference on 23-24th September in the co-working space at Space4 in Finsbury Park. I attended as a new member of [Common Knowledge](https://commonknowledge.coop/) who have hired me as an apprentice software developer. This has enabled me to complete the full time programme at [Founders and Coders](https://www.foundersandcoders.com/) who are also a part of Co-Tech.
+Co-Tech (Co-operative Technologists) is a network of co-operatives that sell digital or tech services. They met for their conference on 23-24th September in the co-working space at Space4 in Finsbury Park. I attended as a new member of Common Knowledge who have hired me as an apprentice software developer. This has enabled me to complete the full time programme at [Founders and Coders](https://www.foundersandcoders.com/) who are also a part of Co-Tech.
 
 ![](./co-tech-conf.jpeg)
 
