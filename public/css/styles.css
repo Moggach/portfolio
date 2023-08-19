@@ -421,6 +421,9 @@ article p {
   display: flex;
   gap: 5px;
 }
+.tags-container a:hover {
+  transform: translate(0, -5px);
+}
 
 .tag {
   width: fit-content;

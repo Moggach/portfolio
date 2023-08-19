@@ -443,6 +443,11 @@ article {
 .tags-container {
   display: flex;
   gap: 5px;
+
+  a:hover{
+    transform: translate(0, -5px);
+  
+  }
 }
 
 .tag {
@@ -452,3 +457,4 @@ article {
   font-size: var(--font-size-sm);
   font-weight: 600;
 }
+
