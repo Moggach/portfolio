@@ -96,7 +96,7 @@ caption {
 /* Colours */
 :root {
   --blue: #0068b7;
-  --organge: #ffcb2b;
+  --orange: #ffcb2b;
 }
 
 /* Navigation */
@@ -425,7 +425,7 @@ article p {
 .tag {
   width: fit-content;
   padding: 10px 10px 10px 10px;
-  background-color: var(--organge);
+  background-color: var(--orange);
   font-size: var(--font-size-sm);
   font-weight: 600;
 }
