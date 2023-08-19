@@ -93,10 +93,16 @@ caption {
   --x-large-spacing: 120px;
 }
 
+/* Colours */
+:root {
+  --blue: #0068b7;
+  --organge: #ffcb2b;
+}
+
 /* Navigation */
 /* Elements */
 span {
-  color: #0068b7;
+  color: var(--blue);
   font-weight: bold;
 }
 
@@ -121,7 +127,7 @@ span {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background-color: #0068b7;
+  background-color: var(--blue);
   position: relative;
   z-index: -1;
   margin-left: 50px;
@@ -353,6 +359,15 @@ li {
 ol {
   display: flex;
   gap: var(--small-spacing);
+  margin: 0 auto;
+}
+ol li {
+  border: 1px dashed rgba(0, 104, 183, 0.8);
+  padding: 5px 10px 5px 10px;
+  border-radius: 50%;
+}
+ol li:hover {
+  transform: translate(0, -5px);
 }
 
 article h1 {
@@ -378,9 +393,10 @@ article p {
   flex-direction: column;
   gap: var(--small-spacing);
   padding: var(--small-spacing);
-}
-.articles-list a {
   border: 1px dashed rgba(0, 104, 183, 0.8);
+}
+.articles-list h2:hover {
+  text-shadow: 1px 1px 1px rgba(0, 104, 183, 0.3), -1px -1px 5px rgba(0, 104, 183, 0.5);
 }
 .articles-list span {
   text-transform: uppercase;
@@ -397,7 +413,7 @@ article p {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .articles-list a {
+  .articles-list li {
     flex-basis: 30%;
   }
 }
@@ -407,9 +423,11 @@ article p {
 }
 
 .tag {
-  background-color: lightcyan;
   width: fit-content;
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: var(--organge);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=styles.css.map */
