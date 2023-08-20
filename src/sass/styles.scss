@@ -458,3 +458,19 @@ article {
   font-weight: 600;
 }
 
+button {
+  width: fit-content;
+  background-color: inherit;
+  border: none;
+}
+
+.back-button {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  button {
+    width: fit-content;
+    background-color: inherit;
+    border: none;
+  }
+}
