@@ -172,17 +172,9 @@ span {
 
 /* Button styling */
 .menu-toggle {
-  display: inline-block;
   padding: 0.75em 15px;
-  line-height: 1em;
-  font-size: 1em;
-  color: #333;
 }
 
-/*
- Default styles + Mobile first
- Offscreen menu style
-*/
 .main-menu {
   position: absolute;
   display: none;
@@ -194,6 +186,8 @@ span {
     left 0.3s ease,
     box-shadow 0.3s ease;
   z-index: 999;
+  width: 100%;
+  color: white;
 }
 
 .main-menu ul {
@@ -205,7 +199,6 @@ span {
   -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
   box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
   min-height: 100%;
-  width: 200px;
 }
 
 .main-menu a {
@@ -214,11 +207,6 @@ span {
   line-height: 1em;
   font-size: 1em;
   text-decoration: none;
-  border-bottom: 1px solid #383838;
-}
-
-.main-menu li:first-child a {
-  border-top: 1px solid #383838;
 }
 
 .main-menu a:hover,
@@ -260,10 +248,6 @@ span {
   z-index: 1000;
 }
 
-/* 
- We could us `.main-menu:target:after`, but
- it wouldn't be clickable.
-*/
 .main-menu:target + .backdrop,
 .main-menu[aria-expanded="true"] + .backdrop {
   position: absolute;
@@ -274,6 +258,9 @@ span {
   height: 100%;
   z-index: 998;
   cursor: default;
+  background-color: var(--blue);
+  color: white;
+  width: 100%;
 }
 
 @supports (position: fixed) {
@@ -281,44 +268,6 @@ span {
   .main-menu:target + .backdrop,
   .main-menu[aria-expanded="true"] + .backdrop {
     position: fixed;
-  }
-}
-
-/*
- Larger screen styling
- Horizontal menu
-*/
-@media (min-width: 768px) {
-  .menu-toggle,
-  .main-menu .menu-close {
-    display: none;
-  }
-
-  /* Undo positioning of off-canvas menu */
-  .main-menu {
-    position: relative;
-    left: auto;
-    top: auto;
-    height: auto;
-    display: block;
-  }
-
-  .main-menu ul {
-    display: flex;
-
-    /* Undo off-canvas styling */
-    padding: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    height: auto;
-    width: auto;
-    background: none;
-  }
-
-  .main-menu a {
-    color: #06c;
-    border: 0 !important; /* Remove borders from off-canvas styling */
   }
 }
 
@@ -364,7 +313,6 @@ main {
   flex-direction: column;
   gap: var(--medium-spacing);
   padding: var(--small-spacing);
-
 }
 
 li {
@@ -447,9 +395,8 @@ article {
   display: flex;
   gap: 5px;
 
-  a:hover{
+  a:hover {
     transform: translate(0, -5px);
-  
   }
 }
 
