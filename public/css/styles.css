@@ -166,32 +166,20 @@ span {
   border: 0;
 }
 
-/* Button styling */
-.menu-toggle {
-  padding: 0.75em 15px;
-}
-
 .main-menu {
   position: absolute;
   display: none;
   top: 0;
   height: 100%;
-  overflow-y: scroll;
-  overflow-x: visible;
-  transition: left 0.3s ease, box-shadow 0.3s ease;
-  z-index: 999;
   width: 100%;
-  color: white;
+  transition: left 0.5s ease;
+  z-index: 999;
 }
 
 .main-menu ul {
   list-style: none;
   margin: 0;
   padding: 2.5em 0 0;
-  /* Hide shadow w/ -8px while 'closed' */
-  -webkit-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
-  box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
   min-height: 100%;
 }
 
@@ -214,21 +202,10 @@ span {
   top: 0;
 }
 
-/*
- On small devices, allow it to toggle...
-*/
-/*
- :target for non-JavaScript
- [aria-expanded] will be used if/when JavaScript is added to improve interaction, though it's completely optional.
-*/
 .main-menu:target,
 .main-menu[aria-expanded=true] {
   display: block;
   right: 0;
-  outline: none;
-  -moz-box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
-  -webkit-box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
-  box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
 }
 
 .main-menu:target .menu-close,
@@ -240,6 +217,7 @@ span {
 .main-menu[aria-expanded=true] ul {
   position: relative;
   z-index: 1000;
+  color: white;
 }
 
 .main-menu:target + .backdrop,
@@ -252,16 +230,36 @@ span {
   height: 100%;
   z-index: 998;
   cursor: default;
-  background-color: var(--blue);
-  color: white;
   width: 100%;
+  background-color: var(--blue);
 }
 
-@supports (position: fixed) {
-  .main-menu,
+@media (min-width: 768px) {
+  .menu-toggle,
+  .main-menu .menu-close {
+    display: none;
+  }
+  .main-menu {
+    position: relative;
+    left: auto;
+    top: auto;
+    height: auto;
+    display: block;
+  }
   .main-menu:target + .backdrop,
   .main-menu[aria-expanded=true] + .backdrop {
-    position: fixed;
+    background: none;
+  }
+  .main-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    height: auto;
+    width: auto;
+    background: none;
+  }
+  .main-menu a {
+    color: var(--blue);
   }
 }
 header {
