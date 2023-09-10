@@ -110,6 +110,8 @@ nav ul {
   display: flex;
   justify-content: space-between;
   color: var(--blue);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 768px) {
   nav ul {
