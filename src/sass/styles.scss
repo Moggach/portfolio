@@ -119,23 +119,28 @@ nav ul {
   color: var(--blue);
   font-weight: bold;
   text-transform: uppercase;
+ font-family: "IBM Plex Mono", monospace;
+ font-size: var(--font-size-sm);
 
   li {
-    padding: 6px;
-    box-shadow: inset 0 0 10px #0068b7;
-  }
+    padding: 10px;
+    border: 2px solid;  }
 
  li:hover {
     transform: translate(0, -5px);
-    cursor: pointer;
 
    
+  }
+
+  a {    cursor: pointer;
   }
 
 
   @media screen and (min-width: $medium-screen) {
     justify-content: flex-end;
-    gap: var(--medium-spacing)
+    gap: var(--medium-spacing);
+    font-size: var(--font-size-md);
+
   };
 
 }
