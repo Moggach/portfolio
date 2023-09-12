@@ -1,28 +1,22 @@
 ---
-title: "Projects"
+title: Projects
 layout: "base.njk"
+pagination:
+  data: collections.projects
+  size: 9
+  reverse: true
 ---
 
 
 <h1>{{title}}</h1>
 <ul class="articles-list">
+
+{%- for project in collections.projects -%}
+
 <li class="project-card">
-<h2>Project title</h2>
-<p>A description of the project goes here</p><img src="https://placekitten.com/300/300">
+<h2>{{ project.data.title }}</h2>
+<p>{{ project.data.description }}</p><img src="{{ project.data.img }}">
 Link icon</li>
-<li class="project-card">
-<h2>Project title</h2>
-<p>A description of the project goes here</p><img src="https://placekitten.com/300/300">
-Link icon</li>
-<li class="project-card">
-<h2>Project title</h2>
-<p>A description of the project goes here</p><img src="https://placekitten.com/300/300">
-Link icon</li>
-<li class="project-card">
-<h2>Project title</h2>
-<p>A description of the project goes here</p><img src="https://placekitten.com/300/300">
-Link icon
-<div class="tag"><em>#WordPress</em>
-</li>
+{%- endfor -%}
 
 </ul>

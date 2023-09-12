@@ -1,0 +1,6 @@
+{
+    "layout": "../_includes/project.njk",
+    "tags": "projects",
+    "permalink": "/{{ page.fileSlug }}/"
+  }
+  
