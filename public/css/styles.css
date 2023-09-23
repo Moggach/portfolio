@@ -50,6 +50,11 @@ ol {
 
 a {
   all: unset;
+  cursor: pointer;
+}
+
+a:hover {
+  transform: translate(0, -5px);
 }
 
 /*  Typography */
@@ -114,12 +119,7 @@ nav ul {
 nav ul li {
   padding: 10px;
   border: 2px solid;
-}
-nav ul li:hover {
-  transform: translate(0, -5px);
-}
-nav ul a {
-  cursor: pointer;
+  border-radius: 5px;
 }
 @media screen and (min-width: 768px) {
   nav ul {
@@ -158,11 +158,14 @@ section {
 }
 
 .fixed-column {
-  width: 50%;
+  width: 40%;
   position: fixed;
   height: 100%;
   overflow: auto;
   padding-right: var(--medium-spacing);
+  margin-bottom: var(--medium-spacing);
+}
+.fixed-column h2 {
   margin-bottom: var(--medium-spacing);
 }
 
@@ -227,6 +230,12 @@ hr {
   border: none;
 }
 
+.socials li {
+  border-bottom: #0068b7 solid;
+  padding-bottom: 5px;
+  width: fit-content;
+}
+
 li {
   margin-bottom: var(--small-spacing);
 }
@@ -241,16 +250,9 @@ ol li {
   padding: 5px 10px 5px 10px;
   border-radius: 50%;
 }
-ol li:hover {
-  transform: translate(0, -5px);
-}
 
 h1 {
   margin-bottom: var(--medium-spacing);
-}
-
-h2 {
-  margin-bottom: var(--small-spacing);
 }
 
 /* Single post page */
@@ -277,6 +279,7 @@ article p {
   display: flex;
   flex-direction: column;
   gap: var(--medium-spacing);
+  margin-bottom: var(--medium-spacing);
 }
 .articles-list li {
   display: flex;
@@ -284,9 +287,7 @@ article p {
   gap: var(--small-spacing);
   padding: var(--small-spacing);
   border: 1px dashed rgba(0, 104, 183, 0.8);
-}
-.articles-list h2:hover {
-  text-shadow: 1px 1px 1px rgba(0, 104, 183, 0.3), -1px -1px 5px rgba(0, 104, 183, 0.5);
+  position: relative;
 }
 .articles-list span {
   text-transform: uppercase;
@@ -304,10 +305,8 @@ article p {
 
 .tags-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 5px;
-}
-.tags-container a:hover {
-  transform: translate(0, -5px);
 }
 
 .tag {
@@ -328,11 +327,37 @@ button {
   display: flex;
   gap: 5px;
   align-items: center;
+  margin-bottom: var(--medium-spacing);
 }
 .back-button button {
   width: fit-content;
   background-color: inherit;
   border: none;
+}
+
+.feat-projects,
+.feat-posts {
+  display: flex;
+  gap: var(--small-spacing);
+  flex-wrap: wrap;
+}
+
+.feat-posts h3 {
+  margin-bottom: var(--small-spacing);
+}
+
+.feat-projects h3 {
+  margin-bottom: var(--small-spacing);
+}
+
+.feat-projects img {
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .feat-posts li {
+    max-width: 300px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
