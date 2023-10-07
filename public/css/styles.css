@@ -53,10 +53,6 @@ a {
   cursor: pointer;
 }
 
-a:hover {
-  transform: translate(0, -5px);
-}
-
 /*  Typography */
 :root {
   --font-size-base: clamp(13.33px, 16px, 19.2px);
@@ -77,6 +73,7 @@ h2 {
 
 h1 {
   font-size: var(--font-size-xl);
+  margin-bottom: var(--medium-spacing);
 }
 
 h2 {
@@ -89,6 +86,10 @@ h3 {
 
 caption {
   font-size: var(--font-size-sm);
+}
+
+p {
+  line-height: 1.5;
 }
 
 /* Spacing */
@@ -120,6 +121,9 @@ nav ul li {
   padding: 10px;
   border: 2px solid;
   border-radius: 5px;
+}
+nav ul a:hover {
+  transform: translate(0, -5px);
 }
 @media screen and (min-width: 768px) {
   nav ul {
@@ -251,26 +255,27 @@ ol li {
   border-radius: 50%;
 }
 
-h1 {
-  margin-bottom: var(--medium-spacing);
-}
-
 /* Single post page */
 article h1 {
   font-size: var(--font-size-lg);
-  margin-bottom: var(--small-spacing);
 }
 article h2 {
   font-size: var(--font-size-md);
-  margin-bottom: var(--small-spacing);
+  margin: var(--medium-spacing) 0 var(--small-spacing);
 }
 article p {
   margin-bottom: var(--small-spacing);
 }
+article h1 + p {
+  margin-bottom: var(--medium-spacing);
+}
+article ul {
+  list-style-type: disc;
+  margin-left: var(--small-spacing);
+}
 @media screen and (min-width: 992px) {
   article {
     max-width: clamp(50ch, 75ch, 100%);
-    padding: var(--medium-spacing);
   }
 }
 
@@ -318,7 +323,6 @@ article p {
 }
 
 button {
-  width: fit-content;
   background-color: inherit;
   border: none;
 }
@@ -328,11 +332,20 @@ button {
   gap: 5px;
   align-items: center;
   margin-bottom: var(--medium-spacing);
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  width: fit-content;
 }
 .back-button button {
   width: fit-content;
   background-color: inherit;
   border: none;
+  cursor: pointer;
+  color: var(--blue);
+  text-transform: uppercase;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
 }
 
 .feat-projects,
@@ -358,6 +371,9 @@ button {
   .feat-posts li {
     max-width: 300px;
   }
+}
+code {
+  background-color: #f2f2f2;
 }
 
 /*# sourceMappingURL=styles.css.map */

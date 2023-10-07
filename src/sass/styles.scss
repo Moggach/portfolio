@@ -60,9 +60,6 @@ a {
   cursor: pointer;
 }
 
-a:hover {
-  transform: translate(0, -5px);
-}
 
 /*  Typography */
 
@@ -85,6 +82,7 @@ h2 {
 
 h1 {
   font-size: var(--font-size-xl);
+    margin-bottom: var(--medium-spacing); 
 }
 
 h2 {
@@ -97,6 +95,10 @@ h3 {
 
 caption {
   font-size: var(--font-size-sm);
+}
+
+p {
+  line-height: 1.5;
 }
 
 /* Spacing */
@@ -116,8 +118,6 @@ caption {
 
 /* Navigation */
 
-
-
 nav ul {
   list-style: none;
   display: flex;
@@ -134,7 +134,10 @@ nav ul {
     border-radius: 5px;
   }
 
-  ;
+  a:hover {
+    transform: translate(0, -5px);
+  }
+
 
   @media screen and (min-width: $medium-screen) {
     justify-content: flex-end;
@@ -142,8 +145,6 @@ nav ul {
     font-size: var(--font-size-md);
 
   }
-
-  ;
 
 }
 
@@ -153,8 +154,6 @@ body {
   @media screen and (min-width: $medium-screen) {
     padding: var(--large-spacing)
   }
-
-  ;
 }
 
 header {
@@ -204,10 +203,7 @@ section {
 
   @media screen and (min-width: $medium-screen) {
     padding-top: 0;
-  }
-
-  ;
-
+  };
 
 }
 
@@ -281,37 +277,36 @@ ol {
     padding: 5px 10px 5px 10px;
     border-radius: 50%;
   }
-
-
 }
-
-
-h1 {
-  margin-bottom: var(--medium-spacing);
-}
-
 
 /* Single post page */
 
 article {
   h1 {
     font-size: var(--font-size-lg);
-    margin-bottom: var(--small-spacing);
   }
 
   h2 {
     font-size: var(--font-size-md);
-    margin-bottom: var(--small-spacing);
+    margin: var(--medium-spacing) 0 var(--small-spacing);
+
   }
 
   p {
     margin-bottom: var(--small-spacing);
   }
 
+  h1+p {
+    margin-bottom: var(--medium-spacing)
+  }
+
+  ul {
+    list-style-type: disc;
+    margin-left: var(--small-spacing)
+  }
+
   @media screen and (min-width: $large-screen) {
     max-width: clamp(50ch, 75ch, 100%);
-    padding: var(--medium-spacing);
-
   }
 
 }
@@ -355,8 +350,6 @@ article {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
-
-
 }
 
 .tag {
@@ -368,9 +361,9 @@ article {
 }
 
 button {
-  width: fit-content;
   background-color: inherit;
   border: none;
+
 }
 
 .back-button {
@@ -378,11 +371,22 @@ button {
   gap: 5px;
   align-items: center;
   margin-bottom: var(--medium-spacing);
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  width: fit-content;
+
 
   button {
     width: fit-content;
     background-color: inherit;
     border: none;
+    cursor: pointer;
+    color: var(--blue);
+    text-transform: uppercase;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+
   }
 }
 
@@ -414,4 +418,6 @@ button {
 
 }
 
-;
+code {
+  background-color: #f2f2f2;
+}
