@@ -82,7 +82,7 @@ h2 {
 
 h1 {
   font-size: var(--font-size-xl);
-    margin-bottom: var(--medium-spacing); 
+  margin-bottom: var(--medium-spacing);
 }
 
 h2 {
@@ -203,7 +203,9 @@ section {
 
   @media screen and (min-width: $medium-screen) {
     padding-top: 0;
-  };
+  }
+
+  ;
 
 }
 
@@ -366,7 +368,7 @@ button {
 
 }
 
-.back-button {
+.secondary-button {
   display: flex;
   gap: 5px;
   align-items: center;
