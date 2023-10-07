@@ -16,9 +16,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLib);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addNunjucksFilter(
+    "wordLimit",
+    require("./src/filters/word-limit-filter"),
+  );
+  eleventyConfig.addNunjucksFilter(
     "date",
     require("./src/filters/nunjucks-dayjs-filter"),
   );
+  eleventyConfig.addFilter("limit", function (array, limit) {
+    return array.slice(0, limit);
+  });
 
   return {
     dir: {
