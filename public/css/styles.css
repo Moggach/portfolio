@@ -21,6 +21,7 @@
   --secondary-light: #ffcb2b;
   --primary-dark: #C0C0C0;
   --secondary-dark: #FFA500;
+  --accent-dark: #3399CC;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
   color: var(--primary-dark);
 }
 .dark-mode nav ul li:hover {
-  background-color: var(--primary-light);
+  background-color: var(--accent-dark);
 }
 .dark-mode .display-mode-toggle {
   color: var(--primary-dark);
@@ -59,6 +60,10 @@ body {
 .dark-mode code {
   color: black;
 }
+.dark-mode .feat-projects svg,
+.dark-mode .project-card svg {
+  color: var(--accent-dark);
+}
 .dark-mode .slider-icon {
   background-color: var(--primary-dark);
 }
@@ -73,6 +78,18 @@ body {
 }
 .dark-mode ol li:hover {
   border: 2px solid var(--primary-dark);
+}
+.dark-mode span {
+  color: var(--accent-dark);
+}
+.dark-mode .socials li {
+  border-bottom: var(--accent-dark) solid;
+}
+.dark-mode hr {
+  background-image: linear-gradient(to right, var(--accent-dark), transparent);
+}
+.dark-mode .circle::before {
+  background-color: var(--accent-dark);
 }
 
 .secondary-button:hover {
@@ -450,6 +467,7 @@ button {
 .feat-projects svg {
   height: 20px;
   width: 20px;
+  color: var(--primary-light);
 }
 
 .feat-projects,
