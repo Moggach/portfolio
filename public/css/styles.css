@@ -52,7 +52,8 @@ body {
 .dark-mode .articles-list li {
   border: 1px dashed var(--primary-dark);
 }
-.dark-mode .tag, .dark-mode code {
+.dark-mode .tag,
+.dark-mode code {
   color: black;
 }
 .dark-mode .slider-icon {
@@ -63,6 +64,12 @@ body {
 }
 .dark-mode .secondary-button:hover {
   background-color: var(--primary-light);
+}
+.dark-mode ol li {
+  border: 1px dashed var(--primary-dark);
+}
+.dark-mode ol li:hover {
+  border: 2px solid var(--primary-dark);
 }
 
 .secondary-button:hover {
@@ -429,7 +436,8 @@ button {
   fill: var(--primary-light);
 }
 
-.project-card svg, .feat-projects svg {
+.project-card svg,
+.feat-projects svg {
   height: 20px;
   width: 20px;
 }

@@ -45,11 +45,11 @@ body {
   nav ul {
     color: var(--primary-dark);
 
-    li:hover{
+    li:hover {
       background-color: var(--primary-light);
     }
   }
-  
+
 
   .secondary-button {
     color: var(--primary-dark);
@@ -63,7 +63,7 @@ body {
       color: var(--primary-dark);
     }
 
-  
+
 
   }
 
@@ -72,8 +72,10 @@ body {
       border: 1px dashed var(--primary-dark);
     }
   }
-  .tag, code {
-   color: black;
+
+  .tag,
+  code {
+    color: black;
 
   }
 
@@ -87,15 +89,24 @@ body {
     border: 1px solid var(--primary-dark);
   }
 
-  .secondary-button:hover{
+  .secondary-button:hover {
     background-color: var(--primary-light);
-  
+
   }
 
-};
+  ol li {
+    border: 1px dashed var(--primary-dark)
+  }
+
+  ol li:hover {
+    border: 2px solid var(--primary-dark)
+  }
+}
 
 
-.secondary-button:hover{
+
+
+.secondary-button:hover {
   background-color: var(--secondary-dark);
 
 }
@@ -209,7 +220,7 @@ nav ul {
 
   li:hover {
     background-color: var(--secondary-light);
- }
+  }
 
 
   @media screen and (min-width: $medium-screen) {
@@ -377,7 +388,7 @@ ol {
 
   li:hover {
     border: 2px solid rgba(0, 104, 183, 0.8);
- 
+
   }
 }
 
@@ -501,7 +512,8 @@ button {
   }
 }
 
-.project-card svg, .feat-projects svg {
+.project-card svg,
+.feat-projects svg {
   height: 20px;
   width: 20px;
 }
@@ -539,6 +551,3 @@ button {
 code {
   background-color: #f2f2f2;
 }
-
-
-
