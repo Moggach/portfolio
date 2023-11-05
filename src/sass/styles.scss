@@ -50,6 +50,10 @@ body {
     }
   }
 
+  .display-mode-toggle {
+    color: var(--primary-dark);
+
+  };
 
   .secondary-button {
     color: var(--primary-dark);
@@ -199,13 +203,21 @@ p {
 
 /* Navigation */
 
-nav ul {
-  list-style: none;
+header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
-  row-gap: 20px;
+  gap: var(--medium-spacing);
+  color: var(--primary-light);
+
+}
+
+nav ul {
+  display: flex;
+  gap: var(--medium-spacing);
+  align-items: center;
+  list-style: none;
   color: var(--primary-light);
   font-weight: bold;
   text-transform: uppercase;
