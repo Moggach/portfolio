@@ -1,37 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="I'm a Frontend software developer who builds sites and apps that help people reach their personal and professional goals."/>
-  <link rel="stylesheet" href="/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content=""
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
 
-<script src="/js/scripts.js"></script>
+    <script src="/js/scripts.js"></script>
 
-
-  <title>Projects</title>
-</head>
-<body>
-
-<header>
-  <nav>
-    <ul>
-     <li><a href="/">Home</a></li>
-     <a href="/writing"> <li>Writing</li></a>
-     <a href="/projects"><li>Projects</li></a>
-      <div class="slider-container">
-    <div class="slider-icon"></div>
-</div>
-
-
-    </ul>
-  </nav>
-</header>
-
+    <title>Projects</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <a href="/writing"> <li>Writing</li></a>
+          <a href="/projects"><li>Projects</li></a>
+          <div class="display-mode-toggle">
+            <svg
+              style="height: 20px"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 18 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8.509 5.75c0-1.493.394-2.96 1.144-4.25h-.081a8.5 8.5 0 1 0 7.356 12.746A8.5 8.5 0 0 1 8.509 5.75Z"
+              />
+            </svg>
+            <div class="slider-container">
+              <div class="slider-icon"></div>
+            </div>
+            <svg
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="20"
+              fill="none"
+              viewBox="0 0 14 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 7a3 3 0 0 1 3-3M5 19h4m0-3c0-4.1 4-4.9 4-9A6 6 0 1 0 1 7c0 4 4 5 4 9h4Z"
+              />
+            </svg>
+          </div>
+        </ul>
+      </nav>
+    </header>
 
     <main>
-      
 <h1>Projects</h1>
 <ul class="articles-list"><li class="project-card">
     <h2>Solidarity Knows No Borders</h2>
@@ -39,30 +69,18 @@
     <img src="https://placekitten.com/300/300" />
     <a href="">
       <svg
+        aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        width="29"
-        height="28"
-        viewBox="0 0 29 28"
         fill="none"
+        viewBox="0 0 18 18"
       >
-        <rect x="0.84082" width="28" height="28" fill="url(#pattern0)" />
-        <defs>
-          <pattern
-            id="pattern0"
-            patternContentUnits="objectBoundingBox"
-            width="1"
-            height="1"
-          >
-            <use xlink:href="#image0_255_1193" transform="scale(0.0104167)" />
-          </pattern>
-          <image
-            id="image0_255_1193"
-            width="96"
-            height="96"
-            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADIklEQVR4nO3by04UQRTG8X9mxoVcTLxtBHdGfAEJPIGXtaLRxIUati4R1iosBRFCeAMJGsX4HhpcGy6aeMEtwqZNm5qIEKnTXTX00P39ktqRU13n9FRXVTcgIiIiIiIiIiIiIiIiIiIiIiIiIiLyrzowCIwBi8BH4CewDSSBLVRo/9tuLMtubKPAAFCjDZwFJoD1CANN2rQA/2trwDjQSwFOA3PAVgsHmLR5AZotzcEMcJIDcgvYOICBJYekAM32A7hBCx0B5g9wQMkhK0CzzQINIusA3hUwmCTCtRdxzW9dzqLd+UUlP4lw/UmBRYjySyhi2klKUIDEPZyD3M7Y4QowBVwC+oBODr9ON5Z0TM+A1Yw5Gcrbcbqs+m7sJN0HDLsNWdnVgOvApwyro1N5OpozdvAK6KJ6uoHXxhxN59nhWjZZT9tlS16QdOyThjz9AnqyBJ4w3vlVTn5TzfhLeIJR3XC2s1bRaWe/6eizJ2er1ht20FDNu5ZAFXPfkLd+S6Axw1KzCqudrOpuZtgvdw8tgV56gqQPnRBJm7cQ057YC5Ygy54gl4MusdwFuOqJ/cESxHfUfC7wIstcgD5P7HRj6+Vb/4eufspcgC7DfsBLBcjvWIwC+Kag84Qp8y/gQowpSA/hgh/Ci54g6ZFsiDL/AmY8sV9YgowattTaiO3VMGzERjAYMNwl9yyBKmbYkLeLlkA1QyXX3QGU/F39fDEc4ZhPj8cN1UyPYHUczZ8cvDHk6zEZ9BpfyExWvAg19w7cl6dN4EzsJ/rOX0J3RaedJWOO0iJldgL4Zuwg/bsHrfgirE3v+juGOX/nS/nc343eNHbSbGvuSPaK2xWW4a1ZlxtLusl6blig7G7XQi9gNmOHsVuoIq8919SzW93wkkYFYE8OlmJOyR3uW0cVAFMO0mXpUSJrZFgZVXkKmmr1YmQowyeLVSrA1xgP3CxL1Gn3gqHqBdh0d/1xCtDjvvharWABVoBHeXa4rdqc9LvvXhbci4eNSP/EFyq0/y03lvdubCPuVLPKRzAiIiIiIiIiIiIiIiIiIiIiIiIiIsJevwHM218LQVp+KgAAAABJRU5ErkJggg=="
-          />
-        </defs></svg
+        <path
+          stroke="#0068b7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"
+        /></svg
     ></a>
   </li><li class="project-card">
     <h2>Future Natures</h2>
@@ -70,30 +88,18 @@
     <img src="https://placekitten.com/300/300" />
     <a href="https:/www.bbc.co.uk">
       <svg
+        aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        width="29"
-        height="28"
-        viewBox="0 0 29 28"
         fill="none"
+        viewBox="0 0 18 18"
       >
-        <rect x="0.84082" width="28" height="28" fill="url(#pattern0)" />
-        <defs>
-          <pattern
-            id="pattern0"
-            patternContentUnits="objectBoundingBox"
-            width="1"
-            height="1"
-          >
-            <use xlink:href="#image0_255_1193" transform="scale(0.0104167)" />
-          </pattern>
-          <image
-            id="image0_255_1193"
-            width="96"
-            height="96"
-            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADIklEQVR4nO3by04UQRTG8X9mxoVcTLxtBHdGfAEJPIGXtaLRxIUati4R1iosBRFCeAMJGsX4HhpcGy6aeMEtwqZNm5qIEKnTXTX00P39ktqRU13n9FRXVTcgIiIiIiIiIiIiIiIiIiIiIiIiIiLyrzowCIwBi8BH4CewDSSBLVRo/9tuLMtubKPAAFCjDZwFJoD1CANN2rQA/2trwDjQSwFOA3PAVgsHmLR5AZotzcEMcJIDcgvYOICBJYekAM32A7hBCx0B5g9wQMkhK0CzzQINIusA3hUwmCTCtRdxzW9dzqLd+UUlP4lw/UmBRYjySyhi2klKUIDEPZyD3M7Y4QowBVwC+oBODr9ON5Z0TM+A1Yw5Gcrbcbqs+m7sJN0HDLsNWdnVgOvApwyro1N5OpozdvAK6KJ6uoHXxhxN59nhWjZZT9tlS16QdOyThjz9AnqyBJ4w3vlVTn5TzfhLeIJR3XC2s1bRaWe/6eizJ2er1ht20FDNu5ZAFXPfkLd+S6Axw1KzCqudrOpuZtgvdw8tgV56gqQPnRBJm7cQ057YC5Ygy54gl4MusdwFuOqJ/cESxHfUfC7wIstcgD5P7HRj6+Vb/4eufspcgC7DfsBLBcjvWIwC+Kag84Qp8y/gQowpSA/hgh/Ci54g6ZFsiDL/AmY8sV9YgowattTaiO3VMGzERjAYMNwl9yyBKmbYkLeLlkA1QyXX3QGU/F39fDEc4ZhPj8cN1UyPYHUczZ8cvDHk6zEZ9BpfyExWvAg19w7cl6dN4EzsJ/rOX0J3RaedJWOO0iJldgL4Zuwg/bsHrfgirE3v+juGOX/nS/nc343eNHbSbGvuSPaK2xWW4a1ZlxtLusl6blig7G7XQi9gNmOHsVuoIq8919SzW93wkkYFYE8OlmJOyR3uW0cVAFMO0mXpUSJrZFgZVXkKmmr1YmQowyeLVSrA1xgP3CxL1Gn3gqHqBdh0d/1xCtDjvvharWABVoBHeXa4rdqc9LvvXhbci4eNSP/EFyq0/y03lvdubCPuVLPKRzAiIiIiIiIiIiIiIiIiIiIiIiIiIsJevwHM218LQVp+KgAAAABJRU5ErkJggg=="
-          />
-        </defs></svg
+        <path
+          stroke="#0068b7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"
+        /></svg
     ></a>
   </li><li class="project-card">
     <h2>The Architecture Lobby</h2>
@@ -101,30 +107,18 @@
     <img src="https://placekitten.com/300/300" />
     <a href="https:/www.bbc.co.uk">
       <svg
+        aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        width="29"
-        height="28"
-        viewBox="0 0 29 28"
         fill="none"
+        viewBox="0 0 18 18"
       >
-        <rect x="0.84082" width="28" height="28" fill="url(#pattern0)" />
-        <defs>
-          <pattern
-            id="pattern0"
-            patternContentUnits="objectBoundingBox"
-            width="1"
-            height="1"
-          >
-            <use xlink:href="#image0_255_1193" transform="scale(0.0104167)" />
-          </pattern>
-          <image
-            id="image0_255_1193"
-            width="96"
-            height="96"
-            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADIklEQVR4nO3by04UQRTG8X9mxoVcTLxtBHdGfAEJPIGXtaLRxIUati4R1iosBRFCeAMJGsX4HhpcGy6aeMEtwqZNm5qIEKnTXTX00P39ktqRU13n9FRXVTcgIiIiIiIiIiIiIiIiIiIiIiIiIiLyrzowCIwBi8BH4CewDSSBLVRo/9tuLMtubKPAAFCjDZwFJoD1CANN2rQA/2trwDjQSwFOA3PAVgsHmLR5AZotzcEMcJIDcgvYOICBJYekAM32A7hBCx0B5g9wQMkhK0CzzQINIusA3hUwmCTCtRdxzW9dzqLd+UUlP4lw/UmBRYjySyhi2klKUIDEPZyD3M7Y4QowBVwC+oBODr9ON5Z0TM+A1Yw5Gcrbcbqs+m7sJN0HDLsNWdnVgOvApwyro1N5OpozdvAK6KJ6uoHXxhxN59nhWjZZT9tlS16QdOyThjz9AnqyBJ4w3vlVTn5TzfhLeIJR3XC2s1bRaWe/6eizJ2er1ht20FDNu5ZAFXPfkLd+S6Axw1KzCqudrOpuZtgvdw8tgV56gqQPnRBJm7cQ057YC5Ygy54gl4MusdwFuOqJ/cESxHfUfC7wIstcgD5P7HRj6+Vb/4eufspcgC7DfsBLBcjvWIwC+Kag84Qp8y/gQowpSA/hgh/Ci54g6ZFsiDL/AmY8sV9YgowattTaiO3VMGzERjAYMNwl9yyBKmbYkLeLlkA1QyXX3QGU/F39fDEc4ZhPj8cN1UyPYHUczZ8cvDHk6zEZ9BpfyExWvAg19w7cl6dN4EzsJ/rOX0J3RaedJWOO0iJldgL4Zuwg/bsHrfgirE3v+juGOX/nS/nc343eNHbSbGvuSPaK2xWW4a1ZlxtLusl6blig7G7XQi9gNmOHsVuoIq8919SzW93wkkYFYE8OlmJOyR3uW0cVAFMO0mXpUSJrZFgZVXkKmmr1YmQowyeLVSrA1xgP3CxL1Gn3gqHqBdh0d/1xCtDjvvharWABVoBHeXa4rdqc9LvvXhbci4eNSP/EFyq0/y03lvdubCPuVLPKRzAiIiIiIiIiIiIiIiIiIiIiIiIiIsJevwHM218LQVp+KgAAAABJRU5ErkJggg=="
-          />
-        </defs></svg
+        <path
+          stroke="#0068b7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"
+        /></svg
     ></a>
   </li><li class="project-card">
     <h2>The World Transformed</h2>
@@ -132,41 +126,24 @@
     <img src="https://placekitten.com/300/300" />
     <a href="https:/www.bbc.co.uk">
       <svg
+        aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        width="29"
-        height="28"
-        viewBox="0 0 29 28"
         fill="none"
+        viewBox="0 0 18 18"
       >
-        <rect x="0.84082" width="28" height="28" fill="url(#pattern0)" />
-        <defs>
-          <pattern
-            id="pattern0"
-            patternContentUnits="objectBoundingBox"
-            width="1"
-            height="1"
-          >
-            <use xlink:href="#image0_255_1193" transform="scale(0.0104167)" />
-          </pattern>
-          <image
-            id="image0_255_1193"
-            width="96"
-            height="96"
-            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADIklEQVR4nO3by04UQRTG8X9mxoVcTLxtBHdGfAEJPIGXtaLRxIUati4R1iosBRFCeAMJGsX4HhpcGy6aeMEtwqZNm5qIEKnTXTX00P39ktqRU13n9FRXVTcgIiIiIiIiIiIiIiIiIiIiIiIiIiLyrzowCIwBi8BH4CewDSSBLVRo/9tuLMtubKPAAFCjDZwFJoD1CANN2rQA/2trwDjQSwFOA3PAVgsHmLR5AZotzcEMcJIDcgvYOICBJYekAM32A7hBCx0B5g9wQMkhK0CzzQINIusA3hUwmCTCtRdxzW9dzqLd+UUlP4lw/UmBRYjySyhi2klKUIDEPZyD3M7Y4QowBVwC+oBODr9ON5Z0TM+A1Yw5Gcrbcbqs+m7sJN0HDLsNWdnVgOvApwyro1N5OpozdvAK6KJ6uoHXxhxN59nhWjZZT9tlS16QdOyThjz9AnqyBJ4w3vlVTn5TzfhLeIJR3XC2s1bRaWe/6eizJ2er1ht20FDNu5ZAFXPfkLd+S6Axw1KzCqudrOpuZtgvdw8tgV56gqQPnRBJm7cQ057YC5Ygy54gl4MusdwFuOqJ/cESxHfUfC7wIstcgD5P7HRj6+Vb/4eufspcgC7DfsBLBcjvWIwC+Kag84Qp8y/gQowpSA/hgh/Ci54g6ZFsiDL/AmY8sV9YgowattTaiO3VMGzERjAYMNwl9yyBKmbYkLeLlkA1QyXX3QGU/F39fDEc4ZhPj8cN1UyPYHUczZ8cvDHk6zEZ9BpfyExWvAg19w7cl6dN4EzsJ/rOX0J3RaedJWOO0iJldgL4Zuwg/bsHrfgirE3v+juGOX/nS/nc343eNHbSbGvuSPaK2xWW4a1ZlxtLusl6blig7G7XQi9gNmOHsVuoIq8919SzW93wkkYFYE8OlmJOyR3uW0cVAFMO0mXpUSJrZFgZVXkKmmr1YmQowyeLVSrA1xgP3CxL1Gn3gqHqBdh0d/1xCtDjvvharWABVoBHeXa4rdqc9LvvXhbci4eNSP/EFyq0/y03lvdubCPuVLPKRzAiIiIiIiIiIiIiIiIiIiIiIiIiIsJevwHM218LQVp+KgAAAABJRU5ErkJggg=="
-          />
-        </defs></svg
+        <path
+          stroke="#0068b7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"
+        /></svg
     ></a>
   </li></ul>
+</main>
 
-
-    </main>
-   
-  <footer>
-  	<p>&copy; Anna Cunnane 2023</p>
- 
-
-    </ul>
-  </footer>
-</body>
+    <footer>
+      <p>&copy; Anna Cunnane 2023</p>
+    </footer>
+  </body>
 </html>
