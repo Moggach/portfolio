@@ -133,7 +133,10 @@ body {
   .tag:hover {
     outline: 2px solid var(--accent-dark)
   }
-  
+
+  .django, .wordpress, .tailwind  {
+    fill: var(--primary-dark);
+    }
 
 }
 
@@ -592,3 +595,19 @@ button {
 code {
   background-color: #f2f2f2;
 }
+
+.skills-badges {
+  display: flex;
+  gap: var(--small-spacing);
+  flex-wrap: wrap;
+}
+
+.skills-badges svg {
+  width: 50px;
+  height: 50px
+}
+
+
+.django, .wordpress, .tailwind  {
+  fill: var(--primary-light);
+  }

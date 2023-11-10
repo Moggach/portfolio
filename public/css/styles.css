@@ -94,6 +94,9 @@ body {
 .dark-mode .tag:hover {
   outline: 2px solid var(--accent-dark);
 }
+.dark-mode .django, .dark-mode .wordpress, .dark-mode .tailwind {
+  fill: var(--primary-dark);
+}
 
 .secondary-button:hover {
   background-color: var(--secondary-dark);
@@ -502,6 +505,21 @@ button {
 }
 code {
   background-color: #f2f2f2;
+}
+
+.skills-badges {
+  display: flex;
+  gap: var(--small-spacing);
+  flex-wrap: wrap;
+}
+
+.skills-badges svg {
+  width: 50px;
+  height: 50px;
+}
+
+.django, .wordpress, .tailwind {
+  fill: var(--primary-light);
 }
 
 /*# sourceMappingURL=styles.css.map */
