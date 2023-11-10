@@ -73,10 +73,10 @@ body {
 .dark-mode .secondary-button:hover {
   background-color: var(--primary-light);
 }
-.dark-mode ol li {
+.dark-mode .pagination li {
   border: 1px dashed var(--primary-dark);
 }
-.dark-mode ol li:hover {
+.dark-mode .pagination li:hover {
   border: 2px solid var(--primary-dark);
 }
 .dark-mode span {
@@ -355,17 +355,17 @@ hr {
   margin-bottom: var(--small-spacing);
 }
 
-ol {
+.pagination {
   display: flex;
   gap: var(--small-spacing);
   margin: 0 auto;
 }
-ol li {
+.pagination li {
   border: 1px dashed rgba(0, 104, 183, 0.8);
   padding: 5px 10px 5px 10px;
   border-radius: 50%;
 }
-ol li:hover {
+.pagination li:hover {
   border: 2px solid rgba(0, 104, 183, 0.8);
 }
 

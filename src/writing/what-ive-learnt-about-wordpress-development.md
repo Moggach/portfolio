@@ -2,6 +2,8 @@
 title: "What I’ve learnt about WordPress development at Common Knowledge"
 date: "2023-11-05"
 excerpt: "At Common Knowledge we work with organisers and grassroots groups to improve their websites and digital infrastructure to maximise the impact of their work"
+tags: ["wordpress",  "fse", "gutenberg editor", "bedrock"]
+
 ---
 
 At Common Knowledge we work with organisers and grassroots groups to improve their websites and digital infrastructure to maximise the impact of their work. We think that WordPress is a good solution for many of our collaborators as it’s easy to use and has a powerful content management system. This post is about what I’ve learned about the modern WordPress ecosystem since joining Common Knowledge and how it has improved my work.

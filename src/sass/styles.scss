@@ -105,11 +105,11 @@ body {
 
   }
 
-  ol li {
+  .pagination li {
     border: 1px dashed var(--primary-dark)
   }
 
-  ol li:hover {
+  .pagination li:hover {
     border: 2px solid var(--primary-dark)
   }
 
@@ -419,7 +419,7 @@ hr {
 
 
 
-ol {
+.pagination {
   display: flex;
   gap: var(--small-spacing);
   margin: 0 auto;

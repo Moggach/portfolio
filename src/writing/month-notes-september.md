@@ -2,6 +2,8 @@
 title: "Month notes September"
 date: "2023-10-07"
 excerpt: "Developing my new personal website with Eleventy.js 🤖 Preparing for Platform.org site launch 🏗️ Optimizing my WordPress workflow 💼 Starting development work on new Solidarity Knows No Borders website ✊"
+tags: ["eleventyjs", "month notes"]
+
 ---
 
 Developing my new personal website with Eleventy.js 🤖 Preparing for Platform.org site launch 🏗️ Optimizing my WordPress workflow 💼 Starting development work on new Solidarity Knows No Borders website ✊
