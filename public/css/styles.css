@@ -91,6 +91,9 @@ body {
 .dark-mode .circle::before {
   background-color: var(--accent-dark);
 }
+.dark-mode .tag:hover {
+  outline: 2px solid var(--accent-dark);
+}
 
 .secondary-button:hover {
   background-color: var(--secondary-dark);
@@ -429,7 +432,7 @@ article ul {
 }
 
 .tag:hover {
-  transform: translate(0px, -5px);
+  outline: 2px solid var(--primary-light);
 }
 
 button {
@@ -489,6 +492,7 @@ button {
 
 .feat-projects img {
   border-radius: 5px;
+  max-width: 300px;
 }
 
 @media screen and (min-width: 992px) {
