@@ -94,7 +94,9 @@ body {
 .dark-mode .tag:hover {
   outline: 2px solid var(--accent-dark);
 }
-.dark-mode .django, .dark-mode .wordpress, .dark-mode .tailwind {
+.dark-mode .django,
+.dark-mode .wordpress,
+.dark-mode .tailwind {
   fill: var(--primary-dark);
 }
 
@@ -518,8 +520,13 @@ code {
   height: 50px;
 }
 
-.django, .wordpress, .tailwind {
+.wordpress,
+.tailwind {
   fill: var(--primary-light);
+}
+
+.django {
+  fill: #092E20;
 }
 
 /*# sourceMappingURL=styles.css.map */

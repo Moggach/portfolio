@@ -134,9 +134,11 @@ body {
     outline: 2px solid var(--accent-dark)
   }
 
-  .django, .wordpress, .tailwind  {
+  .django,
+  .wordpress,
+  .tailwind {
     fill: var(--primary-dark);
-    }
+  }
 
 }
 
@@ -608,6 +610,12 @@ code {
 }
 
 
-.django, .wordpress, .tailwind  {
+.wordpress,
+.tailwind {
   fill: var(--primary-light);
-  }
+}
+
+.django {
+  fill: #092E20;
+
+}
