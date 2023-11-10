@@ -2,6 +2,7 @@
 title: "Month notes - July"
 date: "2023-07-22"
 excerpt: "Security scanning; block based themes and building Gutenberg blocks in WordPress 🧱 Launching the Architecture Lobby website 🏢 Debugging a Django app using the Shopify Python API 🛒"
+tags: ["month notes", "gutenberg", "django"]
 ---
 
 ### Notes from July

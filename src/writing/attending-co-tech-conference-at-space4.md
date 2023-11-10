@@ -2,6 +2,7 @@
 title: "Attending Co-Tech conference at Space4"
 date: "2021-10-09"
 excerpt: "Co-Tech (Co-operative Technologists) is a network of co-operatives that sell digital or tech services. They met for their conference on 23-24th September in the co-working space at Space4 in Finsbury Park. I attended as a new member of Common Knowledge who have hired me as an apprentice software developer."
+tags: ["founders and coders", "apprenticeships", "common knowledge"]
 ---
 
 <article>

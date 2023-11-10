@@ -25,10 +25,11 @@ permalink: /tags/{{ tag }}/
 <p>{{ article.data.excerpt }}</p>
 <div class="tags-container">
 
-{% for tag in article.data.tags %}
-  <a href="/tags/{{ tag }}"><div class="tag"><em>#{{ tag }}</em></div></a>
-
-{% endfor %}
+ {% for tag in article.data.tags %}
+    {% if not loop.first %}
+      <a href="/tags/{{ tag }}"><div class="tag"><em>#{{ tag }}</em></div></a>
+    {% endif %}
+  {% endfor %}
 </div>
 
 </li>

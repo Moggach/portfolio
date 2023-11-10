@@ -4,6 +4,8 @@ date: "2022-05-04"
 excerpt: "
 When I was working in publishing I started learning to code by studying for 20 minutes each day. After about 18 months of doing this I did a bootcamp and got an apprenticeship in tech. This post gives some tips I have for anyone learning to code - especially alongside a full time job or other responsibilities.
 "
+tags: ["learning to code"]
+
 ---
 
 <article>
