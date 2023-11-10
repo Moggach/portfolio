@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="{{'/css/styles.css' | url | safe}}" />
 
     <script src="{{'/js/scripts.js' | url | safe}}"></script>
-
-    <title>{{ title }}</title>
+  <title>{% if tag %}Tagged "{{ tag }}" {% endif %}{{ title }}</title>
   </head>
   <body>
     <header>
