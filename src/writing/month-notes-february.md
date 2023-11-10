@@ -2,8 +2,7 @@
 title: "Month notes - February"
 date: "2023-03-12"
 excerpt: "
-Wrapping up the Common Knowledge website project 🎁 Working on building a CI/CD pipeline with WordPress and Bedock 🔧 Learning more about Python 🐍
-"
+Wrapping up the Common Knowledge website project 🎁 Working on building a CI/CD pipeline with WordPress and Bedock 🔧 Learning more about Python 🐍"
 ---
 
 <article>

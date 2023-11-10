@@ -7,6 +7,169 @@
     <description>I am writing about my experiences as a naval navel-gazer.</description>
     <language>en</language>
     <item>
+      <title>What I’ve learnt about WordPress development at Common Knowledge</title>
+      <link>https://example.com/what-ive-learnt-about-wordpress-development/</link>
+      <description>&lt;p&gt;At Common Knowledge we work with organisers and grassroots groups to improve their websites and digital infrastructure to maximise the impact of their work. We think that WordPress is a good solution for many of our collaborators as it’s easy to use and has a powerful content management system. This post is about what I’ve learned about the modern WordPress ecosystem since joining Common Knowledge and how it has improved my work.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1566207462754-97c86c31db3d?auto=format&amp;amp;fit=crop&amp;amp;q=80&amp;amp;w=2970&amp;amp;ixlib=rb-4.0.3&amp;amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@tozakfikret?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Fikret tozak&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/turned-on-monitor-rfNLa1HL7eY?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Bedrock&lt;/h3&gt;
+&lt;p&gt;Bedrock is a WordPress boilerplate with an improved folder structure that separates the application code from core WordPress files and plugins. It uses Dotenv to manage environment specific variables and keep sensitive data out of version control. It also means that I can manage dependencies like plugins and WordPress/PHP versions via Composer. Using the Bedrock set of standards helps me to get closer to a 12-Factor App methodology with WordPress.&lt;/p&gt;
+&lt;h3&gt;Block editor&lt;/h3&gt;
+&lt;p&gt;The block editor (also known as Gutenberg editor) is now the default content editor in WordPress. It uses a modular approach where content is organised into individual blocks to create complex layouts with a drag and drop interface. The real time preview feature allows users to see what the content will look like on the page without previewing or saving. I do a lot of my development work in the block editor to create reusable patterns for our collaborators to customise as they wish.&lt;/p&gt;
+&lt;h3&gt;Full Site Editing&lt;/h3&gt;
+&lt;p&gt;Full Site Editing builds on the block editor to allow users to edit every element of a WordPress website including headers, footers and content templates. I use the theme.json file to define settings such as colours, typography and spacing to ensure design consistency. I try to write as little custom CSS as possible and allow all styling to be done within the editor.  Setting up the site in this way means that when I hand it over, collaborators can easily generate new pages and content without needing any coding skills.&lt;/p&gt;
+&lt;h3&gt;Custom Gutenberg blocks&lt;/h3&gt;
+&lt;p&gt;Gutenberg is built in React which means it’s highly extensible for developers to create their own blocks. I’ve been learning how to use the @wordpress/create-block package to make reusable blocks with custom design and functionality.  For example, a campaign site may want a custom sign up block that integrates with a third party mailing list service or a block that displays a real time map of member activities. It also means that I have to rely less on third party plugins.&lt;/p&gt;
+&lt;h3&gt;Renovate&lt;/h3&gt;
+&lt;p&gt;I use the Renovate package to help me automate dependency updates for Composer in my WordPress repositories. Renovate runs scheduled checks to extract the project dependencies from the composer.json file which it then checks against a directory like WP Packagist. If it identifies an update it creates a PR for the latest version and often includes a change log or release notes. A complaint about WordPress historically has been the security risks from out of date plugins so Renovate is really important in managing this risk.&lt;/p&gt;
+&lt;p&gt;All of the above techniques and tools have helped me to build bespoke WordPress projects faster and with a better developer experience. I’m hoping to start writing my own plugins for the Gutenberg editor and will be writing a blog about that experience.&lt;/p&gt;
+&lt;p&gt;Links and tutorials to check out&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/&quot;&gt;https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fullsiteediting.com/&quot;&gt;https://fullsiteediting.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://roots.io/bedrock/&quot;&gt;https://roots.io/bedrock/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.renovatebot.com/&quot;&gt;https://docs.renovatebot.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/what-ive-learnt-about-wordpress-development/</guid>
+    </item>
+    <item>
+      <title>Month notes September</title>
+      <link>https://example.com/month-notes-september/</link>
+      <description>&lt;p&gt;Developing my new personal website with Eleventy.js 🤖 Preparing for &lt;a href=&quot;http://platform.org/&quot;&gt;Platform.org&lt;/a&gt; site launch 🏗️ Optimizing my WordPress workflow 💼 Starting development work on new Solidarity Knows No Borders website ✊&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://media.istockphoto.com/id/182353093/photo/september-pinned-on-noticeboard.jpg?s=612x612&amp;amp;w=0&amp;amp;k=20&amp;amp;c=J7-LuRLG5MpgvOKBOctS7wpsR-qsfEZQstCO1Z0erGE=&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;What I’ve been working on&lt;/h3&gt;
+&lt;p&gt;This month I’ve been helping to finish off the &lt;a href=&quot;https://platformlondon.org/&quot;&gt;Platform.org&lt;/a&gt; website ahead of its launch. This included fixing some CSS bugs and adding JavaScript features like a &lt;a href=&quot;https://platformlondon.org/?s&quot;&gt;counter on the number of search filters selected&lt;/a&gt;. I’ve been working on optimizing my WordPress workflow in general by making sure I’m using all of the possible styling options in theme.json and using the create block theme plugin. I also took part in some user testing sessions with the Figma prototype of the Solidarity Knows No Borders website. I set up the repository for this new project and started some initial development work like creating the header, footer and a custom post type. On my personal site I’ve been designing and developing the landing page which you can view in progress on the &lt;a href=&quot;https://fluffy-frangollo-4a6b3d.netlify.app/&quot;&gt;staging site&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;What I’ve been learning&lt;/h3&gt;
+&lt;p&gt;This month I’ve been learning how to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;use the &lt;a href=&quot;https://wordpress.org/plugins/create-block-theme/&quot;&gt;create block theme plugin&lt;/a&gt; to quickly generate a block based WordPress theme&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;use &lt;a href=&quot;https://www.11ty.dev/docs/collections/&quot;&gt;eleventy collections&lt;/a&gt; to organize the content on my new website&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;integrate google sheets with &lt;a href=&quot;https://www.gravityforms.com/&quot;&gt;gravity forms&lt;/a&gt; so that form entries are automatically added to a designated google sheet&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;add &lt;a href=&quot;https://docs.renovatebot.com/&quot;&gt;renovate&lt;/a&gt; to a repository to manage PHP composer dependencies&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;use the &lt;a href=&quot;https://docs.mapbox.com/api/overview/&quot;&gt;mapbox api&lt;/a&gt; and the &lt;a href=&quot;https://carbonfields.net/docs/&quot;&gt;carbon fields&lt;/a&gt; library to create a custom map component on a WordPress site&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;What’s next&lt;/h3&gt;
+&lt;p&gt;Over the next month I’m going to be the main developer building the Solidarity Knows No Borders website. The site will be a home for this community fighting for migrant justice &amp;amp; dignity and I’m very excited to be involved. I’m looking forward to building on my existing knowledge of WordPress Full Site Editor to build a beautiful and easy to use site within a limited timeframe and budget. There are some components in the design such as the map of member organizations and resources that need to be translated into multiple languages that will be technically challenging. It will be interesting to see how I can implement them and hopefully what I’ve learnt into future projects. On my personal website I’m aiming to build my projects portfolio page which should display the best of my work over the last two years.&lt;/p&gt;
+&lt;h3&gt;Interesting links&lt;/h3&gt;
+&lt;p&gt;These are some interesting links that I’ve come across this month&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://unicornclub.dev/&quot;&gt;Unicorn Club&lt;/a&gt; is a 5 minute weekly newsletter for front end developers and code savvy designers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://playground.wordpress.net/&quot;&gt;WordPress playground&lt;/a&gt; runs a full sandboxed WordPress site in the browser&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://sizzy.co/&quot;&gt;Sizzy&lt;/a&gt; is my favourite tool for testing websites on multiple devices and browsers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pawelgrzybek.com/working-with-git-worktrees/&quot;&gt;Paweł Grzybek&lt;/a&gt; explains how Git worktrees mean the end of messy stashes and wip commits&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://frontendchecklist.io/&quot;&gt;Frontendchecklist.io&lt;/a&gt; includes 88 points to keep in mind before you launch your website&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Sat, 07 Oct 2023 01:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/month-notes-september/</guid>
+    </item>
+    <item>
+      <title>An update on my new website</title>
+      <link>https://example.com/an-update-on-my-new-website/</link>
+      <description>&lt;p&gt;Over the last couple of months I’ve been rebuilding my personal website with Eleventy. This post is an update on that work.&lt;/p&gt;
+&lt;h3&gt;Why move from the original site?&lt;/h3&gt;
+&lt;p&gt;There are a few reasons why I wanted to make a new website:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I wrote the original site with Gatsby but Eleventy is a more lightweight static site generator with faster builds and performance&lt;/li&gt;
+&lt;li&gt;I knew that I wanted to use another SSG because I’m not using a CMS (my current blog content is in Markdown) and I could continue to host with Netlify.&lt;/li&gt;
+&lt;li&gt;My current site was written over three years ago and I’ve learnt a lot since then. I wanted a site that reflects my current ability.&lt;/li&gt;
+&lt;li&gt;I was interested in learning how to use Eleventy and it gave me the opportunity to learn the templating language Nunjucks.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;What is the MVP of the new site?&lt;/h3&gt;
+&lt;p&gt;I set the target of getting an MVP (minimum viable project) completed by the end of this year.&lt;br /&gt;
+The MVP includes the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A portfolio section to showcase my work&lt;/li&gt;
+&lt;li&gt;A dedicated space for my blog posts&lt;/li&gt;
+&lt;li&gt;A beautiful looking landing page that contains my portfolio; an about me section and a contact form using &lt;a href=&quot;https://demo-eleventy-edge.netlify.app/forms/&quot;&gt;Eleventy Edge Forms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tags to organise my blog content (using Eleventy collections)&lt;/li&gt;
+&lt;li&gt;Frontmatter on my blog posts with summary, post date and tags&lt;/li&gt;
+&lt;li&gt;Google Analytics set up and meta tags generated by &lt;a href=&quot;https://www.npmjs.com/package/eleventy-plugin-seo&quot;&gt;eleventy-plugin-seo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;An RSS feed for the blog created by &lt;a href=&quot;https://www.npmjs.com/package/@11ty/eleventy-plugin-rss&quot;&gt;eleventy-plugin-rss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A ‘good’ Lighthouse score and accessibility checks using the &lt;a href=&quot;https://wave.webaim.org/&quot;&gt;WAVE&lt;/a&gt; tool&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Site Design&lt;/h3&gt;
+&lt;p&gt;There’s a lot of work still to do on the design of the site. I am looking for inspiration at sites like &lt;a href=&quot;https://dribbble.com/&quot;&gt;Dribble&lt;/a&gt; and &lt;a href=&quot;https://www.behance.net/&quot;&gt;Behance&lt;/a&gt;. I am using IBM Plex Mono as my heading font and Inter for body text to create a modern and minimalist look with an emphasis on readability. At the moment I’m using a blue and orange colour palette but even if these change I would like plenty of white space with one or two accent colours. I would also like to add some scroll animations on the landing page. As I’m not as confident with design as I am with development I will probably get a designer friend to look over the site and give their feedback&lt;/p&gt;
+&lt;p&gt;The work in progress home and blog index page:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://example.com/an-update-on-my-new-website/sizzy-1.png&quot; alt=&quot;A screenshot of a homepage for a developer portfolio website&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://example.com/an-update-on-my-new-website/sizzy-2.png&quot; alt=&quot;A screenshot of a blog index page for a developer portfolio website&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Developer experience&lt;/h3&gt;
+&lt;p&gt;So far the experience of switching to Eleventy has been smooth. As Eleventy supports Markdown out of the box I transferred my blog over and put it online with Netlify within an hour. The documentation is comprehensive and well structured and has helped me to implement features like pagination and tags on my blog. Eleventy allows me to write JavaScript functions to fetch post data whereas with Gatsby I used GraphQL which was probably too complex for my needs.&lt;/p&gt;
+&lt;h3&gt;Future iterations&lt;/h3&gt;
+&lt;p&gt;Next year I’ll be adding more functionality to the site as well as posting blog content.&lt;br /&gt;
+I&#39;m thinking that this will include:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A light/dark mode toggle&lt;/li&gt;
+&lt;li&gt;More custom filters for displaying post metadata on the blog index page. I’m already using one for dates but it would be nice to have time to read or table of contents.&lt;/li&gt;
+&lt;li&gt;Support for embedding content from Twitter, TikTok, YouTube etc within Markdown&lt;/li&gt;
+&lt;li&gt;A more privacy conscious analytics provider like &lt;a href=&quot;https://posthog.com/&quot;&gt;PostHog&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For more information on Eleventy Js check out the &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;docs&lt;/a&gt; and &lt;a href=&quot;https://11ty.rocks/&quot;&gt;11ty.rocks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Look out for more updates and the site launch!&lt;/p&gt;
+</description>
+      <pubDate>Sun, 03 Sep 2023 01:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/an-update-on-my-new-website/</guid>
+    </item>
+    <item>
+      <title>Month notes - July</title>
+      <link>https://example.com/month-notes-july/</link>
+      <description>&lt;h3&gt;Notes from July&lt;/h3&gt;
+&lt;p&gt;Security scanning; block based themes and building Gutenberg blocks in WordPress 🧱 Launching the Architecture Lobby website 🏢 Debugging a Django app using the Shopify Python API 🛒&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1593448844447-f5c63fe0d806?ixlib=rb-4.0.3&amp;amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=1740&amp;amp;q=80&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Photo by &lt;a href=&quot;https://unsplash.com/@glencarrie?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Glen Carrie&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/RanxGMHPsLI?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;What I’ve been working on&lt;/h3&gt;
+&lt;p&gt;This month I’ve made a staging environment for my new personal website on Netlify and put the first (very basic) version of the site live. I’ve been impressed at how quickly I was able to transfer across much of the existing content from Gatsby and how nice Eleventy is to use. At Common Knowledge I’ve been improving the new Architecture Lobby site’s visual fidelity to its Figma design and removing redundant code ahead of its launch. I also pair programmed with a colleague to debug an issue with syncing products to a Django app using the Shopify Python API. This involved thinking about Python data types; checking that the API was returning valid JSON and running migrations to update the Postgres database.&lt;/p&gt;
+&lt;h3&gt;What I’ve been learning&lt;/h3&gt;
+&lt;p&gt;This month I’ve been learning how to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;audit a WordPress site for security issues using the WP-CLI Vulnerability Scanner package&lt;/li&gt;
+&lt;li&gt;understand and use the different parts of block based WordPress themes such as templates, template-parts and patterns&lt;/li&gt;
+&lt;li&gt;use the Convert to Blocks plugin to convert classic WordPress editor content to Gutenberg blocks&lt;/li&gt;
+&lt;li&gt;create custom Gutenberg blocks with React with the @wordpress/create-block tool&lt;/li&gt;
+&lt;li&gt;configure Global settings and styles for the WordPress Full Site Editor in the theme.json file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;What’s next&lt;/h3&gt;
+&lt;p&gt;In August I’m going to be creating a workflow for handling WordPress multisite installations with Bedrock. I’m also expecting to start work on a new website for a project called Solidarity Knows No Borders which is part of the Migrants Organise Campaign Group. I’ve already done some technical discovery for this project including research on how to implement a map that displays locations of local groups within the organisation. I’m planning to add some styling to the blog page on my new personal site. I would like to spend some time thinking about the structure behind my approach to the WordPress Full Site Editor and what is appropriate to put in templates versus page content or patterns.&lt;/p&gt;
+&lt;h3&gt;Interesting links&lt;/h3&gt;
+&lt;p&gt;These are some interesting links that I’ve come across this month:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://fullsiteediting.com/&quot;&gt;https://fullsiteediting.com/&lt;/a&gt;  is a comprehensive tutorial for  the WordPress Full Site Editor and writing block based themes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://devdocs.io/&quot;&gt;https://devdocs.io/&lt;/a&gt; combines multiple API documentations in a fast, organised, and searchable interface&lt;/li&gt;
+&lt;li&gt;Kara Luton, engineer at CrowdStrike has a &lt;a href=&quot;https://dev.to/karaluton/a-guide-to-perfecting-pull-requests-2b66&quot;&gt;guide to perfecting pull requests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gitexplorer.com/&quot;&gt;Git Command Explorer&lt;/a&gt; helps you find the commands you need without Googling&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.aleksandrhovhannisyan.com/blog/fluid-type-scale-with-css-clamp/&quot;&gt;A detailed explanation of how to create a fluid type scale&lt;/a&gt; from the creator of Fluid Type Scale Calculator, Aleksandr Hovhannisyan&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Sat, 22 Jul 2023 01:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/month-notes-july/</guid>
+    </item>
+    <item>
       <title>Month notes - June</title>
       <link>https://example.com/month-notes%20-june/</link>
       <description>&lt;article&gt;

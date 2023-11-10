@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content=""
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <script src="/js/scripts.js"></script>
+
+    <title>What I’ve learnt about WordPress development at Common Knowledge</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/writing"> Writing</a></li>
+          <li><a href="/projects">Projects</li></a></li>
+           </ul>
+      </nav>
+          <div class="display-mode-toggle">
+            <svg
+              style="height: 20px"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 18 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8.509 5.75c0-1.493.394-2.96 1.144-4.25h-.081a8.5 8.5 0 1 0 7.356 12.746A8.5 8.5 0 0 1 8.509 5.75Z"
+              />
+            </svg>
+            <div class="slider-container">
+              <div class="slider-icon"></div>
+            </div>
+            <svg
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="20"
+              fill="none"
+              viewBox="0 0 14 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 7a3 3 0 0 1 3-3M5 19h4m0-3c0-4.1 4-4.9 4-9A6 6 0 1 0 1 7c0 4 4 5 4 9h4Z"
+              />
+            </svg>
+          </div>
+       
+    </header>
+
+    <main><div class="secondary-button">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#0068b7" height="15px" width="15px" version="1.1" id="Layer_1" viewBox="0 0 476.213 476.213" xml:space="preserve">
+  <polygon points="476.213,223.107 57.427,223.107 151.82,128.713 130.607,107.500 0,238.106 130.607,368.714 151.82,347.5 57.427,253.107 476.213,253.107"/>
+</svg>
+<button onclick="history.back()">Back</button>
+</div>
+<p>At Common Knowledge we work with organisers and grassroots groups to improve their websites and digital infrastructure to maximise the impact of their work. We think that WordPress is a good solution for many of our collaborators as it’s easy to use and has a powerful content management system. This post is about what I’ve learned about the modern WordPress ecosystem since joining Common Knowledge and how it has improved my work.</p>
+<p><img src="https://images.unsplash.com/photo-1566207462754-97c86c31db3d?auto=format&amp;fit=crop&amp;q=80&amp;w=2970&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></p>
+<p>Photo by <a href="https://unsplash.com/@tozakfikret?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fikret tozak</a> on <a href="https://unsplash.com/photos/turned-on-monitor-rfNLa1HL7eY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+<h3>Bedrock</h3>
+<p>Bedrock is a WordPress boilerplate with an improved folder structure that separates the application code from core WordPress files and plugins. It uses Dotenv to manage environment specific variables and keep sensitive data out of version control. It also means that I can manage dependencies like plugins and WordPress/PHP versions via Composer. Using the Bedrock set of standards helps me to get closer to a 12-Factor App methodology with WordPress.</p>
+<h3>Block editor</h3>
+<p>The block editor (also known as Gutenberg editor) is now the default content editor in WordPress. It uses a modular approach where content is organised into individual blocks to create complex layouts with a drag and drop interface. The real time preview feature allows users to see what the content will look like on the page without previewing or saving. I do a lot of my development work in the block editor to create reusable patterns for our collaborators to customise as they wish.</p>
+<h3>Full Site Editing</h3>
+<p>Full Site Editing builds on the block editor to allow users to edit every element of a WordPress website including headers, footers and content templates. I use the theme.json file to define settings such as colours, typography and spacing to ensure design consistency. I try to write as little custom CSS as possible and allow all styling to be done within the editor.  Setting up the site in this way means that when I hand it over, collaborators can easily generate new pages and content without needing any coding skills.</p>
+<h3>Custom Gutenberg blocks</h3>
+<p>Gutenberg is built in React which means it’s highly extensible for developers to create their own blocks. I’ve been learning how to use the @wordpress/create-block package to make reusable blocks with custom design and functionality.  For example, a campaign site may want a custom sign up block that integrates with a third party mailing list service or a block that displays a real time map of member activities. It also means that I have to rely less on third party plugins.</p>
+<h3>Renovate</h3>
+<p>I use the Renovate package to help me automate dependency updates for Composer in my WordPress repositories. Renovate runs scheduled checks to extract the project dependencies from the composer.json file which it then checks against a directory like WP Packagist. If it identifies an update it creates a PR for the latest version and often includes a change log or release notes. A complaint about WordPress historically has been the security risks from out of date plugins so Renovate is really important in managing this risk.</p>
+<p>All of the above techniques and tools have helped me to build bespoke WordPress projects faster and with a better developer experience. I’m hoping to start writing my own plugins for the Gutenberg editor and will be writing a blog about that experience.</p>
+<p>Links and tutorials to check out</p>
+<ul>
+<li><a href="https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/">https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/</a></li>
+<li><a href="https://fullsiteediting.com/">https://fullsiteediting.com/</a></li>
+<li><a href="https://roots.io/bedrock/">https://roots.io/bedrock/</a></li>
+<li><a href="https://docs.renovatebot.com/">https://docs.renovatebot.com/</a></li>
+</ul>
+
+
+
+</main>
+
+    <footer>
+      <p>&copy; Anna Cunnane 2023</p>
+    </footer>
+  </body>
+</html>
