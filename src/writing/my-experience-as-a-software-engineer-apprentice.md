@@ -5,6 +5,9 @@ excerpt: "
 This blog was originally posted on the Common Knowledge website
 
 I’m Anna and I’m a software engineering apprentice at Common Knowledge. I thought it might be interesting to write about my experiences as a software engineering apprentice since September 2021."
+
+tags: ["founders and coders", "apprenticeships"]
+
 ---
 
 <article>

@@ -2,6 +2,8 @@
 title: "An update on my new website"
 date: "2023-09-03"
 excerpt: "Over the last couple of months I’ve been rebuilding my personal website with Eleventy. This post is an update on that work."
+tags: ["eleventy", "personal websites"]
+
 
 ---
 

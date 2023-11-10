@@ -7,6 +7,9 @@ My Journey to Becoming a Developer.
 In that post I described how I’d come to apply to the Founders and Coders bootcamp and make the switch to a new career.
 
 Now as I start my first job in the tech industry I’m reflecting on my experiences on the course and my hopes for the future."
+
+tags: ["founders and coders"]
+
 ---
 
 <article>

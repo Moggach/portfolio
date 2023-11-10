@@ -3,6 +3,8 @@ title: "5 Things I've Learnt as an Apprentice Software Developer"
 date: "2022-03-10"
 excerpt: "
 I’ve been working as an apprentice software developer for a couple of months now and there are some things that I’ve learnt that I wanted to share. I hope that the below is useful to you if you are thinking about becoming developers or graduating from a bootcamp and going into your first job."
+tags: ["founders and coders", "apprenticeships"]
+
 ---
 
 <article>
