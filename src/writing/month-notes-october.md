@@ -3,6 +3,7 @@ title: "Month notes - October"
 date: "2022-10-31"
 excerpt: "
 In this post I’m experimenting with a different format for my blog. Month notes are a format where I can share what I’ve been working on over the month and some of the things I’m learning."
+tags: ["month notes"]
 ---
 
 <article>

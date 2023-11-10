@@ -2,6 +2,7 @@
 title: "Working on the new Common Knowledge website"
 date: "2023-03-25"
 excerpt: "For the final part of my Software Development Apprenticeship I’ve been working on a new website for Common Knowledge. Common Knowledge makes digital tools to help social movements build power. "
+tags: ["common knowledge", "apprenticeship"]
 ---
 
 <article>

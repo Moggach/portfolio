@@ -2,6 +2,7 @@
 title: "2022 - year in review"
 date: "2022-12-29"
 excerpt: "Since I’ve been writing monthly round ups recently I thought it made sense to review 2022 in December. This time last year I had just finished the Founders and Coders full time course and was about to start work full time at Common Knowledge."
+tags: ["year review"]
 ---
 
 <article>

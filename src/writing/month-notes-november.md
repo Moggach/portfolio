@@ -3,6 +3,7 @@ title: "Month notes - November"
 date: "2022-11-25"
 excerpt: "
 🌍 Working on FutureNatures, StopWatch and Humanitarian OpenStreetMap for Common Knowledge."
+tags: ["month notes"]
 ---
 
 <article>

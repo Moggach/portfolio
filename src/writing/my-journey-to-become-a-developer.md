@@ -3,7 +3,7 @@ title: "My journey to becoming a developer"
 date: "2021-08-09"
 excerpt: "I’ve worked in book publishing for eight years but I’ve loved it. I’ve won awards (which is really nice and slightly embarrassing) and I’ve worked on some beautiful books.
 "
-tags: ["founders and coders"]
+tags: ["founders and coders", "learning to code"]
 
 ---
 

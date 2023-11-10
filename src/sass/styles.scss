@@ -462,6 +462,11 @@ article {
     margin-left: var(--small-spacing)
   }
 
+  ol {
+    list-style-type: decimal;
+    margin-left: var(--small-spacing)
+  }
+
   @media screen and (min-width: $large-screen) {
     max-width: clamp(50ch, 75ch, 100%);
   }

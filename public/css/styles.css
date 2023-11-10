@@ -387,6 +387,10 @@ article ul {
   list-style-type: disc;
   margin-left: var(--small-spacing);
 }
+article ol {
+  list-style-type: decimal;
+  margin-left: var(--small-spacing);
+}
 @media screen and (min-width: 992px) {
   article {
     max-width: clamp(50ch, 75ch, 100%);
