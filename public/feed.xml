@@ -7,6 +7,42 @@
     <description>I am writing about my experiences as a naval navel-gazer.</description>
     <language>en</language>
     <item>
+      <title>2023 - year in review</title>
+      <link>https://example.com/2023-year-in-review/</link>
+      <description>&lt;p&gt;I’ve enjoyed blogging about my progress as a developer this year so this is my end of year round up of the highlights of 2023. In this post I’m going to look at what I’ve learnt; the challenges I’ve faced this year as well as what I’m hoping for in 2024. This is my second year working full time as a software developer and it’s encouraging to see how far I’ve come particularly when building a new career feels hard. I hope it’s helpful for everyone learning to code or early career developers.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1672405328102-05825b3cc8e7?q=80&amp;amp;w=2970&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;ixlib=rb-4.0.3&amp;amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@pawel_czerwinski?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Pawel Czerwinski&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/a-blue-and-white-background-with-the-word-sale-spelled-out-WbGRqQCIj9s?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;What I’ve been doing&lt;/h3&gt;
+&lt;p&gt;I’m really proud that in April this year I passed my &lt;a href=&quot;https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer-v1-1&quot;&gt;BCS L4 Software Developer apprenticeship&lt;/a&gt; with a Merit. My final project was a rebuild of my employer &lt;a href=&quot;https://commonknowledge.coop/&quot;&gt;Common Knowledge’s website&lt;/a&gt; which I finished in February. The support both from Common Knowledge and &lt;a href=&quot;https://www.foundersandcoders.com/&quot;&gt;Founders and Coders&lt;/a&gt; where I did my initial 12 week training programme has been incredible and helped me get this result. I’m really happy that after the completion of my apprenticeship Common Knowledge offered me a job as a junior developer which is what I’m doing now. This year I’ve worked on a range of projects for them including migrating climate organization &lt;a href=&quot;https://350.org/&quot;&gt;350.org&lt;/a&gt; to WordPress Gutenberg and assisting with a new website for &lt;a href=&quot;https://architecture-lobby.org/&quot;&gt;The Architecture Lobby&lt;/a&gt;. A highlight was building a website for the &lt;a href=&quot;https://sknb.org/&quot;&gt;Solidarity Knows No Borders&lt;/a&gt; campaign in collaboration with Migrants Organize. In my own time I’ve also built a new portfolio site that I’ll be launching soon and I’ve started work on a project to map domestic abuse support services across the UK.&lt;/p&gt;
+&lt;h3&gt;What I’ve learnt&lt;/h3&gt;
+&lt;p&gt;In 2023, as well as gaining confidence as a developer generally, I have focussed on these areas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding WordPress as a CMS or backend with an API that can be used with any frontend has been exciting for me this year&lt;/li&gt;
+&lt;li&gt;WordPress has transitioned to a React based UI called Gutenberg for its editor and I’ve enjoyed learning how to make my own blocks and plugins for this environment.&lt;/li&gt;
+&lt;li&gt;I’ve been learning to develop block based themes in WordPress which allow editors to customize almost all elements of a site.&lt;/li&gt;
+&lt;li&gt;I’ve started to use Alpine Js which is a lightweight JavaScript framework for adding bits of interactivity to web pages.&lt;/li&gt;
+&lt;li&gt;I’ve made my new portfolio site with static site generator Eleventy and I’ve appreciated its simplicity and the level of control it offers developers&lt;/li&gt;
+&lt;li&gt;I’ve been working with geographic data for Solidarity Knows No Borders and my domestic abuse services mapping project and Mapbox has been a great tool for this. I’m proud of the clustering feature I implemented on &lt;a href=&quot;https://sknb.org/community/&quot;&gt;this page&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The Challenges&lt;/h3&gt;
+&lt;p&gt;Inevitably as part of the learning process I have had plenty of challenges and difficult moments in 2023. I have struggled a lot with feeling that I’m working very slowly particularly compared to more senior developers. I know that speed will come with time and experience but it’s very tough day to day to feel that I’m not contributing enough to the team. Another challenge has been keeping my CSS organized without using a framework. I’ve tried very hard to improve my understanding of PHP and WordPress from the ground up but I’ve still found modifying the query loop block difficult.&lt;/p&gt;
+&lt;h3&gt;What I’m hoping for in 2024&lt;/h3&gt;
+&lt;p&gt;In the new year I’d like to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make more personal projects to add to my portfolio&lt;/li&gt;
+&lt;li&gt;Build on what I’ve learnt this year on creating custom user interfaces in WordPress Gutenberg and even make my own plugins&lt;/li&gt;
+&lt;li&gt;Get better at manipulating data in code and performing data migrations&lt;/li&gt;
+&lt;li&gt;Make more realistic time estimates at the beginning of projects&lt;/li&gt;
+&lt;li&gt;Learn more about project management and take on stewardship of more complex projects at Common Knowledge&lt;/li&gt;
+&lt;li&gt;Be part of exciting projects like &lt;a href=&quot;https://mapped.commonknowledge.coop/&quot;&gt;Mapped&lt;/a&gt; with Common Knowledge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you for reading and good luck with your coding in 2024 and beyond!&lt;/p&gt;
+</description>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/2023-year-in-review/</guid>
+    </item>
+    <item>
       <title>What I’ve learnt about WordPress development at Common Knowledge</title>
       <link>https://example.com/what-ive-learnt-about-wordpress-development/</link>
       <description>&lt;article&gt;
