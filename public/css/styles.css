@@ -513,24 +513,8 @@ code {
   background-color: #f2f2f2;
 }
 
-.skills-badges {
-  display: flex;
-  gap: var(--small-spacing);
-  flex-wrap: wrap;
-}
-
-.skills-badges svg {
-  width: 50px;
-  height: 50px;
-}
-
-.wordpress,
-.tailwind {
-  fill: var(--primary-light);
-}
-
-.django {
-  fill: #092E20;
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
