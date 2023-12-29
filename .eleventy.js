@@ -6,21 +6,8 @@ module.exports = function (eleventyConfig) {
   const markdownIt = require("markdown-it");
   const markdownItAttrs = require("markdown-it-attrs");
   const pluginRss = require("@11ty/eleventy-plugin-rss");
-  const pluginSEO = require("eleventy-plugin-seo");
-  eleventyConfig.addPlugin(pluginSEO, {
-    title: "",
-    description: "",
-    url: "https://annacunnane.co.uk",
-    author: "Anna Cunnane",
-    twitter: "AnnaThereseCu",
-    image: "",
-    options: {
-      titleStyle: "minimalistic",
-      twitterCardType: "summary_large_image",
-      showPageNumbers: false
-    }
-  });
 
+ 
   const markdownItOptions = {
     html: true,
     breaks: true,
@@ -48,4 +35,5 @@ module.exports = function (eleventyConfig) {
       output: "public",
     },
   };
+  
 };

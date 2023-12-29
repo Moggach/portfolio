@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "dayjs": "^1.11.9",
-    "eleventy-plugin-seo": "^0.5.2",
     "markdown-it": "^13.0.1",
     "markdown-it-attrs": "^4.1.6",
     "sass": "^1.65.1"

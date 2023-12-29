@@ -4,10 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {% seo "" %}
+    <title>{% if tag %}Tagged "{{ tag }}" {% endif %}{{ title }}</title>
+    <meta name="description" content="{{ excerpt | safe }}" />
+    <link rel="canonical" href="{{ page.url | url | safe }}" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="{% if tag %}Tagged "{{ tag }}" {% endif %}{{ title }}" />
+    <meta property="og:url" content="{{ page.url | url | safe }}" />
+    <meta property="og:description" content="{{ excerpt | safe }}" />
+    <meta property="og:image" content="{{ image | safe }}" />
+    <meta property="og:type" content="article" />
+
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+
     <link rel="stylesheet" href="{{'/css/styles.css' | url | safe}}" />
+
     <script src="{{'/js/scripts.js' | url | safe}}"></script>
+
+
+
 
   </head>
   <body>
