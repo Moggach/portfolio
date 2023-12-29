@@ -43,6 +43,9 @@ body {
 .dark-mode .display-mode-toggle {
   color: var(--primary-dark);
 }
+.dark-mode .scrollable-column p a {
+  border-bottom: var(--accent-dark) solid;
+}
 .dark-mode .secondary-button {
   color: var(--primary-dark);
   border: 2px solid var(--primary-dark);
@@ -296,14 +299,14 @@ section {
   gap: var(--medium-spacing);
   padding-top: var(--medium-spacing);
 }
-.scrollable-column a {
-  border-bottom: #0068b7 solid;
-  width: fit-content;
-}
 @media screen and (min-width: 768px) {
   .scrollable-column {
     padding-top: 0;
   }
+}
+.scrollable-column p a {
+  border-bottom: #0068b7 solid;
+  width: fit-content;
 }
 
 /* Media query for mobile screens */
@@ -353,7 +356,9 @@ hr {
 }
 
 .socials li {
+  border-bottom: #0068b7 solid;
   padding-bottom: 5px;
+  width: fit-content;
   margin-bottom: var(--small-spacing);
 }
 
@@ -472,9 +477,6 @@ button {
   text-transform: uppercase;
   font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
-}
-.secondary-button a {
-  border-bottom: none;
 }
 .secondary-button svg {
   fill: var(--primary-light);
