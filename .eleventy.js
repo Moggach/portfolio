@@ -12,7 +12,7 @@ module.exports = function (eleventyConfig) {
     description: "",
     url: "https://annacunnane.co.uk",
     author: "Anna Cunnane",
-    twitter: "@AnnaThereseCu",
+    twitter: "AnnaThereseCu",
     image: "",
     options: {
       titleStyle: "minimalistic",
