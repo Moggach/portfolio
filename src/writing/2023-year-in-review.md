@@ -1,6 +1,8 @@
 ---
 title: "2023 - year in review"
 date: "2023-12-28"
+author: "Anna Cunnane"
+image: "https://images.unsplash.com/photo-1672405328102-05825b3cc8e7?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 excerpt: "In this post I’m going to look at what I’ve learnt; the challenges I’ve faced this year as well as what I’m hoping for in 2024"
 tags: ["year review"]
 ---
