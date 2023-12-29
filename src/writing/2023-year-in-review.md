@@ -5,6 +5,7 @@ author: "Anna Cunnane"
 image: "https://images.unsplash.com/photo-1672405328102-05825b3cc8e7?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 excerpt: "In this post I’m going to look at what I’ve learnt; the challenges I’ve faced this year as well as what I’m hoping for in 2024"
 tags: ["year review"]
+type: "article"
 ---
 
 I’ve enjoyed blogging about my progress as a developer this year so this is my end of year round up of the highlights of 2023. In this post I’m going to look at what I’ve learnt; the challenges I’ve faced this year as well as what I’m hoping for in 2024. This is my second year working full time as a software developer and it’s encouraging to see how far I’ve come particularly when building a new career feels hard. I hope it’s helpful for everyone learning to code or early career developers. 
