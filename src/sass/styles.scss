@@ -342,6 +342,7 @@ section {
     margin-bottom: var(--medium-spacing);
 
   }
+ 
 }
 
 .scrollable-column {
@@ -352,6 +353,11 @@ section {
   flex-direction: column;
   gap: var(--medium-spacing);
   padding-top: var(--medium-spacing);
+
+  a {
+    border-bottom: #0068b7 solid;
+    width: fit-content;
+  }
 
   @media screen and (min-width: $medium-screen) {
     padding-top: 0;
@@ -410,9 +416,7 @@ hr {
 }
 
 .socials li {
-  border-bottom: #0068b7 solid;
   padding-bottom: 5px;
-  width: fit-content;
   margin-bottom: var(--small-spacing);
 
 }
@@ -555,6 +559,9 @@ button {
     font-weight: bold;
 
   }
+
+  a {
+    border-bottom: none  }
 
   svg {
     fill: var(--primary-light);

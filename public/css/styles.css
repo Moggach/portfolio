@@ -296,6 +296,10 @@ section {
   gap: var(--medium-spacing);
   padding-top: var(--medium-spacing);
 }
+.scrollable-column a {
+  border-bottom: #0068b7 solid;
+  width: fit-content;
+}
 @media screen and (min-width: 768px) {
   .scrollable-column {
     padding-top: 0;
@@ -349,9 +353,7 @@ hr {
 }
 
 .socials li {
-  border-bottom: #0068b7 solid;
   padding-bottom: 5px;
-  width: fit-content;
   margin-bottom: var(--small-spacing);
 }
 
@@ -470,6 +472,9 @@ button {
   text-transform: uppercase;
   font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
+}
+.secondary-button a {
+  border-bottom: none;
 }
 .secondary-button svg {
   fill: var(--primary-light);
