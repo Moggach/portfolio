@@ -26,9 +26,13 @@ This month I’ve been working on a Google Analytics integration with the Left B
 This month I’ve been learning how to:
 
 - Use the WordPress Full Site Editor to develop fully customisable block based themes.
+
 - Use feComponentTransfer to create a duotone filter effect on images
+
 - Integrate existing layouts and styles into WordPress plugin AJAX Load More via a repeater template
+
 - Extend the inbuilt Query Loop Block in WordPress by registering a block variation
+
 - Display Mapbox data in a custom Gutenberg block with library CarbonFields and plugin Mapster WP Maps
 
 <h2> What’s next </h2>
@@ -38,10 +42,15 @@ In July I want to get an MVP of my personal portfolio site online. I will also b
 <h2> Interesting links </h2>
 
 These are some interesting links that I’ve come across this month:
-https://egghead.io/q?access_state=free Egghead.io is my favourite resource for web development tutorials. These are their current free courses.
-https://www.phind.com/ - Phind is a developer-focused search engine that uses generative AI to search the web and answer technical questions
-https://www.figma.com/blog/introducing-dev-mode/ Dev Mode is a new workspace within Figma design specifically for developers
-https://developer.wordpress.org/playground/ - WordPress Playground runs in the browser with instant set up. Great for testing and previewing pull requests.
-https://chriscoyier.net/2023/06/06/modern-css-in-real-life/ - Chris Coyier looks at 5 new CSS features that are in use now across the web
+
+- https://egghead.io/q?access_state=free Egghead.io is my favourite resource for web development tutorials. These are their current free courses.
+
+- https://www.phind.com/ - Phind is a developer-focused search engine that uses generative AI to search the web and answer technical questions
+
+- https://www.figma.com/blog/introducing-dev-mode/ Dev Mode is a new workspace within Figma design specifically for developers
+
+- https://developer.wordpress.org/playground/ - WordPress Playground runs in the browser with instant set up. Great for testing and previewing pull requests.
+
+- https://chriscoyier.net/2023/06/06/modern-css-in-real-life/ - Chris Coyier looks at 5 new CSS features that are in use now across the web
 
 </article>

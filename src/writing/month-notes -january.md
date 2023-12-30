@@ -26,10 +26,15 @@ This month has been dedicated to my final project for my apprenticeship - a rebu
 This month I've been learning how to:
 
 - build custom Page models and StreamField blocks with Django and Wagtail
+
 - write database queries with the Django ORM
+
 - write end to end tests with Cypress and unit tests with Pytest
+
 - use the Stimulus JavaScript framework with Django
+
 - use the Flowbite library for UI components
+
 - set up a staging site on Fly.io
 
 <h2> What’s next </h2>
@@ -41,7 +46,10 @@ In February I’ll be moving onto other project work with Common Knowledge. I’
 These are some interesting links that I’ve come across this month:
 
 - Quincy Larson, the Founder of Free Code Camp, has published a [book length guide to learning to code for free](https://www.freecodecamp.org/news/learn-to-code-book/)
+
 - The [2022 State of JS](https://2022.stateofjs.com/en-US/) survey identifies upcoming trends in web development to help developers make technical choices
+
 - Generate fluid typography code snippets using the CSS clamp function with this [app](https://modern-fluid-typography.vercel.app/)
+
 - The [Web Development Reading List](https://wdrl.info/) curates the best and latest articles on HTML, CSS, JavaScript and PHP
 </article>

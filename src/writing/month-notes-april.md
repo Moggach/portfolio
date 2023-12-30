@@ -26,9 +26,13 @@ Aside from that, I’ve been adding features to [The World Transformed](https://
 This month I’ve been learning how to:
 
 - add a `.nvmrc` file to repositories to specify which Node version should be used with a project
+
 - use the `linearGradient` element to recreate a Photoshop gradient map with an SVG
+
 - use the [Wagtail Menus](https://wagtailmenus.readthedocs.io/en/stable/index.html) package to create different editable menus and custom menu templates for a site
+
 - set up an SSH connection to a WordPress installation hosted on Kinsta and use git to clone a repo into it
+
 - set up a Cron Job to run the Django command `publish_scheduled_pages` every half hour
 
 <h2> What’s next </h2>
@@ -40,8 +44,13 @@ In May I’ll be finishing the SWARM website build. I will also be working on th
 These are some interesting links that I’ve come across this month:
 
 - Trigger GitHub Actions and view status and logs directly from the editor with this [VSCode extension](https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions)
+
 - A [collection of JavaScript interview questions and answers](https://github.com/sudheerj/javascript-interview-questions) that are helpful for preparing for job interviews
+
 - This [Smashing Magazine article](https://www.smashingmagazine.com/2023/01/level-up-css-skills-has-selector) explains how the :has() selector could soon become a game-changer
+
 - A [comprehensive collection of techniques developers can use to optimize their web apps](https://www.webperf.tips/) from Stripe engineer Joe Liccini
+
 - The [NerdOut@Spotify podcast](https://open.spotify.com/show/5eXZwvvxt3K2dxha3BSaAe) produced by the Spotify engineering team gives an insider look into their work
+
 </article>

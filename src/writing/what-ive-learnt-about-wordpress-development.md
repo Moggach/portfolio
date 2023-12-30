@@ -34,9 +34,13 @@ I use the Renovate package to help me automate dependency updates for Composer i
 All of the above techniques and tools have helped me to build bespoke WordPress projects faster and with a better developer experience. I’m hoping to start writing my own plugins for the Gutenberg editor and will be writing a blog about that experience.
 
 Links and tutorials to check out 
+
 - https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/
+
 - https://fullsiteediting.com/
+
 - https://roots.io/bedrock/
+
 - https://docs.renovatebot.com/
 
 

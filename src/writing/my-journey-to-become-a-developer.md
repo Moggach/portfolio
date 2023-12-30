@@ -38,6 +38,6 @@ I created a [GitHub profile](https://github.com/Moggach) where I pushed my code 
 
 Earlier this year I made the huge decision to apply to the [Founders and Coders bootcamp](https://www.foundersandcoders.com/apply/). It was a lengthy application process and the requirements were tough. I knew though, that even if I wasn't successful, the learning I was gaining wouldn't be wasted. I am in the middle of the part time course now and it's already one of the best things I’ve ever done. In September I’ll be leaving my current job at Abrams & Chronicle Books (which I’ve loved and has supported me to take this step) to study at FAC full time and become a junior developer.
 
-I hope that this has been interesting to read and has given you some insight or inspiration to start your own journey with coding! Please feel free to contact me using the form on my [about page](https://www.annacunnane.co.uk/about) or email hello@annacunnane.co.uk if you have any questions or would like to work together.
+I hope that this has been interesting to read and has given you some insight or inspiration to start your own journey with coding! Please feel free to email me at anna_cunnane@proton.me if you have any questions or would like to work together.
 
 </article>

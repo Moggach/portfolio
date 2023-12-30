@@ -24,9 +24,13 @@ This month I’ve been helping get [The World Transformed](https://theworldtrans
 This month I’ve been learning how to:
 
 - programmatically fetch raw Shopify data using the [ShopWP](https://wpshop.io/) plugin and display it in a custom WordPress Gutenberg block
+
 - use the poster attribute in the `video` element to display an image until the video content is ready to be played
+
 - retrieve data from a WordPress post field based on the post ID with the `get_post_field()` function
+
 - create section layouts in JSON for a custom WordPress theme
+
 - add a color picker to the admin interface in a Django Wagtail project with the [django-colorfield](https://github.com/fabiocaccamo/django-colorfield) package
 
 <h2> What’s next</h2>
@@ -38,8 +42,13 @@ In June I’ll be finishing my work on SWARM and preparing the site for launch. 
 These are some interesting links that I’ve come across this month:
 
 - [Guide to AI](https://nathanbenaich.substack.com/) is a monthly newsletter that analyses the most important developments in AI
+
 - Get a [one minute CSS tip every day](https://css-tip.com/)
+
 - A [Python library](https://github.com/marceloprates/prettymaps) to draw beautiful maps from OpenStreetMap data
+
 - [Eleventy rocks](https://11ty.rocks/) is a collection of starters, plugins and resources for the static site generators
+
 - [The Vanilla JS toolkit](https://vanillajstoolkit.com/) is a collection of tools and snippets for JavaScript without frameworks
+
 </article>

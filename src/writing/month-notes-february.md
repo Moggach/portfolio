@@ -26,9 +26,13 @@ I’ve been wrapping up my work on the new [Common Knowledge website](https://co
 This month I’ve been learning how to:
 
 - add [private GitHub repositories](https://kraftner.com/en/blog/handling-authentication-with-composer-and-private-github-repositories/) as dependencies in Composer
+
 - use [Tocbot](https://github.com/tscanlin/tocbot) to build a table of contents from headings in an HTML document
+
 - create [custom template tags and filters](https://docs.djangoproject.com/en/4.1/howto/custom-template-tags/) in Django
+
 - use [jq](https://stedolan.github.io/jq/) to slice, filter, map and transform JSON data
+
 - use a [named tuple](https://realpython.com/python-namedtuple/) in Python to create tuple subclasses with named fields
 
 <h2> What’s next </h2>
@@ -40,8 +44,13 @@ In March I’ll be continuing the migration of the 350.org WordPress digital est
 These are some interesting links that I’ve come across this month:
 
 - [CSS Weekly](https://css-weekly.com/) is a website that provides a weekly roundup of CSS related news, articles, tutorials, and resources.
+
 - Learn how to make [ten modern layouts](https://web.dev/one-line-layouts/) with just one of line of CSS each
+
 - [12factor.net](https://12factor.net/) is a website that describes a methodology for building applications that are scalable, maintainable, and resilient
+
 - [The Arc Browser](https://arc.net/) wants to change the way we view the web
+
 - Developer Stefan Judis shares [three VS code extensions](https://www.stefanjudis.com/blog/vs-code-extensions-to-ease-navigating-code/) that help with navigating code
+
 </article>

@@ -37,6 +37,7 @@ Content infrastructure is a type of headless CMS but instead of arranging conten
 <h2> Why use a Headless CMS? </h2>
 
 There are many advantages to using a Headless CMS including flexibility, scalability and enhanced security as the presentation layer is not connected to the database. This approach can be seen as the best of both worlds: allowing you to make the most of mature platforms like WordPress and Django with flashier options on the frontend.
+
 There are even further benefits to content infrastructure which reduces content duplication and makes collaboration easier.
 
 Read Contentful's [Headless CMS explained in 1 minute](https://www.contentful.com/r/knowledgebase/what-is-headless-cms/)

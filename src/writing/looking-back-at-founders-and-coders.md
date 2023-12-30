@@ -41,6 +41,6 @@ As it was a bootcamp it was very intense and in the first half of the course we 
 
 I've started an apprenticeship as a software developer at [Common Knowledge](https://commonknowledge.coop/) which I’m really excited about. I’ll also be back at FAC for a week in January to help mentor the next cohort. In the longer term I’d like to play an active role in the FAC community by helping out beginners as well as learning from my peers.
 
-If you are looking to change careers into software development I strongly recommend [Founders and Coders](https://www.foundersandcoders.com/apply/). If I can answer any questions about the process of applying for a software bootcamp please feel free to contact me using the form on my [about page](https://www.annacunnane.co.uk/about) or email hello@annacunnane.co.uk.
+If you are looking to change careers into software development I strongly recommend [Founders and Coders](https://www.foundersandcoders.com/apply/). If I can answer any questions about the process of applying for a software bootcamp please feel free to email me at anna_cunnane@proton.me
 
 </article>

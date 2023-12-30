@@ -18,6 +18,7 @@ Developing my new personal website with Eleventy.js 🤖 Preparing for Platform.
 This month I’ve been helping to finish off the [Platform.org](https://platformlondon.org/) website ahead of its launch. This included fixing some CSS bugs and adding JavaScript features like a [counter on the number of search filters selected](https://platformlondon.org/?s). I’ve been working on optimizing my WordPress workflow in general by making sure I’m using all of the possible styling options in theme.json and using the create block theme plugin. I also took part in some user testing sessions with the Figma prototype of the Solidarity Knows No Borders website. I set up the repository for this new project and started some initial development work like creating the header, footer and a custom post type. On my personal site I’ve been designing and developing the landing page which you can view in progress on the [staging site](https://fluffy-frangollo-4a6b3d.netlify.app/).
 
 <h2>  What I’ve been learning</h2>
+
 This month I’ve been learning how to:
 
 - use the [create block theme plugin](https://wordpress.org/plugins/create-block-theme/) to quickly generate a block based WordPress theme 
@@ -35,7 +36,8 @@ Over the next month I’m going to be the main developer building the Solidarity
 
 <h2> Interesting links</h2>
 
-These are some interesting links that I’ve come across this month
+These are some interesting links that I’ve come across this month:
+
 - [Unicorn Club](https://unicornclub.dev/) is a 5 minute weekly newsletter for front end developers and code savvy designers
 
 - [WordPress playground](https://playground.wordpress.net/) runs a full sandboxed WordPress site in the browser

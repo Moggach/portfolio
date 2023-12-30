@@ -12,7 +12,9 @@ tags: ["eleventyjs", "personal websites"]
 Over the last couple of months I’ve been rebuilding my personal website with Eleventy. This post is an update on that work. 
 
 <h2> Why move from the original site? </h2>
+
 There are a few reasons why I wanted to make a new website:
+
 <ol>
 <li>I wrote the original site with Gatsby but Eleventy is a more lightweight static site generator with faster builds and performance</li>
 <li> I knew that I wanted to use another SSG because I’m not using a CMS (my current blog content is in Markdown) and I could continue to host with Netlify.</li>
@@ -22,6 +24,7 @@ There are a few reasons why I wanted to make a new website:
 
 
 <h2> What is the MVP of the new site? </h2>
+
 I set the target of getting an MVP (minimum viable project) completed by the end of this year.
 The MVP includes the following:
 
@@ -49,18 +52,21 @@ The work in progress home and blog index page:
 So far the experience of switching to Eleventy has been smooth. As Eleventy supports Markdown out of the box I transferred my blog over and put it online with Netlify within an hour. The documentation is comprehensive and well structured and has helped me to implement features like pagination and tags on my blog. Eleventy allows me to write JavaScript functions to fetch post data whereas with Gatsby I used GraphQL which was probably too complex for my needs.
 
 <h2> Future iterations </h2>
+
 Next year I’ll be adding more functionality to the site as well as posting blog content.
 I'm thinking that this will include:
-1. A light/dark mode toggle
-2. More custom filters for displaying post metadata on the blog index page. I’m already using one for dates but it would be nice to have time to read or table of contents.
-3. Support for embedding content from Twitter, TikTok, YouTube etc within Markdown
-4. A more privacy conscious analytics provider like [PostHog](https://posthog.com/)
 
+<ol>
+<li>A light/dark mode toggle</li>
+<li>More custom filters for displaying post metadata on the blog index page. I’m already using one for dates but it would be nice to have time to read or table of contents.</li>
+<li>Support for embedding content from Twitter, TikTok, YouTube etc within Markdown</li>
+<li>A more privacy conscious analytics provider like [PostHog](https://posthog.com/)</li>
+</ol>
+
+<br>
 For more information on Eleventy Js check out the [docs](https://www.11ty.dev/) and [11ty.rocks](https://11ty.rocks/)
 
 Look out for more updates and the site launch! 
-
-
 
 </article>
 

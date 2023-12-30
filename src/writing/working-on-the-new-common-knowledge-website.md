@@ -30,9 +30,12 @@ I used [Stimulus](https://stimulus.hotwired.dev/) which is a lightweight JavaScr
 
 These are some of the highlights from the project:
 
-- Using Wagtail meant that I could get a site set up with a full content management system and user authentication within minutes
+- Using Wagtail meant that I could get a site set up with a full content management system and user authentication within minutes.
+
 - Wagtail also allowed me to create custom mixed content blocks (known as Streamfields) that can be reused across the site.
+
 - Using Tailwind minimised the risk of conflicting styles in my CSS and made it easier to debug in the DevTools Inspector. I also didn’t have to switch between HTML and CSS files while I was developing or think about how to name my CSS classes.
+
 - With the [Fly.io](https://fly.io/) CLI I could create and launch an app on Fly from my terminal. This combined with a GitHub Action made deploying to the staging environment for the site really smooth.
 
 <h2> Biggest challenges 🚨 </h2>
@@ -40,6 +43,7 @@ These are some of the highlights from the project:
 There were of course bugs and challenges throughout the project.
 
 - One of the things I struggled with the most was working with Django migration files. These files contain the SQL that Django needs to create, update or delete database tables. I occasionally found that the files conflicted with one another or that they had become out of sync with the state of my local database. To debug this I learnt a lot about SQL and how Django keeps track of migrations.
+
 - I used the [Turbo](https://turbo.hotwired.dev/) for page transitions within the site but this also prevented the browser from loading any JavaScript that was not within a Stimulus controller without a full refresh. To fix this I recreated the JavaScript behaviour I wanted for the navbar from within a Stimulus controller ensuring it would work in conjunction with Turbo.
 
 <h2> Future improvements 🔮 </h2>

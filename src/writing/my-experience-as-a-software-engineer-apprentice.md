@@ -26,9 +26,13 @@ Once I felt like this was something I wanted to do full-time I started looking a
 I decided on Founders and Coders because
 
 - Tuition was free
+
 - The apprenticeship route was available
+
 - The entry requirements were rigorous
+
 - It had good reviews within the industry
+
 - I liked the emphasis on inclusion
 
 <h2> What is a software development apprenticeship? </h2>
@@ -51,7 +55,7 @@ For me the apprenticeship was a great opportunity. It allowed me to get a job be
 
 I’m proud of the work I’ve done on [FutureNatures.org](http://futurenatures.org/). The site is built in WordPress with the Gutenberg FSE (Full Site Editor). We’ve used existing and custom blocks and post types for the different types of content that the site needs. We have written custom CSS for the theme that was developed by our brilliant designer Gemma.
 
-![An image displaying the homepage of FutureNatures.org](./FutureNatures.png)
+![An image displaying the homepage of FutureNatures.org](https://practical-swanson-368627.netlify.app/static/29fa19e3c3050bdf9e1646b3c922b36c/aa440/FutureNatures.png)
 
 I’ve had a lot of exposure to new frameworks and software development approaches since I started at Common Knowledge. It’s expanded my horizons and made me excited about the possibilities for my future learning and career.
 
