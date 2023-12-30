@@ -143,6 +143,10 @@ a {
   cursor: pointer;
 }
 
+article a {
+  text-decoration: underline;
+}
+
 /*  Typography */
 :root {
   --font-size-base: clamp(13.33px, 16px, 19.2px);
