@@ -2,12 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 /* Breakpoints */
 /* Resets */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -349,18 +343,19 @@ span {
   background-size: cover;
 }
 
-.circle::before {
-  content: "";
-  display: block;
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  background-color: var(--primary-light);
-  position: relative;
-  z-index: -1;
-  margin-left: 50px;
+@media screen and (min-width: 768px) {
+  .circle::before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: var(--primary-light);
+    position: relative;
+    z-index: -1;
+    margin-left: 50px;
+  }
 }
-
 hr {
   height: 4px;
   background-image: linear-gradient(to right, var(--primary-light), transparent);

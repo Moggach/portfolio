@@ -9,11 +9,7 @@ $large-screen: 992px;
 $extra-large-screen: 1200px;
 
 /* Resets */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
+
 
 * {
   margin: 0;
@@ -414,19 +410,24 @@ span {
   border-radius: 50%;
   background-image: url("/images/profile.webp");
   background-size: cover;
+;}
+
+@media screen and (min-width: $medium-screen) {
+
+  .circle::before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: var(--primary-light);
+    position: relative;
+    z-index: -1;
+    margin-left: 50px;
+  }
 }
 
-.circle::before {
-  content: "";
-  display: block;
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  background-color: var(--primary-light);
-  position: relative;
-  z-index: -1;
-  margin-left: 50px;
-}
+
 
 hr {
   height: 4px;
