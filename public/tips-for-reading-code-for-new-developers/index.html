@@ -88,8 +88,7 @@
 <article>
 <h1> Tips for reading code (for new developers) </h1>
 <p>One of the most important transitions new developers need to make is from working on their own projects to existing codebases within larger teams. Most often working as a developer involves extending and maintaining code that’s already been written. This means that being able to read other people’s code is an important skill. Looking at code and trying to understand it can often be difficult and intimidating but there are ways to make the process easier.</p>
-<p><img src="https://images.unsplash.com/photo-1474377207190-a7d8b3334068?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2670&amp;q=80" alt=""></p>
-<p>Photo by <a href="https://unsplash.com/@olidale?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Oli Dale</a> on <a href="https://unsplash.com/collections/4621741/coding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<img src="https://images.unsplash.com/photo-1474377207190-a7d8b3334068?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80" alt="Photo by Oli Dale on Unsplash" />
 <h2> Read the documentation 📖 </h2>
 <p>If there is documentation available for a project it’s important to read it. Established frameworks, libraries and APIs will usually have well maintained and extensive documentation to help the millions of developers who use them. Even on smaller projects READMEs often contain set up instructions and list the technologies and dependencies used.</p>
 <h2> Download the code and run it locally 🚂 </h2>
@@ -102,8 +101,10 @@
 <p>Comments can clarify what code is intended to do and why the developer(s) may have made certain choices over others. Commit messages record the evolution of the project and the scope and purpose of changes. Developers working on a project will often discuss their approaches in issues and when reviewing each other's PRs.</p>
 <h2> Look at the tests 🧪 </h2>
 <p>Tests are another indication of the purpose of a programme. Test suites often have statements that assert what a feature does for example the below in the popular testing library Cypress:</p>
-<pre><code>describe(&quot;Testing the application&quot;, function() {
-    it(&quot;should login with username and password&quot;, function() {
+<pre>
+<code>
+describe("Testing the application", function() {
+    it("should login with username and password", function() {
 
         // visit the test page
         cy.visit('https://demo.com/')
@@ -118,8 +119,8 @@
 
     });
 });
-
-</code></pre>
+</code>
+</pre>
 <p>Edge cases used in tests show the boundaries of what the code is expected to be able to deal with. Rarely is everything in a codebase tested so they can point you towards the most critical parts.</p>
 <p>The best way to get better at reading code is practice. Expose yourself to high quality code samples regularly whether at work or in open source projects. Reading code will help you write better and more maintainable code yourself.</p>
 </article>

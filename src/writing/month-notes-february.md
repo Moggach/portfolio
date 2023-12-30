@@ -12,45 +12,42 @@ tags: ["month notes", "bedrock", "python"]
 
 <h1> Notes from February </h1>
 
-Wrapping up the Common Knowledge website project 🎁 Working on building a CI/CD pipeline with WordPress and Bedock 🔧 Learning more about Python 🐍
+<p>Wrapping up the Common Knowledge website project 🎁 Working on building a CI/CD pipeline with WordPress and Bedock 🔧 Learning more about Python 🐍</p>
 
-![](https://images.unsplash.com/photo-1643446757604-c2b7c45c45dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80)
-Photo by <a href="https://unsplash.com/@behy_studio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Behnam Norouzi</a> on <a href="https://unsplash.com/photos/hDuNk0ubnAw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+<img src="https://images.unsplash.com/photo-1643446757604-c2b7c45c45dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80" alt="Behnam Norouzi Photo" />
+
+<p>Photo by <a href="https://unsplash.com/@behy_studio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Behnam Norouzi</a> on <a href="https://unsplash.com/photos/hDuNk0ubnAw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 
 <h2> What I’ve been working on </h2>
 
-I’ve been wrapping up my work on the new [Common Knowledge website](https://commonknowledge.coop/) with tasks like integrating [PostHog](https://posthog.com/) for product analytics, switching the domain over from the staging site to production and fixing some bugs that came out of the QA process. I also set up a [Bedrock](https://roots.io/bedrock/) sandbox site to test integrating an existing multisite WordPress installation with a modern CI/CD process and version control.
+<p>I’ve been wrapping up my work on the new <a href="https://commonknowledge.coop/">Common Knowledge website</a> with tasks like integrating <a href="https://posthog.com/">PostHog</a> for product analytics, switching the domain over from the staging site to production and fixing some bugs that came out of the QA process. I also set up a <a href="https://roots.io/bedrock/">Bedrock</a> sandbox site to test integrating an existing multisite WordPress installation with a modern CI/CD process and version control.</p>
 
 <h2> What I’ve been learning </h2>
 
-This month I’ve been learning how to:
+<p>This month I’ve been learning how to:</p>
 
-- add [private GitHub repositories](https://kraftner.com/en/blog/handling-authentication-with-composer-and-private-github-repositories/) as dependencies in Composer
-
-- use [Tocbot](https://github.com/tscanlin/tocbot) to build a table of contents from headings in an HTML document
-
-- create [custom template tags and filters](https://docs.djangoproject.com/en/4.1/howto/custom-template-tags/) in Django
-
-- use [jq](https://stedolan.github.io/jq/) to slice, filter, map and transform JSON data
-
-- use a [named tuple](https://realpython.com/python-namedtuple/) in Python to create tuple subclasses with named fields
+<ul>
+  <li>add <a href="https://kraftner.com/en/blog/handling-authentication-with-composer-and-private-github-repositories/">private GitHub repositories</a> as dependencies in Composer</li>
+  <li>use <a href="https://github.com/tscanlin/tocbot">Tocbot</a> to build a table of contents from headings in an HTML document</li>
+  <li>create <a href="https://docs.djangoproject.com/en/4.1/howto/custom-template-tags/">custom template tags and filters</a> in Django</li>
+  <li>use <a href="https://stedolan.github.io/jq/">jq</a> to slice, filter, map and transform JSON data</li>
+  <li>use a <a href="https://realpython.com/python-namedtuple/">named tuple</a> in Python to create tuple subclasses with named fields</li>
+</ul>
 
 <h2> What’s next </h2>
 
-In March I’ll be continuing the migration of the 350.org WordPress digital estate over to Bedrock. I’ll be picking up support tickets on projects like [Smart Forests](https://atlas.smartforests.net/en-gb/), the [Left Book Club](https://leftbookclub.com/) and the [In Deep Water Report](https://in-deep-water.vercel.app/). I’ll also be doing a deep dive into Next.js, React and TypeScript to build on my knowledge from the Founders and Coders curriculum.
+<p>In March I’ll be continuing the migration of the 350.org WordPress digital estate over to Bedrock. I’ll be picking up support tickets on projects like <a href="https://atlas.smartforests.net/en-gb/">Smart Forests</a>, the <a href="https://leftbookclub.com/">Left Book Club</a> and the <a href="https://in-deep-water.vercel.app/">In Deep Water Report</a>. I’ll also be doing a deep dive into Next.js, React and TypeScript to build on my knowledge from the Founders and Coders curriculum.</p>
 
 <h2> Interesting links </h2>
 
-These are some interesting links that I’ve come across this month:
+<p>These are some interesting links that I’ve come across this month:</p>
 
-- [CSS Weekly](https://css-weekly.com/) is a website that provides a weekly roundup of CSS related news, articles, tutorials, and resources.
-
-- Learn how to make [ten modern layouts](https://web.dev/one-line-layouts/) with just one of line of CSS each
-
-- [12factor.net](https://12factor.net/) is a website that describes a methodology for building applications that are scalable, maintainable, and resilient
-
-- [The Arc Browser](https://arc.net/) wants to change the way we view the web
-
-- Developer Stefan Judis shares [three VS code extensions](https://www.stefanjudis.com/blog/vs-code-extensions-to-ease-navigating-code/) that help with navigating code
+<ul>
+  <li><a href="https://css-weekly.com/">CSS Weekly</a> is a website that provides a weekly roundup of CSS related news, articles, tutorials, and resources.</li>
+  <li>Learn how to make <a href="https://web.dev/one-line-layouts/">ten modern layouts</a> with just one of line of CSS each</li>
+  <li><a href="https://12factor.net/">12factor.net</a> is a website that describes a methodology for building applications that are scalable, maintainable, and resilient</li>
+  <li><a href="https://arc.net/">The Arc Browser</a> wants to change the way we view the web</li>
+  <li>Developer Stefan Judis shares <a href="https://www.stefanjudis.com/blog/vs-code-extensions-to-ease-navigating-code/">three VS code extensions</a> that help with navigating code</li>
+</ul>
 
 </article>

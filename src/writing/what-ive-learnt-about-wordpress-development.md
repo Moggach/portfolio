@@ -7,41 +7,41 @@ tags: ["wordpress",  "fse", "gutenberg", "bedrock"]
 
 ---
 <article>
+  <p>At Common Knowledge we work with organisers and grassroots groups to improve their websites and digital infrastructure to maximize the impact of their work. We think that WordPress is a good solution for many of our collaborators as it’s easy to use and has a powerful content management system. This post is about what I’ve learned about the modern WordPress ecosystem since joining Common Knowledge and how it has improved my work.</p>
 
-At Common Knowledge we work with organisers and grassroots groups to improve their websites and digital infrastructure to maximise the impact of their work. We think that WordPress is a good solution for many of our collaborators as it’s easy to use and has a powerful content management system. This post is about what I’ve learned about the modern WordPress ecosystem since joining Common Knowledge and how it has improved my work.
-<br>
+  <img src="https://images.unsplash.com/photo-1566207462754-97c86c31db3d?auto=format&fit=crop&q=80&w=2970&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Turned on Monitor">
 
-![](https://images.unsplash.com/photo-1566207462754-97c86c31db3d?auto=format&fit=crop&q=80&w=2970&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  <p>Photo by <a href="https://unsplash.com/@tozakfikret?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fikret tozak</a> on <a href="https://unsplash.com/photos/turned-on-monitor-rfNLa1HL7eY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
 
-Photo by <a href="https://unsplash.com/@tozakfikret?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fikret tozak</a> on <a href="https://unsplash.com/photos/turned-on-monitor-rfNLa1HL7eY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
+  <h2>Bedrock</h2>
 
-<h2> Bedrock </h2>
-Bedrock is a WordPress boilerplate with an improved folder structure that separates the application code from core WordPress files and plugins. It uses Dotenv to manage environment specific variables and keep sensitive data out of version control. It also means that I can manage dependencies like plugins and WordPress/PHP versions via Composer. Using the Bedrock set of standards helps me to get closer to a 12-Factor App methodology with WordPress.
+  <p>Bedrock is a WordPress boilerplate with an improved folder structure that separates the application code from core WordPress files and plugins. It uses Dotenv to manage environment-specific variables and keep sensitive data out of version control. It also means that I can manage dependencies like plugins and WordPress/PHP versions via Composer. Using the Bedrock set of standards helps me to get closer to a 12-Factor App methodology with WordPress.</p>
 
-<h2> Block editor</h2>
-The block editor (also known as Gutenberg editor) is now the default content editor in WordPress. It uses a modular approach where content is organised into individual blocks to create complex layouts with a drag and drop interface. The real time preview feature allows users to see what the content will look like on the page without previewing or saving. I do a lot of my development work in the block editor to create reusable patterns for our collaborators to customise as they wish.
+  <h2>Block editor</h2>
 
-<h2> Full Site Editing</h2>
-Full Site Editing builds on the block editor to allow users to edit every element of a WordPress website including headers, footers and content templates. I use the theme.json file to define settings such as colours, typography and spacing to ensure design consistency. I try to write as little custom CSS as possible and allow all styling to be done within the editor.  Setting up the site in this way means that when I hand it over, collaborators can easily generate new pages and content without needing any coding skills. 
+  <p>The block editor (also known as Gutenberg editor) is now the default content editor in WordPress. It uses a modular approach where content is organized into individual blocks to create complex layouts with a drag and drop interface. The real-time preview feature allows users to see what the content will look like on the page without previewing or saving. I do a lot of my development work in the block editor to create reusable patterns for our collaborators to customize as they wish.</p>
 
-<h2> Custom Gutenberg blocks </h2>
-Gutenberg is built in React which means it’s highly extensible for developers to create their own blocks. I’ve been learning how to use the @wordpress/create-block package to make reusable blocks with custom design and functionality.  For example, a campaign site may want a custom sign up block that integrates with a third party mailing list service or a block that displays a real time map of member activities. It also means that I have to rely less on third party plugins.
+  <h2>Full Site Editing</h2>
 
-<h2> Renovate</h2>
-I use the Renovate package to help me automate dependency updates for Composer in my WordPress repositories. Renovate runs scheduled checks to extract the project dependencies from the composer.json file which it then checks against a directory like WP Packagist. If it identifies an update it creates a PR for the latest version and often includes a change log or release notes. A complaint about WordPress historically has been the security risks from out of date plugins so Renovate is really important in managing this risk.
-<br><br>
-All of the above techniques and tools have helped me to build bespoke WordPress projects faster and with a better developer experience. I’m hoping to start writing my own plugins for the Gutenberg editor and will be writing a blog about that experience.
+  <p>Full Site Editing builds on the block editor to allow users to edit every element of a WordPress website including headers, footers, and content templates. I use the theme.json file to define settings such as colors, typography, and spacing to ensure design consistency. I try to write as little custom CSS as possible and allow all styling to be done within the editor. Setting up the site in this way means that when I hand it over, collaborators can easily generate new pages and content without needing any coding skills.</p>
 
-Links and tutorials to check out 
+  <h2>Custom Gutenberg blocks</h2>
 
-- https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/
+  <p>Gutenberg is built in React which means it’s highly extensible for developers to create their own blocks. I’ve been learning how to use the @wordpress/create-block package to make reusable blocks with custom design and functionality. For example, a campaign site may want a custom sign-up block that integrates with a third-party mailing list service or a block that displays a real-time map of member activities. It also means that I have to rely less on third-party plugins.</p>
 
-- https://fullsiteediting.com/
+  <h2>Renovate</h2>
 
-- https://roots.io/bedrock/
+  <p>I use the Renovate package to help me automate dependency updates for Composer in my WordPress repositories. Renovate runs scheduled checks to extract the project dependencies from the composer.json file which it then checks against a directory like WP Packagist. If it identifies an update it creates a PR for the latest version and often includes a change log or release notes. A complaint about WordPress historically has been the security risks from out-of-date plugins so Renovate is really important in managing this risk.</p>
 
-- https://docs.renovatebot.com/
+  <p>All of the above techniques and tools have helped me to build bespoke WordPress projects faster and with a better developer experience. I’m hoping to start writing my own plugins for the Gutenberg editor and will be writing a blog about that experience.</p>
 
+  <p>Links and tutorials to check out:</p>
 
+  <ul>
+    <li><a href="https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/" target="_blank">Block Editor Tutorial</a></li>
+    <li><a href="https://fullsiteediting.com/" target="_blank">Full Site Editing</a></li>
+    <li><a href="https://roots.io/bedrock/" target="_blank">Bedrock</a></li>
+    <li><a href="https://docs.renovatebot.com/" target="_blank">Renovate</a></li>
+  </ul>
 </article>
+
