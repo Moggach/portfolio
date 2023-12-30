@@ -1,6 +1,7 @@
 ---
 title: "Tips for reading code (for new developers)"
 date: "2022-09-16"
+image: "https://images.unsplash.com/photo-1474377207190-a7d8b3334068?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
 excerpt: "
 One of the most important transitions new developers need to make is from working on their own projects to existing codebases within larger teams. Most often working as a developer involves extending and maintaining code that’s already been written."
 tags: ["learning to code"]

@@ -1,6 +1,7 @@
 ---
 title: "Working on the new Common Knowledge website"
 date: "2023-03-25"
+image: "https://practical-swanson-368627.netlify.app/static/aabb6cae4b95950fe113a900eef60600/aa440/CK-website.png"
 excerpt: "For the final part of my Software Development Apprenticeship I’ve been working on a new website for Common Knowledge. Common Knowledge makes digital tools to help social movements build power. "
 tags: ["common knowledge", "apprenticeship"]
 ---
@@ -9,7 +10,7 @@ tags: ["common knowledge", "apprenticeship"]
 
 For the final part of my Software Development Apprenticeship I’ve been working on a new website for [Common Knowledge](https://commonknowledge.coop/). Common Knowledge makes digital tools to help social movements build power. They needed a new website that could be updated with a CMS and could better display the range of work that the co-op does.
 
-![](./CK-website.png)
+![](https://practical-swanson-368627.netlify.app/static/aabb6cae4b95950fe113a900eef60600/aa440/CK-website.png)
 
 <h1> Website stack 🥞 </h1>
 

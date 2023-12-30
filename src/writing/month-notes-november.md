@@ -1,6 +1,7 @@
 ---
 title: "Month notes - November"
 date: "2022-11-25"
+image: "https://images.unsplash.com/photo-1586892477838-2b96e85e0f96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1718&q=80"
 excerpt: "
 🌍 Working on FutureNatures, StopWatch and Humanitarian OpenStreetMap for Common Knowledge."
 tags: ["month notes"]

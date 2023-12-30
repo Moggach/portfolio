@@ -1,6 +1,7 @@
 ---
 title: "Looking back at Founders and Coders"
 date: "2022-01-01"
+image: "https://practical-swanson-368627.netlify.app/static/09510c0dfe05e2955d569ddd1284077c/18872/cohort.png"
 excerpt: "This blog is a follow up to
 My Journey to Becoming a Developer.
 
@@ -20,7 +21,7 @@ In that post I described how I’d come to apply to the Founders and Coders boot
 
 Now as I start my first job in the tech industry I’m reflecting on my experiences on the course and my hopes for the future.
 
-![](./cohort.png)
+![](https://practical-swanson-368627.netlify.app/static/09510c0dfe05e2955d569ddd1284077c/18872/cohort.png)
 
 Some of the FAC22 members (and mentors) dressed for Halloween 👻
 

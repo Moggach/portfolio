@@ -1,6 +1,7 @@
 ---
 title: "My experience as an apprentice at Common Knowledge"
 date: "2022-08-17"
+image: "https://practical-swanson-368627.netlify.app/static/09510c0dfe05e2955d569ddd1284077c/18872/cohort.png"
 excerpt: "
 This blog was originally posted on the Common Knowledge website
 
@@ -38,7 +39,7 @@ I then got the opportunity to meet the lovely people at Common Knowledge. I real
 
 The next stage in the process was 12 weeks of full time study of Javascript, Node.js and React. This period taught me about working closely with other people (which was even more difficult over Zoom) and getting comfortable with not knowing the answer.
 
-![A Zoom screen showing a number of people dressed in Halloween costumes](./cohort.png)
+![A Zoom screen showing a number of people dressed in Halloween costumes](https://practical-swanson-368627.netlify.app/static/09510c0dfe05e2955d569ddd1284077c/18872/cohort.png)
 
 My cohort dressed up for Halloween
 

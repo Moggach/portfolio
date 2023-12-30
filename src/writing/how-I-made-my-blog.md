@@ -1,6 +1,7 @@
 ---
 title: "How I made my blog"
 date: "2022-02-19"
+image: "https://practical-swanson-368627.netlify.app/static/bdeeab0cf4c73a7c49f26bb8a9cf0e81/8de58/Gatsby_site.png"
 excerpt: "
 When I decided to start blogging I knew that I wanted to build the site myself. I chose to use the Gatsby framework as I had been learning JavaScript for a while and I already had a project built in React."
 ---
@@ -15,7 +16,7 @@ Gatsby is an open source framework that helps you create a static website easily
 
 [The Gatsby docs](https://www.gatsbyjs.com/docs) have a tutorial that can get you started with a blog site within minutes. [The Gatsby Starters Library](https://www.gatsbyjs.com/starters/) has templates for e-commerce, portfolio, blog and other sites.
 
-![](./Gatsby_site.png)
+![](https://practical-swanson-368627.netlify.app/static/bdeeab0cf4c73a7c49f26bb8a9cf0e81/8de58/Gatsby_site.png)
 
 To make the site I followed this [YouTube tutorial](https://youtu.be/8t0vNu2fCCM) closely. The creator, Andrew Mead, has more courses on the JavaScript ecosystem on his [blog](https://mead.io/). I also had a lot of fun with the whole open source ecosystem around Gatsby including the many plugins.
 

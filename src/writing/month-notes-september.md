@@ -1,6 +1,7 @@
 ---
 title: "Month notes September"
 date: "2023-10-07"
+image: "https://media.istockphoto.com/id/182353093/photo/september-pinned-on-noticeboard.jpg?s=612x612&w=0&k=20&c=J7-LuRLG5MpgvOKBOctS7wpsR-qsfEZQstCO1Z0erGE="
 excerpt: "Developing my new personal website with Eleventy.js 🤖 Preparing for Platform.org site launch 🏗️ Optimizing my WordPress workflow 💼 Starting development work on new Solidarity Knows No Borders website ✊"
 tags: ["eleventyjs", "month notes"]
 

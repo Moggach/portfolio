@@ -1,6 +1,7 @@
 ---
 title: "Why you should make a personal website"
 date: "2021-07-08"
+image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
 excerpt: "
 A personal website can be thought of as like your ‘home’ on the internet. It is a way to make yourself stand out from the competition. It helps you control your online presence and build a personal brand. It also makes it easier for potential employers to find you."
 tags: ["learning to code", "personal websites"]

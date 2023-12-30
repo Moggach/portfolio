@@ -1,6 +1,7 @@
 ---
 title: "My journey to becoming a developer"
 date: "2021-08-09"
+image: "https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80"
 excerpt: "I’ve worked in book publishing for eight years but I’ve loved it. I’ve won awards (which is really nice and slightly embarrassing) and I’ve worked on some beautiful books.
 "
 tags: ["founders and coders", "learning to code"]

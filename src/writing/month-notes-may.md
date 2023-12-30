@@ -1,6 +1,7 @@
 ---
 title: "Month notes - May"
 date: "2023-05-30"
+image: "https://images.unsplash.com/photo-1588006173527-6168350e6079?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
 excerpt: "The launch of the 2023 The World Transformed festival 🚀 Successful Bedrock deployment with 350org 🌎 Adapting an existing WordPress theme for the new SWARM website 🐝"
 tags: ["month notes", "django", "bedrock", "wordpress"]
 ---

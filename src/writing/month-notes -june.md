@@ -1,6 +1,7 @@
 ---
 title: "Month notes - June"
 date: "2023-06-27"
+image: "https://images.unsplash.com/photo-1589726310756-0198bd0d0fb2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
 excerpt: "
 Google Analytics migration to GA4 🔍Design QA for SWARM website 💅 Diving into WordPress Full Site Editor for developers 🤿Tech discovery for Solidarity Knows No Borders 🧭"
 tags: ["wordpress",  "fse", "google analytics", "month notes"]

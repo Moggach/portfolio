@@ -1,6 +1,7 @@
 ---
 title: "Advice for learning how to code"
 date: "2022-05-04"
+image: "https://images.unsplash.com/photo-1494599948593-3dafe8338d71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
 excerpt: "
 When I was working in publishing I started learning to code by studying for 20 minutes each day. After about 18 months of doing this I did a bootcamp and got an apprenticeship in tech. This post gives some tips I have for anyone learning to code - especially alongside a full time job or other responsibilities.
 "

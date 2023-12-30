@@ -1,6 +1,7 @@
 ---
 title: "Month notes - January"
 date: "2023-01-29"
+image: "https://images.unsplash.com/photo-1577863231392-b5de256c3310?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
 excerpt: "
 🚧 Building the new Common Knowledge website. ✍️ Writing a project report for my apprenticeship. 📝 Writing technical notes each week of the project."
 tags: ["month notes"]

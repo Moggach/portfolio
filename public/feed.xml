@@ -9,7 +9,8 @@
     <item>
       <title>2023 - year in review</title>
       <link>https://example.com/2023-year-in-review/</link>
-      <description>&lt;p&gt;I’ve enjoyed blogging about my progress as a developer this year so this is my end of year round up of the highlights of 2023. In this post I’m going to look at what I’ve learnt; the challenges I’ve faced this year as well as what I’m hoping for in 2024. This is my second year working full time as a software developer and it’s encouraging to see how far I’ve come particularly when building a new career feels hard. I hope it’s helpful for everyone learning to code or early career developers.&lt;/p&gt;
+      <description>&lt;article&gt;
+&lt;p&gt;I’ve enjoyed blogging about my progress as a developer this year so this is my end of year round up of the highlights of 2023. In this post I’m going to look at what I’ve learnt; the challenges I’ve faced this year as well as what I’m hoping for in 2024. This is my second year working full time as a software developer and it’s encouraging to see how far I’ve come particularly when building a new career feels hard. I hope it’s helpful for everyone learning to code or early career developers.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1672405328102-05825b3cc8e7?q=80&amp;amp;w=2970&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;ixlib=rb-4.0.3&amp;amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@pawel_czerwinski?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Pawel Czerwinski&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/a-blue-and-white-background-with-the-word-sale-spelled-out-WbGRqQCIj9s?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;What I’ve been doing&lt;/h3&gt;
@@ -37,6 +38,7 @@
 &lt;li&gt;Be part of exciting projects like &lt;a href=&quot;https://mapped.commonknowledge.coop/&quot;&gt;Mapped&lt;/a&gt; with Common Knowledge&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thank you for reading and good luck with your coding in 2024 and beyond!&lt;/p&gt;
+&lt;/article&gt;
 </description>
       <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
       <dc:creator>Boaty McBoatFace</dc:creator>
@@ -324,7 +326,7 @@ Aside from that, I’ve been adding features to &lt;a href=&quot;https://theworl
       <link>https://example.com/working-on-the-new-common-knowledge-website/</link>
       <description>&lt;article&gt;
 &lt;p&gt;For the final part of my Software Development Apprenticeship I’ve been working on a new website for &lt;a href=&quot;https://commonknowledge.coop/&quot;&gt;Common Knowledge&lt;/a&gt;. Common Knowledge makes digital tools to help social movements build power. They needed a new website that could be updated with a CMS and could better display the range of work that the co-op does.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://example.com/working-on-the-new-common-knowledge-website/CK-website.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://practical-swanson-368627.netlify.app/static/aabb6cae4b95950fe113a900eef60600/aa440/CK-website.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h1&gt; Website stack 🥞 &lt;/h1&gt;
 &lt;h2&gt; Wagtail CMS 🦜 &lt;/h2&gt;
 &lt;p&gt;I built the site with &lt;a href=&quot;https://wagtail.org/&quot;&gt;Wagtail&lt;/a&gt; which is an open-source content management system (CMS) built on the &lt;a href=&quot;https://www.djangoproject.com/&quot;&gt;Django web framework&lt;/a&gt;. I chose Wagtail for this project because it has a user friendly admin interface that makes it easy to add and update content. It is also fully customisable and extensible with a range of packages and plugins available and an active developer community. Wagtail also inherits Django’s built in protection from common security vulnerabilities in web applications.&lt;/p&gt;
@@ -608,7 +610,7 @@ Documentation for shell scripts 🐚 &lt;a href=&quot;https://explainshell.com/&
 &lt;p&gt;The software developer apprenticeship (Level 4), as delivered by Founders and Coders, is split into three parts. It starts with sessions delivered in the evenings focussing on web development skills and employability. This was the most challenging part of the programme for me as I was still working full time in my publishing job.&lt;/p&gt;
 &lt;p&gt;I then got the opportunity to meet the lovely people at Common Knowledge. I really identified with their mission and they were so friendly during the interview that I was thrilled when they offered me an apprenticeship.&lt;/p&gt;
 &lt;p&gt;The next stage in the process was 12 weeks of full time study of Javascript, Node.js and React. This period taught me about working closely with other people (which was even more difficult over Zoom) and getting comfortable with not knowing the answer.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://example.com/my-experience-as-a-software-engineer-apprentice/cohort.png&quot; alt=&quot;A Zoom screen showing a number of people dressed in Halloween costumes&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://practical-swanson-368627.netlify.app/static/09510c0dfe05e2955d569ddd1284077c/18872/cohort.png&quot; alt=&quot;A Zoom screen showing a number of people dressed in Halloween costumes&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;My cohort dressed up for Halloween&lt;/p&gt;
 &lt;p&gt;Finally in January 2022 I joined Common Knowledge full time and started writing code for real client projects. I appreciated that I could get stuck in straight away and they gave me the space to try things myself and make mistakes.&lt;/p&gt;
 &lt;p&gt;For me the apprenticeship was a great opportunity. It allowed me to get a job before I started retraining and significantly reduced the financial risk. It has set me up with real world experience as well as a recognised qualification.&lt;/p&gt;
@@ -637,7 +639,7 @@ Documentation for shell scripts 🐚 &lt;a href=&quot;https://explainshell.com/&
 &lt;p&gt;A CMS or content management system is an application that helps users create, manage and modify content on a website.&lt;br /&gt;
 Most CMS are designed to be easy to use without knowing how to code. They typically have design templates to choose from and offer extensions and add-ons. A good CMS platform will allow you to easily import and export your content.&lt;br /&gt;
 Some commonly used CMS are WordPress, Django, Drupal, Wix and Joomla.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://example.com/what-is-a-headless-cms/undraw_Content_team_re_6rlg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://practical-swanson-368627.netlify.app/static/2393cfbc54008805e68c09e98930ba8f/77672/undraw_Content_team_re_6rlg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt; Headless CMS vs Traditional CMS &lt;/h2&gt;
 &lt;p&gt;A traditional CMS has two layers:&lt;br /&gt;
 A presentation layer which determines how your content is displayed in the browser&lt;br /&gt;
@@ -749,7 +751,7 @@ There are even further benefits to content infrastructure which reduces content 
 &lt;p&gt;When I decided to start blogging I knew that I wanted to build the site myself. I chose to use the Gatsby framework as I had been learning JavaScript for a while and I already had a project built in React.&lt;/p&gt;
 &lt;p&gt;Gatsby is an open source framework that helps you create a static website easily and quickly.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/docs&quot;&gt;The Gatsby docs&lt;/a&gt; have a tutorial that can get you started with a blog site within minutes. &lt;a href=&quot;https://www.gatsbyjs.com/starters/&quot;&gt;The Gatsby Starters Library&lt;/a&gt; has templates for e-commerce, portfolio, blog and other sites.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://example.com/how-I-made-my-blog/Gatsby_site.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://practical-swanson-368627.netlify.app/static/bdeeab0cf4c73a7c49f26bb8a9cf0e81/8de58/Gatsby_site.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;To make the site I followed this &lt;a href=&quot;https://youtu.be/8t0vNu2fCCM&quot;&gt;YouTube tutorial&lt;/a&gt; closely. The creator, Andrew Mead, has more courses on the JavaScript ecosystem on his &lt;a href=&quot;https://mead.io/&quot;&gt;blog&lt;/a&gt;. I also had a lot of fun with the whole open source ecosystem around Gatsby including the many plugins.&lt;/p&gt;
 &lt;h2&gt; Challenges ⛰️ &lt;/h2&gt;
 &lt;p&gt;There were many things I found difficult about the project.&lt;/p&gt;
@@ -786,7 +788,7 @@ There are even further benefits to content infrastructure which reduces content 
 &lt;p&gt;This blog is a follow up to &lt;a href=&quot;https://www.annacunnane.co.uk/blog/My%20journey%20to%20become%20a%20developer&quot;&gt;My Journey to Becoming a Developer. &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In that post I described how I’d come to apply to the Founders and Coders bootcamp and make the switch to a new career.&lt;/p&gt;
 &lt;p&gt;Now as I start my first job in the tech industry I’m reflecting on my experiences on the course and my hopes for the future.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://example.com/looking-back-at-founders-and-coders/cohort.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://practical-swanson-368627.netlify.app/static/09510c0dfe05e2955d569ddd1284077c/18872/cohort.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Some of the FAC22 members (and mentors) dressed for Halloween 👻&lt;/p&gt;
 &lt;h2&gt; What did I learn in the past 12 weeks at FAC? &lt;/h2&gt;
 &lt;p&gt;Most obviously I learnt a lot about web development. The FAC curriculum teaches HTML, CSS, JavaScript, Node.js, SQL, Next.js and React. I learnt how to build a web application from scratch which culminated in our final &lt;a href=&quot;https://github.com/tech-for-better/solent-mind&quot;&gt;Tech for Better&lt;/a&gt; projects with real life stakeholders.&lt;/p&gt;
@@ -829,7 +831,7 @@ There are even further benefits to content infrastructure which reduces content 
       <link>https://example.com/attending-co-tech-conference-at-space4/</link>
       <description>&lt;article&gt;
 Co-Tech (Co-operative Technologists) is a network of co-operatives that sell digital or tech services. They met for their conference on 23-24th September in the co-working space at Space4 in Finsbury Park. I attended as a new member of Common Knowledge who have hired me as an apprentice software developer. This has enabled me to complete the full time programme at [Founders and Coders](https://www.foundersandcoders.com/) who are also a part of Co-Tech.
-&lt;p&gt;&lt;img src=&quot;https://example.com/attending-co-tech-conference-at-space4/co-tech-conf.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://practical-swanson-368627.netlify.app/static/de44975c503e4cbeba5bb906b02f1f13/c58a3/co-tech-conf.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Image credit &lt;a href=&quot;https://twitter.com/CoTechUK&quot;&gt;@CoTechUK&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A coop is a company that is owned and democratically run by its workers - and in some cases customers. The members of Co-Tech aim to develop technology that serves the needs of workers and communities before private profit. &lt;a href=&quot;https://commonknowledge.coop/&quot;&gt;Common Knowledge&lt;/a&gt; does this by designing digital tools for grassroots activists to create radical change.&lt;/p&gt;
 &lt;p&gt;At the conference there were talks and workshops running on subjects like redesigning the &lt;a href=&quot;https://www.coops.tech/&quot;&gt;Co-Tech website&lt;/a&gt;; advice sessions on how to run a cooperative; what to do with new business leads coming into the network and more. It was great to dip in and out of these and the conversations taking place more informally on the sidelines. It was a rapid introduction both to tech companies and coops.&lt;/p&gt;

@@ -1,6 +1,7 @@
 ---
 title: "Month notes - February"
 date: "2023-03-12"
+image: "https://images.unsplash.com/photo-1643446757604-c2b7c45c45dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
 excerpt: "
 Wrapping up the Common Knowledge website project 🎁 Working on building a CI/CD pipeline with WordPress and Bedock 🔧 Learning more about Python 🐍"
 tags: ["month notes", "bedrock", "python"]

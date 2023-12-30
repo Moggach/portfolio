@@ -1,6 +1,7 @@
 ---
 title: "What I’ve learnt about WordPress development at Common Knowledge"
 date: "2023-11-05"
+image: "https://images.unsplash.com/photo-1566207462754-97c86c31db3d?auto=format&fit=crop&q=80&w=2970&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 excerpt: "At Common Knowledge we work with organisers and grassroots groups to improve their websites and digital infrastructure to maximise the impact of their work"
 tags: ["wordpress",  "fse", "gutenberg", "bedrock"]
 

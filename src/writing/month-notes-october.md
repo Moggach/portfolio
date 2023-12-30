@@ -1,6 +1,7 @@
 ---
 title: "Month notes - October"
 date: "2022-10-31"
+image: "https://images.unsplash.com/photo-1631092863845-74abb29404b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80"
 excerpt: "
 In this post I’m experimenting with a different format for my blog. Month notes are a format where I can share what I’ve been working on over the month and some of the things I’m learning."
 tags: ["month notes"]

@@ -7,6 +7,7 @@ excerpt: "In this post I’m going to look at what I’ve learnt; the challenges
 tags: ["year review"]
 type: "article"
 ---
+<article>
 
 I’ve enjoyed blogging about my progress as a developer this year so this is my end of year round up of the highlights of 2023. In this post I’m going to look at what I’ve learnt; the challenges I’ve faced this year as well as what I’m hoping for in 2024. This is my second year working full time as a software developer and it’s encouraging to see how far I’ve come particularly when building a new career feels hard. I hope it’s helpful for everyone learning to code or early career developers. 
 
@@ -44,3 +45,4 @@ In the new year I’d like to:
 
 Thank you for reading and good luck with your coding in 2024 and beyond!
 
+</article>

@@ -1,6 +1,7 @@
 ---
 title: "Attending Co-Tech conference at Space4"
 date: "2021-10-09"
+image: "https://practical-swanson-368627.netlify.app/static/de44975c503e4cbeba5bb906b02f1f13/c58a3/co-tech-conf.jpg"
 excerpt: "Co-Tech (Co-operative Technologists) is a network of co-operatives that sell digital or tech services. They met for their conference on 23-24th September in the co-working space at Space4 in Finsbury Park. I attended as a new member of Common Knowledge who have hired me as an apprentice software developer."
 tags: ["founders and coders", "apprenticeships", "common knowledge"]
 ---
@@ -8,7 +9,7 @@ tags: ["founders and coders", "apprenticeships", "common knowledge"]
 <article>
 Co-Tech (Co-operative Technologists) is a network of co-operatives that sell digital or tech services. They met for their conference on 23-24th September in the co-working space at Space4 in Finsbury Park. I attended as a new member of Common Knowledge who have hired me as an apprentice software developer. This has enabled me to complete the full time programme at [Founders and Coders](https://www.foundersandcoders.com/) who are also a part of Co-Tech.
 
-![](./co-tech-conf.jpeg)
+![](https://practical-swanson-368627.netlify.app/static/de44975c503e4cbeba5bb906b02f1f13/c58a3/co-tech-conf.jpg)
 
 Image credit [@CoTechUK](https://twitter.com/CoTechUK)
 

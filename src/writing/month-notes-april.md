@@ -1,6 +1,7 @@
 ---
 title: "Month notes - April"
 date: "2023-04-30"
+image: "https://images.unsplash.com/photo-1521011745117-f4395db2564b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80"
 excerpt: "
 Receiving my apprenticeship result 👩‍🎓 Building a new website for campaign group Swarm 🐝 Adding new features to The World Transformed site 🏭 Support work for membership organization The Left Book Club 📕"
 tags: ["month notes"]

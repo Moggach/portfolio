@@ -1,6 +1,7 @@
 ---
 title: "What is a headless CMS?"
 date: "2022-06-24"
+image: "https://practical-swanson-368627.netlify.app/static/2393cfbc54008805e68c09e98930ba8f/77672/undraw_Content_team_re_6rlg.png"
 excerpt: "A CMS or content management system is an application that helps users create, manage and modify content on a website.
 Most CMS are designed to be easy to use without knowing how to code. They typically have design templates to choose from and offer extensions and add-ons. A good CMS platform will allow you to easily import and export your content."
 ---
@@ -13,7 +14,7 @@ A CMS or content management system is an application that helps users create, ma
 Most CMS are designed to be easy to use without knowing how to code. They typically have design templates to choose from and offer extensions and add-ons. A good CMS platform will allow you to easily import and export your content.
 Some commonly used CMS are WordPress, Django, Drupal, Wix and Joomla.
 
-![](undraw_Content_team_re_6rlg.png)
+![](https://practical-swanson-368627.netlify.app/static/2393cfbc54008805e68c09e98930ba8f/77672/undraw_Content_team_re_6rlg.png)
 
 <h2> Headless CMS vs Traditional CMS </h2>
 
