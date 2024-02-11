@@ -7,6 +7,30 @@
     <description>I am writing about my experiences as a naval navel-gazer.</description>
     <language>en</language>
     <item>
+      <title>What I&#39;ve learnt from mentoring at coding meetups</title>
+      <link>https://example.com/what-ive-learnt-from-mentoring-at-coding-meetups/</link>
+      <description>&lt;article&gt;
+&lt;p&gt;I’ve recently been mentoring at two Founders and Coders meet ups and it made me think about what makes a good mentor - specifically when learning to code. I can remember how it felt to be mentored while I was on the Founders and Coders course so it was useful to see it from the other side two years into my career. I think my experiences as a mentor have helped me improve my communication skills; taught me patience and understanding and refreshed my memory and knowledge of some foundational topics.&lt;/p&gt;
+&lt;p&gt;These are some general approaches and things I like to remember when I’m mentoring based on my experiences so far.&lt;/p&gt;
+&lt;img src=&quot;https://images.unsplash.com/photo-1564865878688-9a244444042a?q=80&amp;w=2970&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD&quot; alt=&quot;black Android smartphone showing the words Eat Sleep Code Repeat&quot; /&gt;
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@synkevych?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Roman Synkevych&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/black-android-smartphone-vXInUOv1n84?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Be a coach not a teacher &lt;/h2&gt;
+It’s important that as a mentor you encourage people to find out the answers themselves rather than telling them what to do. This is because we want to empower people to solve problems as developers which involves looking at the documentation; trial and error and perseverance. I challenge myself not to touch somebody’s keyboard or mouse for the whole session! Part of the balance of being a mentor though is realizing when something might be too challenging and guiding people through a realistic learning path so that they don’t become discouraged. 
+&lt;h2&gt;Have empathy for other people’s feelings and struggles &lt;/h2&gt; 
+I know that learning to code can be really frustrating and that it’s difficult not to get emotionally involved in whether or not something is working. That’s why I try to be empathetic to what that person is feeling and allow them to express that and to make mistakes without judgment. I think this is particularly important when somebody has different struggles to you because it may be harder to imagine yourself in their place. I try to remember that nothing about learning something new or coding is easy and that I still frequently feel out of my depth.
+&lt;h2&gt;It’s okay not to know the answer&lt;/h2&gt;
+Initially when I was mentoring I was anxious that I wouldn’t have the answer to someone’s question or that they would be working on something that I’m not familiar with. I’ve realized that my job as a mentor is to provide guidance on how to go about debugging something rather than having direct experience of that particular framework or language. It’s also important to model how a developer reacts to things going wrong and show that this is part of the learning process and actually where we learn the most - even if it doesn’t feel like that at the time. 
+&lt;h2&gt;Encourage peer to peer learning&lt;/h2&gt;
+One of my main jobs as a mentor was to facilitate mentees learning from, and teaching, one another. Not only is teaching  a great way to solidify learning, it means that help can come from any member of the group and not just the mentors. Learning to code can be isolating and so having a supportive community at meetups gives people confidence in their ability and motivation to continue. At the same time I try to be attentive to group dynamics so that if anything seems unbalanced or someone needs a bit more support I can intervene.
+&lt;br /&gt;
+I’ve really enjoyed my time mentoring at Founders and Coders so far and I look forward to doing more of it in the future. If you are interested in applying for Founders and Coders you can find out more information here.
+If you are a developer looking for opportunities to mentor these are listed below.
+&lt;/article&gt;</description>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/what-ive-learnt-from-mentoring-at-coding-meetups/</guid>
+    </item>
+    <item>
       <title>2023 - year in review</title>
       <link>https://example.com/2023-year-in-review/</link>
       <description>&lt;article&gt;
