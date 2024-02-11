@@ -31,8 +31,10 @@ Initially when I was mentoring I was anxious that I wouldn’t have the answer t
 <h2>Encourage peer to peer learning</h2>
 One of my main jobs as a mentor was to facilitate mentees learning from, and teaching, one another. Not only is teaching  a great way to solidify learning, it means that help can come from any member of the group and not just the mentors. Learning to code can be isolating and so having a supportive community at meetups gives people confidence in their ability and motivation to continue. At the same time I try to be attentive to group dynamics so that if anything seems unbalanced or someone needs a bit more support I can intervene.
 
-<div>I’ve really enjoyed my time mentoring at Founders and Coders so far and I look forward to doing more of it in the future. If you are interested in applying for Founders and Coders you can find out more information here.
-If you are a developer looking for opportunities to mentor these are listed below.</div>
+<br><br>
+
+I’ve really enjoyed my time mentoring at Founders and Coders so far and I look forward to doing more of it in the future. If you are interested in applying for Founders and Coders you can find out more information here.
+If you are a developer looking for opportunities to mentor these are listed below.
 
 
 </article>
