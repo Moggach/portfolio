@@ -4,7 +4,7 @@ date: "2024-02-12"
 author: "Anna Cunnane"
 image: "https://images.unsplash.com/photo-1564865878688-9a244444042a?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 excerpt: "I’ve recently been mentoring at two Founders and Coders meet ups and it made me think about what makes a good mentor - specifically when learning to code."
-tags: []
+tags: ["mentoring", "founders and coders"]
 type: "article"
 ---
 <article>
