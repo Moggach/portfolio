@@ -8,7 +8,7 @@ tags: [""]
 type: "article"
 ---
 <article>
-For the last couple of months at Common Knowledge we have been building an application called Mapped. Generously funded by the JRRT, it aims to empower activists and organizers with mapping and data enhancement tools. We’ve been writing and speaking about the process of building Mapped on our website and at our launch event at Pelican House. Mapped is live in alpha and feature requests are welcome. This post is about some of things I’ve learnt about from working on this project.
+For the last couple of months at Common Knowledge we have been building an application called Mapped. Generously funded by the JRRT, it aims to empower activists and organizers with mapping and data enhancement tools. We’ve been writing and speaking about the process of building Mapped on our website and at our launch event at Pelican House. <a href="https://prototype.mapped.commonknowledge.coop/">Mapped</a> is live in alpha and feedback is welcome. This post is about some of things I’ve learnt about from working on this project.
 
 
 <img src="https://unsplash.com/photos/turned-on-macbook-pro-near-brown-ceramic-mug-ZMraoOybTLQ" alt="turned on MacBook Pro near brown ceramic mug">

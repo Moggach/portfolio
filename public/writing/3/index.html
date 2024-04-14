@@ -1,90 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="I'm a Frontend software developer who builds sites and apps that help people reach their personal and professional goals."/>
-  <link rel="stylesheet" href="/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Writing</title>
+    <meta name="description" content="" />
+    <link rel="canonical" href="/writing/3/" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Writing" />
+    <meta property="og:url" content="/writing/3/" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:type" content="" />
 
-  <title>Writing</title>
-</head>
-<body>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 
-<header>
-  <a href="#main-menu"
-     id="main-menu-toggle"
-     class="menu-toggle"
-     aria-label="Open main menu">
-    <span class="sr-only">Open main menu</span>
-    <span class="fa fa-bars" aria-hidden="true"></span>
-  </a>
-  
-  
-  <nav id="main-menu" class="main-menu" aria-label="Main menu">
-    <a href="#main-menu-toggle"
-       id="main-menu-close"
-       class="menu-close"
-       aria-label="Close main menu">
-      <span class="sr-only">Close main menu</span>
-      <span class="fa fa-close" aria-hidden="true"></span>
-    </a>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/writing">Writing</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-  <a href="#main-menu-toggle"
-     class="backdrop"
-     tabindex="-1"
-     aria-hidden="true" hidden></a>
-</header>
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <script src="/js/scripts.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LEWK3NM245"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LEWK3NM245');
+    </script>
 
 
-    <main>
-      <ul>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/writing"> Writing</a></li>
+          <li><a href="/projects">Projects</li></a></li>
+           </ul>
+      </nav>
+          <div class="display-mode-toggle">
+                      <svg
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="20"
+              fill="none"
+              viewBox="0 0 14 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 7a3 3 0 0 1 3-3M5 19h4m0-3c0-4.1 4-4.9 4-9A6 6 0 1 0 1 7c0 4 4 5 4 9h4Z"
+              />
+            </svg>
+          
+            <div class="slider-container">
+              <div class="slider-icon"></div>
+            </div>
+              <svg
+              style="height: 20px"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 18 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8.509 5.75c0-1.493.394-2.96 1.144-4.25h-.081a8.5 8.5 0 1 0 7.356 12.746A8.5 8.5 0 0 1 8.509 5.75Z"
+              />
+            </svg>
+
+          </div>
+       
+    </header>
+
+    <main><h1>Writing</h1>
+<ul class="articles-list">
 
 <li>
-<a href="/attending-co-tech-conference-at-space4/"><h2>Attending Co-Tech conference at Space4</h2></a>
-09 Oct 2021
-<p></p>
-</li>
+<a href="/why-should-you-make-a-personal-website/">
+<h2>Why you should make a personal website</h2>
+</a>
 
-<li>
-<a href="/my-journey-to-become-a-developer/"><h2>My journey to becoming a developer</h2></a>
-09 Aug 2021
-<p></p>
-</li>
+<span>08 Jul 2021</span>
 
-<li>
-<a href="/why-should-you-make-a-personal-website/"><h2>Why you should make a personal website</h2></a>
-08 Jul 2021
-<p></p>
+<p> A personal website can be thought of as like your ‘home’ on the internet. It is a way to make yourself stand out from the competition. It helps you control your online presence and build a personal brand. It also makes it easier for potential employers to find you.</p>
+<div class="tags-container">
+
+
+  <a href="/tags/learning to code"><div class="tag"><em>#learning to code</em></div></a>
+
+
+  <a href="/tags/personal websites"><div class="tag"><em>#personal websites</em></div></a>
+
+
+</div>
+
 </li>
 
 </ul>
 
-<ol>
+<ol class="pagination">
     <li><a href="/writing/"> 1</a></li>
     <li><a href="/writing/1/"> 2</a></li>
     <li><a href="/writing/2/"> 3</a></li>
     <li><a href="/writing/3/" aria-current="page"> 4</a></li>
   </ol>
+</main>
 
-    </main>
-
-  <footer>
-  	<p>&copy; Anna Cunnane 2023</p>
- 
-    <ul class='socials'>
-
-    <li class="twitter"></li>
-    <li class="github"></li>
-    <li class="email"></li>
-   
-    </ul>
-  </footer>
-</body>
+    <footer>
+      <p>&copy; Anna Cunnane 2024</p>
+    </footer>
+  </body>
 </html>
