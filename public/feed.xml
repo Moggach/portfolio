@@ -8,7 +8,7 @@
     <language>en</language>
     <item>
       <title>What I&#39;ve learnt from working on a large software project</title>
-      <link>https://example.com/what-i&#39;ve%20learnt-from-working-on-a-large-software-project/</link>
+      <link>https://example.com/what-i&#39;ve-learnt-from-working-on-a-large-software-project/</link>
       <description>&lt;article&gt;
 &lt;p&gt;For the last couple of months at Common Knowledge we have been building an application called Mapped. Generously funded by the JRRT, it aims to empower activists and organizers with mapping and data enhancement tools. We’ve been writing and speaking about the process of building Mapped on our website and at our launch event at Pelican House. &lt;a href=&quot;https://prototype.mapped.commonknowledge.coop/&quot;&gt;Mapped&lt;/a&gt; is live in alpha and feedback is welcome. This post is about some of things I’ve learnt about from working on this project.&lt;/p&gt;
 &lt;img src=&quot;https://images.unsplash.com/photo-1485856407642-7f9ba0268b51?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot; alt=&quot;turned on MacBook Pro near brown ceramic mug&quot; /&gt;
@@ -21,7 +21,7 @@ One of the nice things about this project was that we could start the frontend f
 &lt;/article&gt;</description>
       <pubDate>Sun, 14 Apr 2024 01:00:00 +0000</pubDate>
       <dc:creator>Boaty McBoatFace</dc:creator>
-      <guid>https://example.com/what-i&#39;ve%20learnt-from-working-on-a-large-software-project/</guid>
+      <guid>https://example.com/what-i&#39;ve-learnt-from-working-on-a-large-software-project/</guid>
     </item>
     <item>
       <title>What I&#39;ve learnt from mentoring at coding meetups</title>
