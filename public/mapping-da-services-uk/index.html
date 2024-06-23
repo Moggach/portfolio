@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Building a tool to map domestic abuse services across the UK</title>
+    <meta name="description" content="Over the last few months I’ve been working on a tool that will map the hundreds of domestic abuse support services across the UK." />
+    <link rel="canonical" href="/mapping-da-services-uk/" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Building a tool to map domestic abuse services across the UK" />
+    <meta property="og:url" content="/mapping-da-services-uk/" />
+    <meta property="og:description" content="Over the last few months I’ve been working on a tool that will map the hundreds of domestic abuse support services across the UK." />
+    <meta property="og:image" content="https://annacunnane.co.uk/images/daservices.png" />
+    <meta property="og:type" content="" />
+
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <script src="/js/scripts.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LEWK3NM245"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LEWK3NM245');
+    </script>
+
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/writing"> Writing</a></li>
+          <li><a href="/projects">Projects</li></a></li>
+           </ul>
+      </nav>
+          <div class="display-mode-toggle">
+                      <svg
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="20"
+              fill="none"
+              viewBox="0 0 14 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 7a3 3 0 0 1 3-3M5 19h4m0-3c0-4.1 4-4.9 4-9A6 6 0 1 0 1 7c0 4 4 5 4 9h4Z"
+              />
+            </svg>
+          
+            <div class="slider-container">
+              <div class="slider-icon"></div>
+            </div>
+              <svg
+              style="height: 20px"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 18 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8.509 5.75c0-1.493.394-2.96 1.144-4.25h-.081a8.5 8.5 0 1 0 7.356 12.746A8.5 8.5 0 0 1 8.509 5.75Z"
+              />
+            </svg>
+
+          </div>
+       
+    </header>
+
+    <main><div class="secondary-button">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#0068b7" height="15px" width="15px" version="1.1" id="Layer_1" viewBox="0 0 476.213 476.213" xml:space="preserve">
+  <polygon points="476.213,223.107 57.427,223.107 151.82,128.713 130.607,107.500 0,238.106 130.607,368.714 151.82,347.5 57.427,253.107 476.213,253.107"/>
+</svg>
+<button onclick="history.back()">Back</button>
+</div>
+<article>
+<p>Over the last few months I’ve been working on a tool that will map the hundreds of domestic abuse support services across the UK. I know from my experience working as an advisor on the National Domestic Abuse Helpline that it can be challenging for survivors, or those supporting them, to find the right service local to them. By creating a comprehensive and up to date database of these services and displaying them on a map I’m hoping to make this process easier. I’m excited to combine what I know about the domestic abuse sector and my skills as a developer to make something that meets this need.</p>
+<img src="https://annacunnane.co.uk/images/daservices.png" alt="An image of the home page of a website showing a map of the UK with clustered service numbers on it." />
+<caption>The site is live at <a href="https://domesticabuseservices.uk/">https://domesticabuseservices.uk/</a></caption>
+<h2>Background to the project</h2>
+<p>I have been working as an advisor on the National Domestic Abuse Helpline since 2019. In that time I have answered hundreds of calls from women experiencing abuse; their friends and family members and professionals. Almost every call involves making a referral to a local domestic abuse support service but the names and contact details for these services can be hard to find. This is especially the case for survivors who may be in a point of crisis or for those who have additional support needs. Having done some mapping projects already with Common Knowledge I decided that I would build the map that I wish I had access to when I’ve been speaking with women on the helpline.</p>
+<h2>How it works</h2>
+The database of services is an Airtable base that is connected to a Next.js application using the Airtable API. I’m using Mapbox GL JS which is a client-side JavaScript library for building maps in web applications to display the map of the UK and the points that represent the locations of the services. Using Mapbox also has a clustering feature that I’ve used to indicate multiple services within a set geographical area (in this case 10 miles) when the user is zoomed out. 
+The site started off as a single page application built in React but as it’s grown larger I’ve migrated it to Next.js to take advantage of server side rendering. For CSS I’m using Styled Components which has helped me to keep my CSS modular and allows dynamic styling based on user inputs. 
+<h2>Challenges</h2>
+One of the main challenges I’ve faced with this project is how to efficiently use the Mapbox geocoding API to fetch geographical coordinates for the postcodes for each service. I found that this process was taking a lot of time and slowing down the performance of the site as well as burning through a lot of Mapbox’s free tier - meaning that this would start costing me money pretty quickly. As a solution to this I have decided to store the coordinates in the Airtable base which eliminates the need to call this API and simplifies the code. I also noticed that I was doing some processing of the Airtable data on the client that would be better handled on the server. As a result I made an API and server side routes in Next.js that mean the client is free to do what only it can - for example user interactions. 
+<h2>Project roadmap</h2>
+There are many things that I’d like to add to the site over the next few months. I’d like to convert the codebase to TypeScript to make it easier to debug and, as it’s open source, for others to maintain. I’m considering using a component library like shadcn to help me to iterate on the UI quickly as I’m not a designer. As most local domestic abuse services work within a specific local authority I’d like to add a visual layer to the map that shows local authority boundaries.  Ideally the site would have translations in multiple languages and I’m looking at using the next-i18next package for this. Finally I’m conscious that the site should meet the highest accessibility standards and I’m using the Web content accessibility guidelines (WCAG) 2.1 to achieve this. 
+<p>Thank you for reading and if there’s something you’d like to see on the site get in touch with me at <a href="mailto:anna_cunnane@proton.me">anna_cunnane@proton.me</a></p>
+<p>You can submit a service to be listed <a href="https://airtable.com/appksbQlVr07Kxadu/pagEkSrTVCs0yk2OS/form"> here</a></p>
+</article>
+
+
+</main>
+
+    <footer>
+      <p>&copy; Anna Cunnane 2024</p>
+    </footer>
+  </body>
+</html>
