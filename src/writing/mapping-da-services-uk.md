@@ -1,6 +1,6 @@
 ---
 title: "Building a tool to map domestic abuse services across the UK"
-date: "2024-12-24"
+date: "2024-06-24"
 image: "https://annacunnane.co.uk/images/daservices.png"
 excerpt: "Over the last few months I’ve been working on a tool that will map the hundreds of domestic abuse support services across the UK."
 tags: ["mapping", "nextjs", "mapbox"]
