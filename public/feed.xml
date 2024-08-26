@@ -24,7 +24,7 @@ Photo by &lt;a href=&quot;https://unsplash.com/@wasdrew?utm_content=creditCopyTe
 &lt;p&gt;I have struggled with TypeScript frequently since starting to study it. The topics listed below have been the most puzzling for me so far but I’m sure there’s more to come!&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Type unions and intersections&lt;br /&gt;
-I am only just starting to grasp how these work and the difference between them. I couldn’t understand why when a variable could be either a number or a string you couldn’t then assign it to a number. I found this &lt;a href=&quot;https://www.youtube.com/watch?v=EsoRUqFutYU&quot;&gt;video&lt;/a&gt; that explains unions and intersections using set theory to be reality helpful for this&lt;/li&gt;&lt;br /&gt;
+I am only just starting to grasp how these work and the difference between them. I couldn’t understand why when a variable could be either a number or a string you couldn’t then assign it to a number. I found this &lt;a href=&quot;https://www.youtube.com/watch?v=EsoRUqFutYU&quot;&gt;video&lt;/a&gt; that explains unions and intersections using set theory to be really helpful for this&lt;/li&gt;&lt;br /&gt;
 &lt;li&gt;Distinction between types and run time values&lt;br /&gt;
 Part of why I struggled with unions and intersections was that it took me a while to understand that TypeScript doesn’t have access to run time values. This makes sense because types don’t exist at run time when TypeScript is compiled to regular JavaScript.&lt;/li&gt;&lt;br /&gt;
 &lt;li&gt;Index signatures&lt;br /&gt;
