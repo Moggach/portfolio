@@ -10,12 +10,12 @@
       <title>Notes from learning Typescript</title>
       <link>https://example.com/notes-from-learning-typescript/</link>
       <description>&lt;article&gt;
-&lt;p&gt;Over the last few weeks I’ve been diving into learning TypeScript properly after coming across it in codebases since I started work as a developer in 2022. It’s been a steep learning curve and sometimes it feels as hard as learning JavaScript all over again but it&#39;s very satisfying to start feeling confident when working with types. These are my notes from learning TypeScript.
+&lt;p&gt;Over the last few weeks I’ve been diving into learning TypeScript from the ground up. It’s been a steep learning curve and sometimes it feels as hard as learning JavaScript all over again. It&#39;s very satisfying though to start feeling confident when working with types. These are my notes from learning TypeScript.
 &lt;/p&gt;
 &lt;img src=&quot;https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&amp;w=2564&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot; alt=&quot;An image of a Macbook Pro&quot; /&gt;
 Photo by &lt;a href=&quot;https://unsplash.com/@wasdrew?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Andras Vas&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/macbook-pro-turned-on-Bd7gNnWJBkU?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Unsplash&lt;/a&gt;
 &lt;h2&gt;What is TypeScript?&lt;/h2&gt;
-&lt;p&gt;TypeScript is a strongly typed language that builds on JavaScript. TypeScript allows developers to define types for variables, function parameters, and return values and it reports errors when these types don’t match, TypeScript code is compiled into JavaScript before it runs in the browser or Node.js.&lt;/p&gt;
+&lt;p&gt;TypeScript is a strongly typed language that builds on JavaScript. TypeScript allows developers to define types for variables, function parameters, and return values and it reports errors when these types don’t match, TypeScript code is compiled into JavaScript before it runs in the browser or with Node.&lt;/p&gt;
 &lt;h2&gt;Why use it?&lt;/h2&gt;
 &lt;p&gt;The main benefit of using TypeScript is its capacity for error reduction. TypeScript’s static type-checking helps catch errors during development rather than at runtime. This reduces the likelihood of bugs, especially in larger codebases. In fact, it eliminates a class of bug (such and such a variable is undefined) entirely. Enforcing types mean that you as the developer will not be allowed to do something that you previously told the compiler you didn’t want to be able to do. &lt;/p&gt;
 &lt;h2&gt;How I’m learning it&lt;/h2&gt;
@@ -24,11 +24,11 @@ Photo by &lt;a href=&quot;https://unsplash.com/@wasdrew?utm_content=creditCopyTe
 &lt;p&gt;I have struggled with TypeScript frequently since starting to study it. The topics listed below have been the most puzzling for me so far but I’m sure there’s more to come!&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Type unions and intersections&lt;br /&gt;
-I am only just starting to grasp how these work and the difference between them. I couldn’t understand why when a variable could be either a number or a string you couldn’t then assign it to a number. I found this video that explains unions and intersections using set theory to be reality helpful for this&lt;/li&gt;&lt;br /&gt;
+I am only just starting to grasp how these work and the difference between them. I couldn’t understand why when a variable could be either a number or a string you couldn’t then assign it to a number. I found this &lt;a href=&quot;https://www.youtube.com/watch?v=EsoRUqFutYU&quot;&gt;video&lt;/a&gt; that explains unions and intersections using set theory to be reality helpful for this&lt;/li&gt;&lt;br /&gt;
 &lt;li&gt;Distinction between types and run time values&lt;br /&gt;
 Part of why I struggled with unions and intersections was that it took me a while to understand that TypeScript doesn’t have access to run time values. This makes sense because types don’t exist at run time when TypeScript is compiled to regular JavaScript.&lt;/li&gt;&lt;br /&gt;
 &lt;li&gt;Index signatures&lt;br /&gt;
-I’ve come across these recently and I’ve been caught out by type mismatches between an explicit property and an index signature. I’m learning that Index signatures can be thought of as an overall type for an object and individual fields need to conform to that.&lt;/li&gt;
+I’ve come across these recently and I’ve been caught out by type mismatches between an explicit property and an index signature. I’m learning that Index signatures can be thought of as an overall type for an object and individual fields need to conform to that.&lt;/li&gt;&lt;br /&gt;
 &lt;p&gt;I’m looking forward to looking back on this post in a few months when hopefully these things will be easy for me.&lt;/p&gt;
 &lt;h2&gt;Future plans with TypeScript&lt;/h2&gt;
 &lt;p&gt;Now that I feel I’m comfortable with the TypeScript basics course I’m hoping to finish the Everyday TypeScript and Advanced TypeScript courses on &lt;a href=&quot;https://www.executeprogram.com/&quot;&gt;Execute Programme&lt;/a&gt;. I would like to convert my &lt;a href=&quot;https://domesticabuseservices.uk/&quot;&gt;domestic abuse services mapping tool&lt;/a&gt; from JavaScript to TypeScript as well. Finally, I’m going to put my skills into practice by writing and reading more TypeScript code in my work at &lt;a href=&quot;https://commonknowledge.coop/&quot;&gt;Common Knowledge&lt;/a&gt;.&lt;/p&gt;
