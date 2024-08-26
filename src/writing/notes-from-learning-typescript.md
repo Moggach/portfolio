@@ -27,11 +27,11 @@ Photo by <a href="https://unsplash.com/@wasdrew?utm_content=creditCopyText&utm_m
 <p>I have struggled with TypeScript frequently since starting to study it. The topics listed below have been the most puzzling for me so far but I’m sure there’s more to come!</p>
 
 <ol>
-<li>Type unions and intersections
+<li>Type unions and intersections<br>
 I am only just starting to grasp how these work and the difference between them. I couldn’t understand why when a variable could be either a number or a string you couldn’t then assign it to a number. I found this video that explains unions and intersections using set theory to be reality helpful for this</li><br>
-<li>Distinction between types and run time values
+<li>Distinction between types and run time values<br>
 Part of why I struggled with unions and intersections was that it took me a while to understand that TypeScript doesn’t have access to run time values. This makes sense because types don’t exist at run time when TypeScript is compiled to regular JavaScript.</li><br>
-<li>Index signatures
+<li>Index signatures<br>
 I’ve come across these recently and I’ve been caught out by type mismatches between an explicit property and an index signature. I’m learning that Index signatures can be thought of as an overall type for an object and individual fields need to conform to that.</li>
 
 
