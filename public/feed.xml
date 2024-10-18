@@ -7,6 +7,47 @@
     <description>I am writing about my experiences as a naval navel-gazer.</description>
     <language>en</language>
     <item>
+      <title>Using LLMs as a tool when learning to code</title>
+      <link>https://example.com/using-LLMs-learning-to-code/</link>
+      <description>&lt;article&gt;
+&lt;p&gt;A lot has been written about large language models and their potential for replacing many jobs - including developers! One thing that is often overlooked however is how LLMs like ChatGPT or Claude can be a powerful learning tool. I’ve been using ChatGPT for a year both in work and personal projects and I’ve found it’s accelerated my progress. These are my tips on how to get the best out of LLMs to help you learn to code. &lt;/p&gt;
+&lt;img src=&quot;https://images.unsplash.com/photo-1676573408178-a5f280c3a320?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot; alt=&quot;A computer screen with the ChatGPT website open on it&quot; /&gt;
+Photo by &lt;a href=&quot;https://unsplash.com/@emilianovittoriosi?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Emiliano Vittoriosi&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-words-on-it-vEN1bsdSjxM?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&quot;&gt;Unsplash&lt;/a&gt;
+&lt;h2&gt;Learning roadmaps&lt;/h2&gt;
+&lt;p&gt;
+Tools like ChatGPT can generate personalised learning paths. Instead of researching which topics to study and in what order use the model to generate a structured plan for you. You can also ask it to curate the best resources (books, videos, tutorials) to reach your goal.&lt;/p&gt;
+&lt;h2&gt;Coding challenges
+&lt;/h2&gt;
+&lt;p&gt;LLMs can generate coding problems for you tailored to your abilities and interests. Use these to test your understanding of a topic and get personalised feedback on where you can improve.&lt;/p&gt;
+&lt;h2&gt;Debugging help
+&lt;/h2&gt;
+&lt;p&gt;LLMs can act as virtual debugging assistants. Paste a code snippet or error message into ChatGPT and use the model to help resolve the issue. Even talking through your code step by step with it can help illuminate problems. &lt;/p&gt; 
+&lt;h2&gt;Spaced repetition and active recall 
+&lt;/h2&gt;
+&lt;p&gt;One of the most effective ways to learn a subject is via active recall (something I’ve written about &lt;a href=&quot;https://example.com/advice-for-learning-how-to-code&quot;&gt;here&lt;/a&gt;). LLMs can generate study questions for you and implement a system of spaced repetition so that you can remember the answers easier.
+&lt;/p&gt;
+&lt;h2&gt;Conceptual explanations
+&lt;/h2&gt;
+&lt;p&gt;LLMs can provide detailed explanations of higher level programming topics like Big O Notation, Data Structures and Algorithms and Object Oriented Programming. If you’re struggling to understand a concept you can ask for examples, breakdowns or analogies. 
+&lt;/p&gt;
+&lt;h2&gt;Pair programming roleplay and mock technical interviews
+&lt;/h2&gt;
+&lt;p&gt;You can use ChatGPT to pair on an issue or problem with you and offer insight and suggestions. You can even ask it to take you through a timed mock technical interview with structured questions and ask it for feedback afterwards. 
+&lt;/p&gt;
+&lt;h2&gt;Notes of caution!
+&lt;/h2&gt;
+&lt;p&gt;There are a few reasons to be cautious about using LLMs for learning to code. 
+&lt;/p&gt;
+&lt;p&gt;Answers can be inaccurate or contain mistakes and still be prevented as fact. This is why it’s important to understand the code generated and be able to assess its merits yourself. LLMs often provide the most standard solution to a problem but not necessarily the best one.&lt;/p&gt;
+&lt;p&gt;Using AI to write code for you will prevent you from understanding and remembering the basics of your language. Puzzling through code and getting to grips with syntax are essential parts of the learning process.&lt;/p&gt;
+&lt;p&gt;LLMs can produce code that is based on biassed, incomplete or copyrighted material. Never use AI generated code in your projects without knowing what it is and what it does.&lt;/p&gt;
+&lt;p&gt;Bearing this in mind I still think that AI is the most exciting new learning technology since the internet. For me its main advantages are to make learning personalised and adaptive without needing a tutor. I’m excited to use features like Chat GPT Voice mode and Memory over the next few months.&lt;/p&gt;
+&lt;/article&gt;</description>
+      <pubDate>Fri, 18 Oct 2024 01:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/using-LLMs-learning-to-code/</guid>
+    </item>
+    <item>
       <title>Notes from learning Typescript</title>
       <link>https://example.com/notes-from-learning-typescript/</link>
       <description>&lt;article&gt;
