@@ -522,6 +522,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: var(--small-spacing);
+  flex-basis: 40%;
 }
 
 .feat-posts h3 {
@@ -530,9 +531,12 @@ button {
 
 
 
+
+
 .feat-projects img {
   border-radius: 5px;
   max-width: 300px;
+
 }
 
 @media screen and (min-width: 992px) {
