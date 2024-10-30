@@ -438,6 +438,7 @@ article ol {
   border: 1px dashed var(--primary-light);
   position: relative;
   background-color: var(--background-light);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .articles-list span {
   text-transform: uppercase;
