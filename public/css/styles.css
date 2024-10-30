@@ -527,9 +527,7 @@ button {
 .feat-posts h3 {
   margin-bottom: var(--small-spacing);
 }
-.feat-projects h3, .feat-posts h3 {
-  font-size: var(--font-size-sm);
-}
+
 
 
 .feat-projects img {
