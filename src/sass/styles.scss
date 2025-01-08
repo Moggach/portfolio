@@ -610,18 +610,15 @@ button {
 .feat-posts {
   display: grid;
   grid-template-columns: 1fr;
-
-
+  gap: (var(--medium-spacing));
 
 }
 
 @media (min-width: 1200px) {
-
-  /* Adjust the breakpoint as needed */
   .feat-projects,
   .feat-posts {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: (var(--medium-spacing));
   }
 }
 
