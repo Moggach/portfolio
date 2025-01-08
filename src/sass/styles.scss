@@ -611,9 +611,19 @@ button {
 
 .feat-projects,
 .feat-posts {
-  display: flex;
-  gap: var(--small-spacing);
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
+
+
+
+}
+
+@media (min-width: 1200px) { /* Adjust the breakpoint as needed */
+  .feat-projects,
+  .feat-posts {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
 
 .feat-projects li {
