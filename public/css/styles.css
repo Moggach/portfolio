@@ -25,12 +25,8 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #FFFEFA;
-  background-image: linear-gradient(#0068b7 1.4px, transparent 1.4px), linear-gradient(90deg, #0068b7 1.4px, transparent 1.4px), linear-gradient(#0068b7 0.7px, transparent 0.7px), linear-gradient(90deg, #0068b7 0.7px, #FFFEFA 0.7px);
-  background-size: 35px 35px, 35px 35px, 7px 7px, 7px 7px;
-  background-position: -1.4px -1.4px, -1.4px -1.4px, -0.7px -0.7px, -0.7px -0.7px;
-  opacity: 0.3; /* Adjust opacity here */
-  z-index: -1; /* Ensure it stays behind all content */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%233399cc' fill-opacity='0.94' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  z-index: -1;
 }
 
 /* Dark mode styles */
@@ -231,6 +227,7 @@ nav ul li {
   padding: 10px;
   border: 2px solid;
   border-radius: 5px;
+  background-color: var(--background-light);
 }
 nav ul li:hover {
   background-color: var(--secondary-light);
@@ -436,6 +433,7 @@ article ol {
   padding: var(--small-spacing);
   border: 1px dashed var(--primary-light);
   position: relative;
+  background-color: var(--background-light);
 }
 .articles-list span {
   text-transform: uppercase;
@@ -485,6 +483,7 @@ button {
   border-radius: 5px;
   padding: 5px 10px 5px 10px;
   width: fit-content;
+  background-color: var(--background-light);
 }
 .secondary-button button {
   width: fit-content;
@@ -513,7 +512,8 @@ button {
   grid-template-columns: 1fr;
 }
 
-@media (min-width: 1200px) { /* Adjust the breakpoint as needed */
+@media (min-width: 1200px) {
+  /* Adjust the breakpoint as needed */
   .feat-projects,
   .feat-posts {
     grid-template-columns: repeat(2, 1fr);
