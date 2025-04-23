@@ -9,14 +9,15 @@ type: "article"
 ---
 <article>
 
-<p>Last month I attended the International Women’s Day Power Hack run by SheCanCode. The theme of the day was improving women’s safety and the charity partner was Refuge. This is something that is very important to me as I work as an advisor on the National Domestic Abuse Helpline and I built and maintain a domestic abuse services mapping tool. I was excited to build solutions to the problem of domestic abuse and other forms of violence against women and girls. </p>
+<p>Last month I attended the <a href="https://shecancode.io/attend-events/international-womens-day-power-hack-improving-womens-safety-2025/">International Women’s Day Power Hack run by SheCanCode</a>. The theme of the day was improving women’s safety and the charity partner was <a href="https://refuge.org.uk/">Refuge</a>. This is something that is very important to me as I work as an advisor on the <a href="https://www.nationaldahelpline.org.uk/">National Domestic Abuse Helpline</a> and I built and maintain a <a href="https://domesticabuseservices.uk/?page=1">domestic abuse services mapping tool</a> . I was excited to build solutions to the problem of domestic abuse and other forms of violence against women and girls. </p>
+<br><br>
 
 <img src="https://annacunnane.co.uk/images/shecancode.jpeg" alt="">
 <br>
 <em>Screenshots from our prototype including journal and safety checklist pages</em>
 <br><br>
 
-<p>After a quick intro to the day and the work that Refuge does (as well as the day’s other partners - more details here) we split into teams and started work. My team had the idea of  a diary application that would allow victims/survivors in abusive relationships to record instances of abuse. These diary entries could include text, as well as uploaded images and documents.  We decided to build a web application instead of an app so that it could be accessed on any device. </p>
+<p>After a quick intro to the day and the work that Refuge does (as well as the day’s other partners -  <a href="https://shecancode.io/attend-events/international-womens-day-power-hack-improving-womens-safety-2025/">more details here</a>) we split into teams and started work. My team had the idea of  a diary application that would allow victims/survivors in abusive relationships to record instances of abuse. These diary entries could include text, as well as uploaded images and documents.  We decided to build a web application instead of an app so that it could be accessed on any device. </p>
 
 <p>One of the main challenges we faced was how to make using our application safe for (primarily) women in abusive relationships. We came up with various ideas for this including disguising the page as something else or accessing a secret hidden part of the journal. We also had to work within the time constraints of the hack day which meant that we focussed on making a minimum viable product. This allowed users to add, edit and view diary entries with metadata attached like the time and date posted.
 </p>
@@ -28,7 +29,7 @@ The hack day ended with the teams presenting their work to all the other partici
 </p>
 
 <p>
-I had a really enjoyable day at the hack with a supportive and welcoming atmosphere and a good mix of skills and experience. I would recommend checking out the SheCanCode network and their events to all women in tech. 
+I had a really enjoyable day at the hack with a supportive and welcoming atmosphere and a good mix of skills and experience. I would recommend checking out the <a href="https://shecancode.io/">SheCanCode network</a>  and their events to all women in tech. 
 </p>
 
 </article>
