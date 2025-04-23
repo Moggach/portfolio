@@ -13,7 +13,7 @@ type: "article"
 
 <img src="https://annacunnane.co.uk/images/shecancode.jpeg" alt="">
 <br>
-<em>Screenshots from our prototype including journal and safety checklist pages</ems>
+<em>Screenshots from our prototype including journal and safety checklist pages</em>
 <br><br>
 
 <p>After a quick intro to the day and the work that Refuge does (as well as the day’s other partners - more details here) we split into teams and started work. My team had the idea of  a diary application that would allow victims/survivors in abusive relationships to record instances of abuse. These diary entries could include text, as well as uploaded images and documents.  We decided to build a web application instead of an app so that it could be accessed on any device. </p>
