@@ -521,7 +521,6 @@ button {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--medium-spacing);
-  justify-items: center;
   align-items: start;
   overflow-x: hidden;
 }
