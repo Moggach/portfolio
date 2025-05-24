@@ -450,7 +450,7 @@ article ol {
     flex-wrap: wrap;
   }
   .articles-list li {
-    flex-basis: 33%;
+    flex-basis: 40%;
   }
 }
 
@@ -511,24 +511,35 @@ button {
   color: var(--primary-light);
 }
 
+.project-card img {
+  border-radius: 5px;
+  box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .feat-projects,
 .feat-posts {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--medium-spacing);
+  justify-items: center;
+  align-items: start;
+  overflow-x: hidden;
 }
 
 @media (min-width: 1200px) {
   .feat-projects,
   .feat-posts {
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--medium-spacing);
   }
 }
-.feat-projects li {
+.feat-projects li,
+.feat-posts li {
   display: flex;
   flex-direction: column;
   gap: var(--small-spacing);
+  justify-content: flex-start;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .feat-posts h3 {
@@ -537,10 +548,13 @@ button {
 
 .feat-projects img {
   border-radius: 5px;
-  max-width: 300px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   .feat-posts li {
     max-width: 300px;
   }
