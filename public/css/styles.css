@@ -450,7 +450,7 @@ article ol {
     flex-wrap: wrap;
   }
   .articles-list li {
-    flex-basis: 25%;
+    flex-basis: 33%;
   }
 }
 
