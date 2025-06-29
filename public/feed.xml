@@ -7,6 +7,34 @@
     <description>I am writing about my experiences as a naval navel-gazer.</description>
     <language>en</language>
     <item>
+      <title>My thoughts on Angular vs React</title>
+      <link>https://example.com/my-thoughts-angular-vs-react/</link>
+      <description>&lt;article&gt;
+&lt;p&gt;Angular is a JavaScript based front end framework developed by Google for building dynamic single page web applications. I’ve been learning to use Angular as part of my role at &lt;a href=&quot;https://policyinpractice.co.uk/&quot;&gt;Policy in Practice&lt;/a&gt; working on the &lt;a href=&quot;https://betteroffcalculator.co.uk/&quot;&gt;Better Off Calculator&lt;/a&gt;. Up until this point all of my Javascript framework experience was in React so it’s really interesting to compare the differences between the two. These are my thoughts on the pros and cons of using Angular vs React...&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://annacunnane.co.uk/images/angular_react.png&quot; alt=&quot;An image showing the Angular and React logos side by side&quot; /&gt;
+&lt;br /&gt;
+&lt;h2&gt;Angular is much fuller featured&lt;/h2&gt;
+&lt;p&gt;One of the main advantages of Angular is that it comes with many more features out of the box. Things like routing, state management and HTTP are handled within the core framework with no need to install extra dependencies. This can make it more robust and scalable and thus more suited to enterprise applications. Of course it also means there is a steeper learning curve as there is just more to learn.&lt;/p&gt;
+&lt;h2&gt;Angular uses TypeScript by default&lt;/h2&gt;
+&lt;p&gt;Of course you can (and most people do) use TypeScript with React but Angular is designed to be used with TypeScript. In fact it relies on features like decorators and metadata, which are only available in TypeScript. This means you get all the usual benefits of using TypeScript like better tooling; type safety and fewer bugs at runtime. For smaller projects however having the flexibility to use JavaScript with React is a benefit.&lt;/p&gt;
+&lt;h2&gt;Angular uses HTML with Angular specific syntax&lt;/h2&gt;
+&lt;p&gt;One of the major differences between Angular and React is that Angular uses HTML templates with  Angular-specific syntax (e.g., &lt;code&gt;*ngIf, [(ngModel)]&lt;/code&gt;) and React uses JSX which mixes HTML and Javascript in the same file. Angular’s approach is good for structured apps where separating logic from markup helps maintain clarity. On the other hand if you need highly dynamic rendering logic React’s JSX might feel more intuitive.&lt;/p&gt;
+&lt;h2&gt;Dependency injections&lt;/h2&gt;
+&lt;p&gt;One of the core architectural features of Angular is its built-in dependency injection system. This allows you to define services that can be injected into components or other services, making it easy to manage shared logic like API calls and state. In React, there’s no built-in dependency injection mechanism and shared logic is typically managed through context, hooks, or external libraries. While this offers more flexibility, it can also lead to inconsistent patterns across a codebase.&lt;/p&gt;
+&lt;p&gt;Overall I’ve enjoyed learning Angular and can definitely see the benefits when building larger, more structured applications where having a clear architecture, built-in tooling, and strong typing from the start really helps.&lt;/p&gt;
+&lt;h3&gt;Resources for learning Angular&lt;/h3&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://angular.dev/overview&quot;&gt;Angular Official Docs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/angular&quot;&gt;Angular YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.freecodecamp.org/news/angular-for-beginners-course/&quot;&gt;FreeCodeCamp: Angular For Beginners Course&lt;/a&gt;&lt;/p&gt;
+&lt;/article&gt;
+</description>
+      <pubDate>Sun, 29 Jun 2025 01:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/my-thoughts-angular-vs-react/</guid>
+    </item>
+    <item>
       <title>Attending the SheCanCode hack day in partnership with Refuge</title>
       <link>https://example.com/attending-she-can-code-hack-day/</link>
       <description>&lt;article&gt;
