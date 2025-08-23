@@ -18,8 +18,9 @@
 &lt;li&gt;A researcher could analyse geographical coverage of services&lt;/li&gt;
 &lt;li&gt;Other community projects could build apps on top of the data.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;br /&gt;
 &lt;p&gt;The data for the services is stored in an Airtable database and my Next.js backend acts as a middle layer between Airtable and the frontend. My backend ensures only approved services are shown and converts location data into GeoJson which is a common format used for mapping.&lt;/p&gt;
-&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;
 &lt;img src=&quot;https://annacunnane.co.uk/images/da-services-api.png&quot; alt=&quot;Swagger UI page for the UK domestic abuse services API showing GET and POST endpoints for /api/airtable and a GeoJSON schema.&quot; /&gt;
 &lt;caption&gt;Interactive API documentation with Swagger&lt;/caption&gt;
 &lt;h2&gt;Making a public route&lt;/h2&gt;
