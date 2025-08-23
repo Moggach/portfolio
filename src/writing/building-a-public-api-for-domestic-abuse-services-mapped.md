@@ -21,9 +21,8 @@ type: "article"
 </ul>
 
 <p>The data for the services is stored in an Airtable database and my Next.js backend acts as a middle layer between Airtable and the frontend. My backend ensures only approved services are shown and converts location data into GeoJson which is a common format used for mapping.</p>
-
-<img src="https://annacunnane.co.uk/images/da-services-api.png" alt="">
-<br>
+<br><br>
+<img src="https://annacunnane.co.uk/images/da-services-api.png" alt="Swagger UI page for the UK domestic abuse services API showing GET and POST endpoints for /api/airtable and a GeoJSON schema.">
 <caption>Interactive API documentation with Swagger</caption>
 
 <h2>Making a public route</h2>
