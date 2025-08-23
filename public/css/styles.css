@@ -450,7 +450,7 @@ article ol {
     flex-wrap: wrap;
   }
   .articles-list li {
-    flex-basis: 25%;
+    flex-basis: 40%;
   }
 }
 
@@ -558,8 +558,21 @@ button {
     max-width: 300px;
   }
 }
-code {
-  background-color: #f2f2f2;
+pre {
+  background: #1e1e1e;
+  color: #dcdcdc;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin: 1.5em 0;
+}
+
+pre code {
+  background: none;
+  color: inherit;
+  font-family: "Fira Code", "Consolas", monospace;
 }
 
 .hidden {

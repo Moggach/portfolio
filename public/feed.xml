@@ -7,6 +7,87 @@
     <description>I am writing about my experiences as a naval navel-gazer.</description>
     <language>en</language>
     <item>
+      <title>Building a public api for Domestic Abuse Services Mapped</title>
+      <link>https://example.com/building-a-public-api-for-domestic-abuse-services-mapped/</link>
+      <description>&lt;article&gt;
+&lt;p&gt;Over the past 18 months I’ve been building a &lt;a href=&quot;https://domesticabuseservices.uk/?page=1&quot;&gt;website&lt;/a&gt; to help victim/survivors of domestic abuse find their local support service. My main focus has been developing the frontend of the site with a user friendly interface that helps people quickly find support.&lt;/p&gt;
+&lt;p&gt;But alongside that, I’ve been thinking about how to make the backend API public so that other developers and organisations can benefit from the same data.&lt;/p&gt;
+&lt;p&gt;Some examples of this could be:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A local authority could embed support services into their own site&lt;/li&gt;
+&lt;li&gt;A researcher could analyse geographical coverage of services&lt;/li&gt;
+&lt;li&gt;Other community projects could build apps on top of the data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The data for the services is stored in an Airtable database and my Next.js backend acts as a middle layer between Airtable and the frontend. My backend ensures only approved services are shown and converts location data into GeoJson which is a common format used for mapping.&lt;/p&gt;
+&lt;img src=&quot;https://annacunnane.co.uk/images/da-services-api.png&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;
+&lt;caption&gt;Interactive API documentation with Swagger&lt;/caption&gt;
+&lt;h2&gt;Making a public route&lt;/h2&gt;
+&lt;p&gt;The first step was to expose a public GET route at &lt;a href=&quot;https://domesticabuseservices.uk/api/airtable&quot;&gt;https://domesticabuseservices.uk/api/airtable&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This endpoint returns all approved services in GeoJSON format. This is an example of the response:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+{
+  &quot;type&quot;: &quot;Feature&quot;,
+  &quot;properties&quot;: {
+    &quot;name&quot;: &quot;Example Service&quot;,
+    &quot;description&quot;: &quot;Support for women experiencing domestic abuse&quot;,
+    &quot;address&quot;: &quot;123 Main St&quot;,
+    &quot;postcode&quot;: &quot;AB12 3CD&quot;,
+    &quot;email&quot;: &quot;info@example.com&quot;,
+    &quot;website&quot;: &quot;https://example.com&quot;,
+    &quot;phone&quot;: &quot;0123456789&quot;,
+    &quot;donate&quot;: &quot;https://donate.example.com&quot;,
+    &quot;serviceType&quot;: [&quot;Support&quot;],
+    &quot;serviceSpecialism&quot;: [&quot;Women&quot;],
+    &quot;approved&quot;: true,
+    &quot;localAuthority&quot;: &quot;London Borough&quot;
+  },
+  &quot;geometry&quot;: {
+    &quot;type&quot;: &quot;Point&quot;,
+    &quot;coordinates&quot;: [-0.1276, 51.5072]
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Protecting the API with rate limiting&lt;/h2&gt;
+&lt;p&gt;When you make a service public you need to think about the possibility of somebody abusing it. I added rate limiting with Upstash Redis to prevent people from overwhelming the API with too many requests.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+const ratelimit = new Ratelimit({
+  redis,
+  limiter: Ratelimit.slidingWindow(5, &#39;10 s&#39;),
+  analytics: true,
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This means that a client can only make 5 requests every 10 seconds. If they exceed that they’ll get a 429 Too Many Requests response.&lt;/p&gt;
+&lt;h2&gt;POST Requests with Authentication&lt;/h2&gt;
+&lt;p&gt;The API also supports POST requests so that new services can be added. At the moment this is restricted so that only requests with a Bearer token will be authenticated. This is available on request from hello@domesticabuseservices.uk.&lt;/p&gt;
+&lt;p&gt;New services that are created in Airtable are unapproved by default, so I can review them before publishing them on the site.&lt;/p&gt;
+&lt;p&gt;Here’s an example of a request:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+curl -X POST https://domesticabuseservices.uk/api/airtable &#92;
+  -H &quot;Authorization: Bearer &lt;your_token&gt;&quot; &#92;
+  -H &quot;Content-Type: application/json&quot; &#92;
+  -d &#39;{
+    &quot;Service name&quot;: &quot;New Support Line&quot;,
+    &quot;Service address&quot;: &quot;456 High St&quot;,
+    &quot;Service postcode&quot;: &quot;XY99 1ZZ&quot;,
+    &quot;Service description&quot;: &quot;Helpline for survivors&quot;,
+    &quot;Service email address&quot;: &quot;support@helpline.org&quot;,
+    &quot;Service website&quot;: &quot;https://helpline.org&quot;,
+    &quot;Service phone number&quot;: &quot;0800123456&quot;,
+    &quot;Service type&quot;: [&quot;Helpline&quot;],
+    &quot;Specialist services for&quot;: [&quot;Young people&quot;],
+    &quot;Local authority&quot;: &quot;Wandsworth&quot;
+  }&#39;
+&lt;/your_token&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Documentation&lt;/h2&gt;
+&lt;p&gt;I’ve documented the API with &lt;a href=&quot;https://swagger.io/specification/&quot;&gt;Swagger/Open API&lt;/a&gt; to make it easier to use. Anyone can visit  That means anyone can visit &lt;a href=&quot;https://domesticabuseservices.uk/api-docs&quot;&gt;https://domesticabuseservices.uk/api-docs&lt;/a&gt; and see an interactive interface where they can try out making requests and read the schema.&lt;/p&gt;
+&lt;p&gt;I hope that the API will allow more people and services to use and interact with my database of domestic abuse services across the UK. It’s also been a great learning opportunity for me to learn how to design and build a REST API.&lt;/p&gt;
+&lt;/article&gt;</description>
+      <pubDate>Sat, 23 Aug 2025 01:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/building-a-public-api-for-domestic-abuse-services-mapped/</guid>
+    </item>
+    <item>
       <title>My thoughts on Angular vs React</title>
       <link>https://example.com/my-thoughts-angular-vs-react/</link>
       <description>&lt;article&gt;
