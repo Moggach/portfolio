@@ -16,7 +16,7 @@
 &lt;ul&gt;
 &lt;li&gt;A local authority could embed support services into their own site&lt;/li&gt;
 &lt;li&gt;A researcher could analyse geographical coverage of services&lt;/li&gt;
-&lt;li&gt;Other community projects could build apps on top of the data.&lt;/li&gt;
+&lt;li&gt;Other community projects could build apps on top of the data&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 &lt;p&gt;The data for the services is stored in an Airtable database and my Next.js backend acts as a middle layer between Airtable and the frontend. My backend ensures only approved services are shown and converts location data into GeoJson which is a common format used for mapping.&lt;/p&gt;

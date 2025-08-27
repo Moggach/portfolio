@@ -17,7 +17,7 @@ type: "article"
 <ul>
 <li>A local authority could embed support services into their own site</li>
 <li>A researcher could analyse geographical coverage of services</li>
-<li>Other community projects could build apps on top of the data.</li>
+<li>Other community projects could build apps on top of the data</li>
 </ul>
 <br>
 <p>The data for the services is stored in an Airtable database and my Next.js backend acts as a middle layer between Airtable and the frontend. My backend ensures only approved services are shown and converts location data into GeoJson which is a common format used for mapping.</p>
