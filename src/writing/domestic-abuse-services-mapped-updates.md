@@ -24,7 +24,7 @@ type: "article"
 <h2>Added linting</h2>
 <p>Although I am working alone on the site and the codebase isn’t large it’s still best practice to use linting to keep my code well formatted and catch bugs early. I’m using a Husky pre-commit hook to run es-lint and prettier across the staged files each time I make a commit. This also means that if others contribute to the project in future they’ll automatically follow the same conventions.</p>
 
-<h2>Smaller UX improvements<h2>
+<h2>Smaller UX improvements</h2>
 <p>These are a few smaller changes intended to improve the user experience on the site.</p>
 <h4>Improved map interactions</h4>
 <p>I’ve updated the map to prevent zooming out or dragging the map beyond the UK. This is to help keep the focus on the area there are listings for and avoid user confusion.</p>
@@ -34,7 +34,6 @@ type: "article"
 <p>I felt that it was potentially confusing to have this button displayed all the time. Now its visibility is another indicator to users that they have filters applied.</p>
 <br>
 <img src="https://annacunnane.co.uk/images/scroll-to-results.gif" alt="Animated screen recording showing a list of pink cards with contact details for UK domestic abuse support services on the website domesticabuseservices.uk. The user scrolls through results and uses pagination buttons at the bottom of the page.">
-<caption>Scrolling to top of search results</caption>
 <br>
 <p>I’m hoping that these changes will help me to continue to grow the site and reach more people who need support. If you need help or advice about domestic abuse you can find your local service at https://domesticabuseservices.uk/. You can also contact the National Domestic Abuse Helpline at https://www.nationaldahelpline.org.uk/</p>
 
