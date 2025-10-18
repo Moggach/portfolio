@@ -14,7 +14,7 @@
 &lt;h2&gt;Added support for postcode and radius search in public API&lt;/h2&gt;
 &lt;p&gt;I recently wrote a &lt;a href=&quot;https://annacunnane.co.uk/building-a-public-api-for-domestic-abuse-services-mapped/&quot;&gt; post&lt;/a&gt; about adding a public API to the website and I’ve now added two more parameters to the GET request. Postcode is a string that can be added to the end of the request (for example ?postcode=SW1A2AA) to fetch services close to that location. Radius is a numeric parameter (in miles) that when used alongside the postcode filters results to services within that distance of the given postcode (for example ?postcode=SW1A2AA&amp;radius=10).&lt;/p&gt;
 &lt;br /&gt;
-&lt;img src=&quot;https://annacunnane.co.uk/images/swagger-docs.png&quot; alt=&quot;Screenshot of the API documentation showing a GET request endpoint /api/airtable for retrieving UK domestic abuse services in GeoJSON format. The parameters include postcode for UK postcode search and radius for the search radius in miles, with a default value of 10.&quot; /&gt;
+&lt;img src=&quot;https://annacunnane.co.uk/images/swagger-docs.gif&quot; alt=&quot;Screenshot of the API documentation showing a GET request endpoint /api/airtable for retrieving UK domestic abuse services in GeoJSON format. The parameters include postcode for UK postcode search and radius for the search radius in miles, with a default value of 10.&quot; /&gt;
 &lt;caption&gt;Interactive API documentation for postcode and radius search with Swagger&lt;/caption&gt;
 &lt;br /&gt;
 &lt;h2&gt;Removed dark mode&lt;/h2&gt;
