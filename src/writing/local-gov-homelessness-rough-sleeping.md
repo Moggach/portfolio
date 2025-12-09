@@ -60,5 +60,7 @@ In my opinion, the best applications of AI were practical e.g.:
 <p>I learned a lot from being around such committed and knowledgeable people for the two days of the hackathon. Technically I enjoyed getting to know more about  developments such as <a href="https://www.anthropic.com/news/model-context-protocol">MCP servers</a> and tools like <a href="https://notebooklm.google/">Notebook LM</a> that I’ll use in my own learning.</p>
 <p>My main takeaway is that the inclusion of AI in software that interacts with vulnerable people should be approached very cautiously. Listening to housing professionals it seemed that some issues  could be addressed by joined up data and systems. This is to say nothing of proper funding for councils and local services. We should be careful we don’t add AI onto a system without getting these more fundamental things right.</p>
 
+<p>For more information about this and other GDS Local activities check out their <a href="https://cddo.blog.gov.uk/2025/12/04/innovation-in-action-highlights-from-the-local-government-innovation-hackathon/">blog</a> from the event</p>
+
 
 </article>
