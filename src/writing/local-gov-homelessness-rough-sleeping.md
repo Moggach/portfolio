@@ -53,8 +53,9 @@ In my opinion, the best applications of AI were practical e.g.:
 
 <img alt ="A dashboard screen showing a ‘Welcome to your dashboard’ heading, a status panel indicating live MCP data with high, medium, and low risk counts, and a cases table below. The GIF highlights the risk filter and risk status dropdown updating within the table." src="https://annacunnane.co.uk/images/chrome-capture-2025-12-09.gif"></img>
 <caption>Our dashboard in action</caption>
+<br><br>
 <p><a href="https://github.com/Moggach/local-gov-innovation-hackathon">Source code</a></p>
-
+<br>
 <img src="https://annacunnane.co.uk/images/1764287760028.jpeg" alt="A large group of people assembled in front of a Christmas tree" />
 <caption>The whole hackathon assembled</caption>
 
