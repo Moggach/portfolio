@@ -47,7 +47,7 @@ In my opinion, the best applications of AI were practical e.g.:
 &lt;h2&gt;My project&lt;/h2&gt;
 &lt;p&gt;My team’s project was for housing officers who are attempting to reach people at risk of homelessness before they present to the council needing accommodation. We fed a variety of risk indicators (rent and council tax arrears, benefits data) into an AI predictive model. Each data source was connected to the AI via an MCP server. We built a frontend dashboard in React that would give a user an instant view of their most high risk cases. In the future we would want to validate and train the model with anonymised pilot data.
 &lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;A dashboard screen showing a ‘Welcome to your dashboard’ heading, a status panel indicating live MCP data with high, medium, and low risk counts, and a cases table below. The GIF highlights the risk filter and risk status dropdown updating within the table.&quot; src=&quot;https://annacunnane.co.uk/images/chrome-capture-2025-12-09&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;A dashboard screen showing a ‘Welcome to your dashboard’ heading, a status panel indicating live MCP data with high, medium, and low risk counts, and a cases table below. The GIF highlights the risk filter and risk status dropdown updating within the table.&quot; src=&quot;https://annacunnane.co.uk/images/chrome-capture-2025-12-09.gif&quot; /&gt;&lt;/p&gt;
 &lt;caption&gt;Our dashboard in action&lt;/caption&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/Moggach/local-gov-innovation-hackathon&quot;&gt;Source code&lt;/a&gt;&lt;/p&gt;
 &lt;img src=&quot;https://annacunnane.co.uk/images/1764287760028.jpeg&quot; alt=&quot;A large group of people assembled in front of a Christmas tree&quot; /&gt;
