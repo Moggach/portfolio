@@ -51,7 +51,7 @@
 </div>
 <article>
 <h1>Migrating the Domestic Abuse Services Mapped database to PostgreSQL</h1>
-<p>Recently, I migrated the database for Domestic Abuse Services Mapped from Airtable to a PostgreSQL database hosted on Render. The primary motivation was that I was consistently exceeding the API call limits of Airtable’s free plan. Switching to PostgreSQL also offered additional benefits, such as reducing reliance on external services—since I already use Render to host the application. As the site continues to grow and needs to handle higher traffic, PostgreSQL provides greater power, flexibility, and scalability for future development.</p>
+<p>Recently, I migrated the database for Domestic Abuse Services Mapped from Airtable to a PostgreSQL database hosted on Render. The primary motivation for this was that I was consistently exceeding the API call limits of Airtable’s free plan. Switching to PostgreSQL also offered additional benefits, such as reducing reliance on external services—since I already use Render to host the application. As the site continues to grow and needs to handle higher traffic, PostgreSQL provides greater power, flexibility, and scalability for future development.</p>
 <h2>Setting Up a PostgreSQL Database</h2>
 <p>My first step was to set up a local PostgreSQL database. I installed PostgreSQL using Homebrew:</p>
 <p><code>brew install postgresql</code></p>
@@ -117,7 +117,7 @@ export async function getServicesFromDb() {
 <p>This allowed me to fetch and serve data from PostgreSQL, replacing the old Airtable logic. I connected my application code to the database using environment variables e.g.</p>
 <code>const client = new Client({ connectionString: process.env.DATABASE_URL });</code>
 <h2>Finishing Steps</h2>
-<p>As the API is public, I updated my Swagger documentation to reflect the new PostgreSQL data source. This will help me keep track of the API structure and endpoints, and make it easier for future collaborators to understand and use the API. One of the major advantages of using Airtable was the user interface. To replicate this I set up connections in the GUI application DataGrip to both my local and remote databases.This makes it easier to inspect records and run queries. Since this was a significant refactor, I spun up a staging environment on Render to test the changes. Once I was confident that everything was working as expected I pushed the updates to the production environment.</p>
+<p>As the API is public, I updated my <a href="https://domesticabuseservices.uk/api-docs">Swagger documentation</a> to reflect the new PostgreSQL data source. This will help me keep track of the API structure and endpoints, and make it easier for future collaborators to understand and use the API. One of the major advantages of using Airtable was the user interface. To replicate this I set up connections in the GUI application DataGrip to both my local and remote databases.This makes it easier to inspect records and run queries. Since this was a significant refactor, I spun up a staging environment on Render to test the changes. Once I was confident that everything was working as expected I pushed the updates to the production environment.</p>
 <p>I’m satisfied that the site now benefits from a more robust, scalable, and maintainable backend powered by PostgreSQL.</p>
 
 
