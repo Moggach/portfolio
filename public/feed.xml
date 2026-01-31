@@ -7,6 +7,84 @@
     <description>I am writing about my experiences as a naval navel-gazer.</description>
     <language>en</language>
     <item>
+      <title>Migrating the Domestic Abuse Services Mapped database to PostgreSQL</title>
+      <link>https://example.com/migrating-domestic-abuse-services-mapped-database-to-postgreSQL/</link>
+      <description>&lt;article&gt;
+&lt;h1&gt;Migrating the Domestic Abuse Services Mapped database to PostgreSQL&lt;/h1&gt;
+&lt;p&gt;Recently, I migrated the database for Domestic Abuse Services Mapped from Airtable to a PostgreSQL database hosted on Render. The primary motivation was that I was consistently exceeding the API call limits of Airtable’s free plan. Switching to PostgreSQL also offered additional benefits, such as reducing reliance on external services—since I already use Render to host the application. As the site continues to grow and needs to handle higher traffic, PostgreSQL provides greater power, flexibility, and scalability for future development.&lt;/p&gt;
+&lt;h2&gt;Setting Up a PostgreSQL Database&lt;/h2&gt;
+&lt;p&gt;My first step was to set up a local PostgreSQL database. I installed PostgreSQL using Homebrew:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;brew install postgresql&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Next, I started the PostgreSQL service:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;brew services start postgresql&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;To access the service, I used:&lt;/p&gt;
+&lt;code&gt;psql postgres&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;p&gt;Inside the PostgreSQL shell, I created a new database called services with:&lt;/p&gt;
+&lt;code&gt;CREATE DATABASE services;&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;p&gt;I then defined the table, columns, and data types to mirror the structure of my original Airtable database.&lt;/p&gt;
+&lt;h2&gt;Hosting on Render&lt;/h2&gt;
+&lt;p&gt;The next step was to &lt;a href=&quot;https://render.com/docs/postgresql-creating-connecting&quot;&gt; create a new PostgreSQL instance on Render&lt;/a&gt; and connect to it remotely in my Mac terminal using the provided connection string. I created the table, columns and data types to make a copy of my local database.&lt;/p&gt;
+&lt;p&gt;After this I:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Exported the data from Airtable as a CSV file using their export feature&lt;/li&gt;
+&lt;li&gt;Converted the CSV file into SQL INSERT statements&lt;/li&gt;
+&lt;li&gt;Checked the data for duplicates and verified that all data types matched my new database schema&lt;/li&gt;
+&lt;li&gt;Used PostgreSQL’s &#92;copy command to bulk import the data into both my local and remote databases.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&amp;w=1672&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot; alt=&quot;a series of brown wooden drawers in a cabinet&quot; /&gt;
+Photo by &lt;a href=&quot;https://unsplash.com/@jankolar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Jan Antonin Kolar&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/brown-wooden-drawer-lRoX0shwjUQ?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;p&gt;With the data now in PostgreSQL, I updated my API logic to use the &lt;a href=&quot;https://www.npmjs.com/package/pg&quot;&gt;node-postgres&lt;/a&gt; package and fetch data directly from the new database. For example, I created this utility function:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import { Client } from &#39;pg&#39;;
+
+export async function getServicesFromDb() {
+  const client = new Client({ connectionString: process.env.DATABASE_URL });
+  await client.connect();
+
+  try {
+    const result = await client.query(
+      &#39;SELECT * FROM services where approved = true&#39;
+    );
+
+    return result.rows.map((row) =&amp;gt; ({
+      type: &#39;Feature&#39; as const,
+      properties: {
+        name: row.name || &#39;&#39;,
+        description: row.description || &#39;&#39;,
+        address: row.address || &#39;&#39;,
+        postcode: row.postcode || &#39;&#39;,
+        email: row.email || &#39;&#39;,
+        website: row.website || &#39;&#39;,
+        phone: row.phone || &#39;&#39;,
+        donate: row.donate || &#39;&#39;,
+        serviceType: row.service_type || [],
+        serviceSpecialism: row.service_specialism || [],
+        approved: row.approved,
+        localAuthority: row.local_authority || &#39;&#39;,
+      },
+      geometry: {
+        type: &#39;Point&#39; as const,
+        coordinates: [parseFloat(row.lng || &#39;0&#39;), parseFloat(row.lat || &#39;0&#39;)],
+      },
+    }));
+  } finally {
+    await client.end();
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This allowed me to fetch and serve data from PostgreSQL, replacing the old Airtable logic. I connected my application code to the database using environment variables e.g.&lt;/p&gt;
+&lt;code&gt;const client = new Client({ connectionString: process.env.DATABASE_URL });&lt;/code&gt;
+&lt;h2&gt;Finishing Steps&lt;/h2&gt;
+&lt;p&gt;As the API is public, I updated my Swagger documentation to reflect the new PostgreSQL data source. This will help me keep track of the API structure and endpoints, and make it easier for future collaborators to understand and use the API. One of the major advantages of using Airtable was the user interface. To replicate this I set up connections in the GUI application DataGrip to both my local and remote databases.This makes it easier to inspect records and run queries. Since this was a significant refactor, I spun up a staging environment on Render to test the changes. Once I was confident that everything was working as expected I pushed the updates to the production environment.&lt;/p&gt;
+&lt;p&gt;I’m satisfied that the site now benefits from a more robust, scalable, and maintainable backend powered by PostgreSQL.&lt;/p&gt;
+&lt;/article&gt;</description>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/migrating-domestic-abuse-services-mapped-database-to-postgreSQL/</guid>
+    </item>
+    <item>
       <title>Attending the Local Government Homelessness/Rough Sleeping Hackathon in Birmingham</title>
       <link>https://example.com/local-gov-homelessness-rough-sleeping/</link>
       <description>&lt;article&gt;
