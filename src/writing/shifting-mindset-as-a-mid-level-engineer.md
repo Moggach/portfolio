@@ -3,8 +3,8 @@ title: "Shifting mindset as a mid-level engineer"
 date: "2026-04-03"
 author: "Anna Cunnane"
 image: "https://unsplash.com/photos/yellow-red-blue-and-green-lego-blocks-kn-UmDZQDjM"
-excerpt: ""
-tags: [""]
+excerpt: "In September of this year I will have been working as a full time software developer for 5 years. In this time I’ve progressed from apprentice to junior and now mid level software engineer. I’ve been considering what I’ve learnt..."
+tags: ["learning to code"]
 type: "article"
 ---
 <article>
