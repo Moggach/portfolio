@@ -7,6 +7,36 @@
     <description>I am writing about my experiences as a naval navel-gazer.</description>
     <language>en</language>
     <item>
+      <title>Shifting mindset as a mid-level engineer</title>
+      <link>https://example.com/shifting-mindset-as-a-mid-level-engineer/</link>
+      <description>&lt;article&gt;
+&lt;p&gt;In September of this year I will have been working as a full time software developer for 5 years. In this time I’ve progressed from apprentice to junior and now mid level software engineer. I’ve been considering what I’ve learnt and apart from the obvious things like syntax there have also been important lessons in code design and quality. I feel like I am making the shift from &lt;em&gt;Does this work?&lt;/em&gt; to &lt;em&gt;How could this fail and how will somebody work with it in 6 months time?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;These are some of the lessons I’ve learnt when trying to shift my mindset to that of a mid-level developer:&lt;/p&gt;
+&lt;img src=&quot;https://unsplash.com/photos/yellow-red-blue-and-green-lego-blocks-kn-UmDZQDjM&quot; alt=&quot;A top-down, overhead view of a dense, chaotic pile of assorted plastic building bricks in various colors, shapes, and sizes&quot; /&gt;
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@xavi_cabrera&quot;&gt;Xavi Cabrera&lt;/a&gt; on &lt;a href=&quot;https://example.com/shifting-mindset-as-a-mid-level-engineer/&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Readability over cleverness&lt;/h3&gt;
+&lt;p&gt;When you start out learning to code you often hear a lot about conciseness. I used to try to make my code as short as possible using ternary operators and nested map/filter functions. While these things have their place I’ve learnt it’s often better to use a for loop or an explicit named function. I try to imagine the next developer reading my code and understanding the intention at a glance rather than have to dig through it.&lt;/p&gt;
+&lt;h3&gt;Defensive programming and edge case handling&lt;/h3&gt;
+&lt;p&gt;Initially like many junior developers I only wrote code for the ‘happy path’ i.e. when everything goes to plan. Over time I’ve learnt to add error handling, think about edge cases and graceful degradation where if a specific part of an application fails or is unsupported the rest can still function. I now assume the worst will happen and think about what the user will see when it does.
+&lt;/p&gt;
+&lt;h3&gt;Understanding time and space complexity&lt;/h3&gt;
+&lt;p&gt;My understanding of big o notation is only basic (I don’t have a computer science degree) and I’d like to learn more. However just knowing why I might use a Set over an Array or why a searching algorithm might not scale is really useful. I’m moving away from using brute force methods when working with large data sets or expensive operations. 
+&lt;/p&gt;
+&lt;h3&gt;Balancing composition and inheritance&lt;/h3&gt;
+&lt;p&gt;
+I used to try to avoid writing duplicate code by creating one base class and having everything else inherit from it. Now I lean more towards composition - building complex functionality by combining smaller discrete pieces. My aim isn&#39;t to abandon inheritance entirely, but to recognize when it is becoming a liability. Duplication is often less problematic than the wrong abstraction. 
+&lt;/p&gt;
+&lt;h3&gt;Testability&lt;/h3&gt;
+&lt;p&gt;
+I was guilty of seeing testing as an afterthought and now I am learning to use it as a design tool. If a function is difficult to test then that is a red flag that it is trying to do too many things or it has too many hidden dependencies. Writing tests encourages me to use dependency injection rather than reaching out into the global scope making my code modular and more predictable.&lt;/p&gt;
+&lt;p&gt;Ultimately, these lessons have shifted my focus from the immediate satisfaction of a &#39;working&#39; feature to the long-term health of the codebase.&lt;/p&gt;
+&lt;/article&gt;
+</description>
+      <pubDate>Fri, 03 Apr 2026 01:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/shifting-mindset-as-a-mid-level-engineer/</guid>
+    </item>
+    <item>
       <title>Migrating the Domestic Abuse Services Mapped database to PostgreSQL</title>
       <link>https://example.com/migrating-domestic-abuse-services-mapped-database-to-postgreSQL/</link>
       <description>&lt;article&gt;
