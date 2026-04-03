@@ -11,7 +11,7 @@ type: "article"
 
 <p>In September of this year I will have been working as a full time software developer for 5 years. In this time I’ve progressed from apprentice to junior and now mid level software engineer. I’ve been considering what I’ve learnt and apart from the obvious things like syntax there have also been important lessons in code design and quality. I feel like I am making the shift from <em>Does this work?</em> to <em>How could this fail and how will somebody work with it in 6 months time?</em></p>
 <p>These are some of the lessons I’ve learnt when trying to shift my mindset to that of a mid-level developer:</p>
-<img src="https://unsplash.com/photos/yellow-red-blue-and-green-lego-blocks-kn-UmDZQDjM" alt="A top-down, overhead view of a dense, chaotic pile of assorted plastic building bricks in various colors, shapes, and sizes">
+<img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A top-down, overhead view of a dense, chaotic pile of assorted plastic building bricks in various colors, shapes, and sizes">
 <p>Photo by <a href="https://unsplash.com/@xavi_cabrera">Xavi Cabrera</a> on <a href="">Unsplash</a></p>
 <h3>Readability over cleverness</h3>
 <p>When you start out learning to code you often hear a lot about conciseness. I used to try to make my code as short as possible using ternary operators and nested map/filter functions. While these things have their place I’ve learnt it’s often better to use a for loop or an explicit named function. I try to imagine the next developer reading my code and understanding the intention at a glance rather than have to dig through it.</p>
