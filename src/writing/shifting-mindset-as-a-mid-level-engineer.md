@@ -23,10 +23,10 @@ type: "article"
 </p>
 <h2>Balancing composition and inheritance</h2>
 <p>
-I used to try to avoid writing duplicate code by creating one base class and having everything else inherit from it. Now I lean more towards composition - building complex functionality by combining smaller discrete pieces. My aim isn't to abandon inheritance entirely, but to recognize when it is becoming a liability. Duplication is often less problematic than the wrong abstraction. 
+I used to try to avoid writing duplicate code by creating one base class and having everything else inherit from it. Now I lean more towards composition - building complex functionality by combining smaller discrete pieces. My aim isn't to abandon inheritance entirely, but to recognize when it is becoming a liability.  
 </p>
 <h2>Testability</h2>
 <p>
 I was guilty of seeing testing as an afterthought and now I am learning to use it as a design tool. If a function is difficult to test then that is a red flag that it is trying to do too many things or it has too many hidden dependencies. Writing tests encourages me to use dependency injection rather than reaching out into the global scope making my code modular and more predictable.</p>
-<p>Ultimately, these lessons have shifted my focus from the immediate satisfaction of a 'working' feature to the long-term health of the codebase.</p>
+<p>These lessons have helped me to shift my focus from the immediate satisfaction of getting something working to building something that will last.</p>
 </article>
