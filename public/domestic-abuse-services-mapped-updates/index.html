@@ -54,8 +54,10 @@
 <h2>Added support for postcode and radius search in public API</h2>
 <p>I recently wrote a <a href="https://annacunnane.co.uk/building-a-public-api-for-domestic-abuse-services-mapped/"> post</a> about adding a public API to the website and I’ve now added two more parameters to the GET request. Postcode is a string that can be added to the end of the request (for example ?postcode=SW1A2AA) to fetch services close to that location. Radius is a numeric parameter (in miles) that when used alongside the postcode filters results to services within that distance of the given postcode (for example ?postcode=SW1A2AA&radius=10).</p>
 <br>
+<figure>
 <img src="https://annacunnane.co.uk/images/swagger-docs.gif" alt="Screenshot of the API documentation showing a GET request endpoint /api/airtable for retrieving UK domestic abuse services in GeoJSON format. The parameters include postcode for UK postcode search and radius for the search radius in miles, with a default value of 10.">
-<caption>Interactive API documentation for postcode and radius search with Swagger</caption>
+<figcaption>Interactive API documentation for postcode and radius search with Swagger</figcaption>
+</figure>
 <br>
 <h2>Removed dark mode</h2>
 <p>I wasn’t happy with the code that I had written to implement a dark mode on the site and I took the decision to remove this for now instead of refactoring. This felt like a better option as I wasn’t sure how much value themes were adding to the user experience. I would rather focus my time on improving the design and usability as a whole and come back to light/dark modes at some point in the future.</p>

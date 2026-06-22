@@ -7,6 +7,27 @@
     <description>I am writing about my experiences as a naval navel-gazer.</description>
     <language>en</language>
     <item>
+      <title>The problem I&#39;m trying to address with Domestic Abuse Services Mapped</title>
+      <link>https://example.com/the-problem-i&#39;m-trying-to-address-with-domestic-abuse-services-mapped/</link>
+      <description>&lt;article&gt;
+&lt;p&gt;While I normally focus on technical topics on this blog, I want to take a step back today and talk about the human problem I was trying to solve when I built Domestic Abuse Services Mapped.&lt;/p&gt;
+&lt;p&gt;I worked for 5 years on the National Domestic Abuse Helpline supporting survivors of domestic abuse and all forms of violence against women and girls. A major part of this was signposting callers to local services that could provide ongoing tailored support. One issue I came across consistently was that survivors didn’t know there was a local service and they didn’t know how to contact them.&lt;/p&gt;
+&lt;p&gt;At the same time as a software developer I had worked on a number of mapping and geographic data visualization projects. It seemed logical to me to combine my technical skills with my experience and knowledge of the VAWG sector to make something that could help people.&lt;/p&gt;
+&lt;br /&gt;
+&lt;figure&gt;
+&lt;img src=&quot;https://example.com/images/daservicesmapped.png&quot; alt=&quot;A screenshot of the Domestic Abuse Services Mapped site, showing a map of Camden with filters for service type, local authority, specialism, and a search bar&quot; /&gt;
+&lt;figcaption&gt;The site showing the local services in the London borough of Camden&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;My first task in developing the site was to gather the data on each local authority’s domestic abuse support service across the UK. I don’t rely on AI or web scraping to collect this information as I feel a responsibility to users to ensure it is correct. I do my best to keep the listings up to date but if you notice an omission of inaccuracy you can submit to the site here.&lt;/p&gt;
+&lt;p&gt;In contrast to static text listings, this platform maps local support visually. Survivors can enter their location using whatever feels easiest—a postcode, town name, or local council—and instantly get a list of nearby services sorted by distance. They can also pan and zoom across the map, making it easy to discover additional sources of support.&lt;/p&gt;
+&lt;p&gt;I’d like to focus now on getting more of other types of services onto the site such as sources of free legal advice, immigration advice and emergency housing options. Above all I’d like to respond to the needs of survivors with technical solutions to the best of my ability.&lt;/p&gt;
+&lt;p&gt;If you need help or support you can find your local domestic abuse service &lt;a href=&quot;https://domesticabuseservices.uk/?page=1&quot;&gt;here&lt;/a&gt;. You can also contact the National Domestic Abuse Helpline at &lt;a href=&quot;https://example.com/the-problem-i&#39;m-trying-to-address-with-domestic-abuse-services-mapped/&quot;&gt;https://www.nationaldahelpline.org.uk/&lt;/a&gt;&lt;/p&gt;
+&lt;/article&gt;</description>
+      <pubDate>Mon, 22 Jun 2026 01:00:00 +0000</pubDate>
+      <dc:creator>Boaty McBoatFace</dc:creator>
+      <guid>https://example.com/the-problem-i&#39;m-trying-to-address-with-domestic-abuse-services-mapped/</guid>
+    </item>
+    <item>
       <title>Shifting mindset as a mid-level engineer</title>
       <link>https://example.com/shifting-mindset-as-a-mid-level-engineer/</link>
       <description>&lt;article&gt;
@@ -119,8 +140,10 @@ export async function getServicesFromDb() {
       <link>https://example.com/local-gov-homelessness-rough-sleeping/</link>
       <description>&lt;article&gt;
 &lt;p&gt;Last month I was fortunate to attend the Local Government Homelessness/Rough Sleeping Hackathon in Birmingham. This is my report from the day including my team’s project and my reflections on what I learned.&lt;/p&gt;
+&lt;figure&gt;
 &lt;img src=&quot;https://annacunnane.co.uk/images/1764152275823.jpeg&quot; alt=&quot;A man and a woman standing at a lectern. The screen behind them reads Welcome to Local Government Innovation Hackathon on homelessness, rough sleeping and temp accommodation&quot; /&gt;
-&lt;caption&gt;Introducing the hackathon&lt;/caption&gt;
+&lt;figcaption&gt;Introducing the hackathon&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;h2&gt;Who was there?&lt;/h2&gt;
 &lt;p&gt;The hackathon has speakers and attendees from local and central government, housing professionals and people from the third sector. It was run by the &lt;a href=&quot;https://www.gov.uk/government/organisations/government-digital-service&quot;&gt;Government Digital Service&lt;/a&gt; in partnership with Birmingham City Council.
 &lt;/p&gt;
@@ -155,13 +178,17 @@ In my opinion, the best applications of AI were practical e.g.:
 &lt;h2&gt;My project&lt;/h2&gt;
 &lt;p&gt;My team’s project was for housing officers who are attempting to reach people at risk of homelessness before they present to the council needing accommodation. We fed a variety of risk indicators (rent and council tax arrears, benefits data) into an AI predictive model. Each data source was connected to the AI via an MCP server. We built a frontend dashboard in React that would give a user an instant view of their most high risk cases. In the future we would want to validate and train the model with anonymised pilot data.
 &lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;A dashboard screen showing a ‘Welcome to your dashboard’ heading, a status panel indicating live MCP data with high, medium, and low risk counts, and a cases table below. The GIF highlights the risk filter and risk status dropdown updating within the table.&quot; src=&quot;https://annacunnane.co.uk/images/chrome-capture-2025-12-09.gif&quot; /&gt;&lt;/p&gt;
-&lt;caption&gt;Our dashboard in action&lt;/caption&gt;
+&lt;figure&gt;
+&lt;img alt=&quot;A dashboard screen showing a ‘Welcome to your dashboard’ heading, a status panel indicating live MCP data with high, medium, and low risk counts, and a cases table below. The GIF highlights the risk filter and risk status dropdown updating within the table.&quot; src=&quot;https://annacunnane.co.uk/images/chrome-capture-2025-12-09.gif&quot; /&gt;
+&lt;figcaption&gt;Our dashboard in action&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;br /&gt;&lt;br /&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/Moggach/local-gov-innovation-hackathon&quot;&gt;Source code&lt;/a&gt;&lt;/p&gt;
 &lt;br /&gt;
+&lt;figure&gt;
 &lt;img src=&quot;https://annacunnane.co.uk/images/1764287760028.jpeg&quot; alt=&quot;A large group of people assembled in front of a Christmas tree&quot; /&gt;
-&lt;caption&gt;The whole hackathon assembled&lt;/caption&gt;
+&lt;figcaption&gt;The whole hackathon assembled&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;h2&gt;What did I learn?&lt;/h2&gt;
 &lt;p&gt;I learned a lot from being around such committed and knowledgeable people for the two days of the hackathon. Technically I enjoyed getting to know more about  developments such as &lt;a href=&quot;https://www.anthropic.com/news/model-context-protocol&quot;&gt;MCP servers&lt;/a&gt; and tools like &lt;a href=&quot;https://notebooklm.google/&quot;&gt;Notebook LM&lt;/a&gt; that I’ll use in my own learning.&lt;/p&gt;
 &lt;p&gt;My main takeaway is that the inclusion of AI in software that interacts with vulnerable people should be approached very cautiously. Listening to housing professionals it seemed that some issues  could be addressed by joined up data and systems. This is to say nothing of proper funding for councils and local services. We should be careful we don’t add AI onto a system without getting these more fundamental things right.&lt;/p&gt;
@@ -180,8 +207,10 @@ In my opinion, the best applications of AI were practical e.g.:
 &lt;h2&gt;Added support for postcode and radius search in public API&lt;/h2&gt;
 &lt;p&gt;I recently wrote a &lt;a href=&quot;https://annacunnane.co.uk/building-a-public-api-for-domestic-abuse-services-mapped/&quot;&gt; post&lt;/a&gt; about adding a public API to the website and I’ve now added two more parameters to the GET request. Postcode is a string that can be added to the end of the request (for example ?postcode=SW1A2AA) to fetch services close to that location. Radius is a numeric parameter (in miles) that when used alongside the postcode filters results to services within that distance of the given postcode (for example ?postcode=SW1A2AA&amp;radius=10).&lt;/p&gt;
 &lt;br /&gt;
+&lt;figure&gt;
 &lt;img src=&quot;https://annacunnane.co.uk/images/swagger-docs.gif&quot; alt=&quot;Screenshot of the API documentation showing a GET request endpoint /api/airtable for retrieving UK domestic abuse services in GeoJSON format. The parameters include postcode for UK postcode search and radius for the search radius in miles, with a default value of 10.&quot; /&gt;
-&lt;caption&gt;Interactive API documentation for postcode and radius search with Swagger&lt;/caption&gt;
+&lt;figcaption&gt;Interactive API documentation for postcode and radius search with Swagger&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;br /&gt;
 &lt;h2&gt;Removed dark mode&lt;/h2&gt;
 &lt;p&gt;I wasn’t happy with the code that I had written to implement a dark mode on the site and I took the decision to remove this for now instead of refactoring. This felt like a better option as I wasn’t sure how much value themes were adding to the user experience. I would rather focus my time on improving the design and usability as a whole and come back to light/dark modes at some point in the future.&lt;/p&gt;
@@ -216,8 +245,10 @@ In my opinion, the best applications of AI were practical e.g.:
 &lt;br /&gt;
 &lt;p&gt;The data for the services is stored in an Airtable database and my Next.js backend acts as a middle layer between Airtable and the frontend. My backend ensures only approved services are shown and converts location data into GeoJson which is a common format used for mapping.&lt;/p&gt;
 &lt;br /&gt;
+&lt;figure&gt;
 &lt;img src=&quot;https://annacunnane.co.uk/images/da-services-api.png&quot; alt=&quot;Swagger UI page for the UK domestic abuse services API showing GET and POST endpoints for /api/airtable and a GeoJSON schema.&quot; /&gt;
-&lt;caption&gt;Interactive API documentation with Swagger&lt;/caption&gt;
+&lt;figcaption&gt;Interactive API documentation with Swagger&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;h2&gt;Making a public route&lt;/h2&gt;
 &lt;p&gt;The first step was to expose a public GET route at &lt;a href=&quot;https://domesticabuseservices.uk/api/airtable&quot;&gt;https://domesticabuseservices.uk/api/airtable&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This endpoint returns all approved services in GeoJSON format. This is an example of the response:&lt;/p&gt;
@@ -471,8 +502,10 @@ I’ve come across these recently and I’ve been caught out by type mismatches 
       <link>https://example.com/mapping-da-services-uk/</link>
       <description>&lt;article&gt;
 &lt;p&gt;Over the last few months I’ve been working on a tool that will map the hundreds of domestic abuse support services across the UK. I know from my experience working as an advisor on the National Domestic Abuse Helpline that it can be challenging for survivors, or those supporting them, to find the right service local to them. By creating a comprehensive and up to date database of these services and displaying them on a map I’m hoping to make this process easier. I’m excited to combine what I know about the domestic abuse sector and my skills as a developer to make something that meets this need.&lt;/p&gt;
+&lt;figure&gt;
 &lt;img src=&quot;https://annacunnane.co.uk/images/daservices.png&quot; alt=&quot;An image of the home page of a website showing a map of the UK with clustered service numbers on it.&quot; /&gt;
-&lt;caption&gt;The site is live at &lt;a href=&quot;https://domesticabuseservices.uk/&quot;&gt;https://domesticabuseservices.uk/&lt;/a&gt;&lt;/caption&gt;
+&lt;figcaption&gt;The site is live at &lt;a href=&quot;https://domesticabuseservices.uk/&quot;&gt;https://domesticabuseservices.uk/&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;h2&gt;Background to the project&lt;/h2&gt;
 &lt;p&gt;I have been working as an advisor on the National Domestic Abuse Helpline since 2019. In that time I have answered hundreds of calls from women experiencing abuse; their friends and family members and professionals. Almost every call involves making a referral to a local domestic abuse support service but the names and contact details for these services can be hard to find. This is especially the case for survivors who may be in a point of crisis or for those who have additional support needs. Having done some mapping projects already with Common Knowledge I decided that I would build the map that I wish I had access to when I’ve been speaking with women on the helpline.&lt;/p&gt;
 &lt;h2&gt;How it works&lt;/h2&gt;

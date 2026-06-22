@@ -10,8 +10,10 @@ tags: ["mapping", "nextjs", "mapbox"]
 
 <p>Over the last few months I’ve been working on a tool that will map the hundreds of domestic abuse support services across the UK. I know from my experience working as an advisor on the National Domestic Abuse Helpline that it can be challenging for survivors, or those supporting them, to find the right service local to them. By creating a comprehensive and up to date database of these services and displaying them on a map I’m hoping to make this process easier. I’m excited to combine what I know about the domestic abuse sector and my skills as a developer to make something that meets this need.</p>
 
+<figure>
 <img src="https://annacunnane.co.uk/images/daservices.png" alt="An image of the home page of a website showing a map of the UK with clustered service numbers on it." />
-<caption>The site is live at <a href="https://domesticabuseservices.uk/">https://domesticabuseservices.uk/</a></caption>
+<figcaption>The site is live at <a href="https://domesticabuseservices.uk/">https://domesticabuseservices.uk/</a></figcaption>
+</figure>
 
 <h2>Background to the project</h2>
 <p>I have been working as an advisor on the National Domestic Abuse Helpline since 2019. In that time I have answered hundreds of calls from women experiencing abuse; their friends and family members and professionals. Almost every call involves making a referral to a local domestic abuse support service but the names and contact details for these services can be hard to find. This is especially the case for survivors who may be in a point of crisis or for those who have additional support needs. Having done some mapping projects already with Common Knowledge I decided that I would build the map that I wish I had access to when I’ve been speaking with women on the helpline.</p>

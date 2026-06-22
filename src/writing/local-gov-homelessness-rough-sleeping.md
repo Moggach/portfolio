@@ -10,8 +10,10 @@ type: "article"
 <article>
 <p>Last month I was fortunate to attend the Local Government Homelessness/Rough Sleeping Hackathon in Birmingham. This is my report from the day including my team’s project and my reflections on what I learned.</p>
 
+<figure>
 <img src="https://annacunnane.co.uk/images/1764152275823.jpeg" alt="A man and a woman standing at a lectern. The screen behind them reads Welcome to Local Government Innovation Hackathon on homelessness, rough sleeping and temp accommodation" />
-<caption>Introducing the hackathon</caption>
+<figcaption>Introducing the hackathon</figcaption>
+</figure>
 
 <h2>Who was there?</h2>
 <p>The hackathon has speakers and attendees from local and central government, housing professionals and people from the third sector. It was run by the <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a> in partnership with Birmingham City Council.
@@ -51,13 +53,17 @@ In my opinion, the best applications of AI were practical e.g.:
 <p>My team’s project was for housing officers who are attempting to reach people at risk of homelessness before they present to the council needing accommodation. We fed a variety of risk indicators (rent and council tax arrears, benefits data) into an AI predictive model. Each data source was connected to the AI via an MCP server. We built a frontend dashboard in React that would give a user an instant view of their most high risk cases. In the future we would want to validate and train the model with anonymised pilot data.
 </p>
 
+<figure>
 <img alt ="A dashboard screen showing a ‘Welcome to your dashboard’ heading, a status panel indicating live MCP data with high, medium, and low risk counts, and a cases table below. The GIF highlights the risk filter and risk status dropdown updating within the table." src="https://annacunnane.co.uk/images/chrome-capture-2025-12-09.gif"></img>
-<caption>Our dashboard in action</caption>
+<figcaption>Our dashboard in action</figcaption>
+</figure>
 <br><br>
 <p><a href="https://github.com/Moggach/local-gov-innovation-hackathon">Source code</a></p>
 <br>
+<figure>
 <img src="https://annacunnane.co.uk/images/1764287760028.jpeg" alt="A large group of people assembled in front of a Christmas tree" />
-<caption>The whole hackathon assembled</caption>
+<figcaption>The whole hackathon assembled</figcaption>
+</figure>
 
 <h2>What did I learn?</h2>
 <p>I learned a lot from being around such committed and knowledgeable people for the two days of the hackathon. Technically I enjoyed getting to know more about  developments such as <a href="https://www.anthropic.com/news/model-context-protocol">MCP servers</a> and tools like <a href="https://notebooklm.google/">Notebook LM</a> that I’ll use in my own learning.</p>
