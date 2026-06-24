@@ -22,7 +22,7 @@ type: "article"
 <figcaption>The site showing the local services in the London borough of Camden</figcaption>
 </figure>
 
-<p>My first task in developing the site was to gather the data on each local authority’s domestic abuse support service across the UK. I don’t rely on AI or web scraping to collect this information as I feel a responsibility to users to ensure it is correct. I do my best to keep the listings up to date but if you notice an omission of inaccuracy you can submit to the site here.</p>
+<p>My first task in developing the site was to gather the data on each local authority’s domestic abuse support service across the UK. I don’t rely on AI or web scraping to collect this information as I feel a responsibility to users to ensure it is correct. I do my best to keep the listings up to date but if you notice an omission of inaccuracy you can submit to the site <a href="https://tally.so/r/NplpjN">here</a>.</p>
 
 <p>In contrast to static text listings, this platform maps local support visually. Survivors can enter their location using whatever feels easiest—a postcode, town name, or local council—and instantly get a list of nearby services sorted by distance. They can also pan and zoom across the map, making it easy to discover additional sources of support.</p>
 
