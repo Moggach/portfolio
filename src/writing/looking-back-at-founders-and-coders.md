@@ -37,5 +37,5 @@ tags: ["founders and coders"]
 
   <p>I've started an apprenticeship as a software developer at <a href="https://commonknowledge.coop/" target="_blank">Common Knowledge</a>, which I’m really excited about. I’ll also be back at FAC for a week in January to help mentor the next cohort. In the longer term, I’d like to play an active role in the FAC community by helping out beginners as well as learning from my peers.</p>
 
-  <p>If you are looking to change careers into software development I strongly recommend <a href="https://www.foundersandcoders.com/apply/" target="_blank">Founders and Coders</a>. If I can answer any questions about the process of applying for a software boot camp please feel free to email me at <a href="mailto:anna_cunnane@proton.me">anna_cunnane@proton.me</a></p>
+  <p>If you are looking to change careers into software development I strongly recommend <a href="https://www.foundersandcoders.com/apply/" target="_blank">Founders and Coders</a>. If I can answer any questions about the process of applying for a software boot camp please feel free to email me at <a href="mailto:acunnane13@gmail.com">acunnane13@gmail.com</a></p>
 </article>

@@ -28,7 +28,7 @@ The site started off as a single page application built in React but as it’s g
 <h2>Project roadmap</h2>
 <p>There are many things that I’d like to add to the site over the next few months. I’d like to convert the codebase to TypeScript to make it easier to debug and, as it’s open source, for others to maintain. I’m considering using a component library like shadcn to help me to iterate on the UI quickly as I’m not a designer. As most local domestic abuse services work within a specific local authority I’d like to add a visual layer to the map that shows local authority boundaries.  Ideally the site would have translations in multiple languages and I’m looking at using the next-i18next package for this. Finally I’m conscious that the site should meet the highest accessibility standards and I’m using the Web content accessibility guidelines (WCAG) 2.1 to achieve this.</p>
 
-<p>Thank you for reading and if there’s something you’d like to see on the site get in touch with me at <a href="mailto:anna_cunnane@proton.me">anna_cunnane@proton.me</a></p>
+<p>Thank you for reading and if there’s something you’d like to see on the site get in touch with me at <a href="mailto:acunnane13@gmail.com">acunnane13@gmail.com</a></p>
 <p>You can submit a service to be listed <a href="https://airtable.com/appksbQlVr07Kxadu/pagEkSrTVCs0yk2OS/form"> here</a></p>
 
 

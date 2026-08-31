@@ -36,5 +36,5 @@ tags: ["founders and coders", "learning to code"]
 
   <p>Earlier this year I made the huge decision to apply to the <a href="https://www.foundersandcoders.com/apply/" target="_blank">Founders and Coders bootcamp</a>. It was a lengthy application process and the requirements were tough. I knew though, that even if I wasn't successful, the learning I was gaining wouldn't be wasted. I am in the middle of the part-time course now and it's already one of the best things I’ve ever done. In September I’ll be leaving my current job at Abrams & Chronicle Books (which I’ve loved and has supported me to take this step) to study at FAC full time and become a junior developer.</p>
 
-  <p>I hope that this has been interesting to read and has given you some insight or inspiration to start your own journey with coding! Please feel free to email me at <a href="mailto:anna_cunnane@proton.me">anna_cunnane@proton.me</a> if you have any questions or would like to work together.</p>
+  <p>I hope that this has been interesting to read and has given you some insight or inspiration to start your own journey with coding! Please feel free to email me at <a href="mailto:acunnane13@gmail.com">acunnane13@gmail.com</a> if you have any questions or would like to work together.</p>
 </article>
