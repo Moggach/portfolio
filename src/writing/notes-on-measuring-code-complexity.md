@@ -32,8 +32,8 @@ type: "article"
 <p>There are two other commonly used metrics if you dig deeper into this topic. Halstead complexity (1977) estimates effort based on the number of distinct operators and operands in the code. The Maintainability Index combines Halstead volume, cyclomatic complexity, and lines of code into a 0–100 number.</p>
 
 <h2>Tools</h2>
-<p>Many of the tools you might be already using can perform code complexity analysis. ESLint has a complexity rule for JS/TS. SonarQube can gate PRs on complexity thresholds in your CI pipeline. CodeScene pairs complexity with churn data to flag complex code that is also being changed constantly, which can be a particularly bad combination.</p>
+<p>Many of the tools you might be already using can perform code complexity analysis. ESLint has a complexity rule for JS/TS. SonarQube can gate PRs on complexity thresholds in your CI pipeline. CodeScene pairs complexity with churn data to flag complex code that is also being changed constantly which can be a particularly bad combination.</p>
 
-<p>None of these metrics are perfect, and none replace human judgment — a high cyclomatic score might just mean more test coverage is needed, not that a function is badly written, and a low one doesn’t guarantee the code is readable. But they’re cheap to run, which earns them a place in the workflow. I’ve come to see these numbers as a prompt to ask questions, not the last word.</p>
+<p>None of these metrics are perfect, and none replace human judgment — a high cyclomatic score might just mean more test coverage is needed, not that a function is badly written, and a low one doesn’t guarantee the code is readable. But they're a useful starting point to ask questions about the code and a helpful screening tool for the issues we might overlook. </p>
 
 </article>
