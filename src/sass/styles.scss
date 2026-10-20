@@ -185,8 +185,8 @@ article a {
 
 }
 
-article ul li {
-  padding-bottom: 5px
+article ul li, article ol li {
+  padding-bottom: 10px
 }
 
 article img {
@@ -498,7 +498,7 @@ article {
 
   ol {
     list-style-type: decimal;
-    margin-left: var(--small-spacing)
+    margin-left: var(--small-spacing);
   }
 
   @media screen and (min-width: $large-screen) {
