@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>EventBridge event bus routing events from producers to targets, with a dead-letter queue for failed deliveries</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <marker id="arrow-fail" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b07f00"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="460" rx="12" fill="#FFFEFA"/>
+
+  <!-- column headings -->
+  <g font-size="15" font-weight="700" fill="#0068b7" text-anchor="middle">
+    <text x="105" y="34">Producers</text>
+    <text x="390" y="34">EventBridge event bus</text>
+    <text x="695" y="34">Targets</text>
+  </g>
+
+  <!-- producers -->
+  <g font-size="14" text-anchor="middle">
+    <rect x="20" y="95" width="170" height="56" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+    <text x="105" y="119" font-weight="600" fill="#1a1a1a">Order service</text>
+    <text x="105" y="139" font-size="12" fill="#555">publishes order.placed</text>
+
+    <rect x="20" y="225" width="170" height="56" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+    <text x="105" y="249" font-weight="600" fill="#1a1a1a">User service</text>
+    <text x="105" y="269" font-size="12" fill="#555">publishes user.signed_up</text>
+  </g>
+
+  <!-- event bus -->
+  <rect x="250" y="55" width="280" height="285" rx="12" fill="#E6F0F8" stroke="#0068b7" stroke-width="2"/>
+  <g font-size="14" text-anchor="middle">
+    <rect x="280" y="95" width="220" height="56" rx="8" fill="#fff" stroke="#0068b7" stroke-width="1.5"/>
+    <text x="390" y="119" font-weight="600" fill="#1a1a1a">Rule</text>
+    <text x="390" y="139" font-size="12" fill="#555">matches order.placed</text>
+
+    <rect x="280" y="225" width="220" height="56" rx="8" fill="#fff" stroke="#0068b7" stroke-width="1.5"/>
+    <text x="390" y="249" font-weight="600" fill="#1a1a1a">Rule</text>
+    <text x="390" y="269" font-size="12" fill="#555">matches user.signed_up</text>
+
+    <text x="390" y="318" font-size="12" fill="#0068b7">rules match on the content of each event</text>
+  </g>
+
+  <!-- targets -->
+  <g font-size="14" text-anchor="middle">
+    <rect x="610" y="60" width="170" height="56" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+    <text x="695" y="84" font-weight="600" fill="#1a1a1a">Lambda function</text>
+    <text x="695" y="104" font-size="12" fill="#555">send confirmation email</text>
+
+    <rect x="610" y="150" width="170" height="56" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+    <text x="695" y="174" font-weight="600" fill="#1a1a1a">SQS queue</text>
+    <text x="695" y="194" font-size="12" fill="#555">order fulfilment</text>
+
+    <rect x="610" y="225" width="170" height="56" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+    <text x="695" y="249" font-weight="600" fill="#1a1a1a">Lambda function</text>
+    <text x="695" y="269" font-size="12" fill="#555">send welcome email</text>
+
+    <rect x="610" y="370" width="170" height="56" rx="8" fill="#FFF4CC" stroke="#b07f00" stroke-width="1.5"/>
+    <text x="695" y="394" font-weight="600" fill="#1a1a1a">Dead-letter queue</text>
+    <text x="695" y="414" font-size="12" fill="#555">kept to inspect &amp; reprocess</text>
+  </g>
+
+  <!-- event flow -->
+  <g stroke="#333" stroke-width="1.75" fill="none" marker-end="url(#arrow)">
+    <line x1="190" y1="123" x2="278" y2="123"/>
+    <line x1="190" y1="253" x2="278" y2="253"/>
+    <path d="M500,123 C555,123 555,88 608,88"/>
+    <path d="M500,123 C555,123 555,178 608,178"/>
+    <line x1="500" y1="253" x2="608" y2="253"/>
+  </g>
+
+  <!-- failed deliveries -->
+  <path d="M390,340 L390,398 L608,398" stroke="#b07f00" stroke-width="1.75" stroke-dasharray="6 5" fill="none" marker-end="url(#arrow-fail)"/>
+  <text x="500" y="388" font-size="12" fill="#b07f00" text-anchor="middle">failed after retries</text>
+</svg>
